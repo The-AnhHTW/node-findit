@@ -1,15 +1,18 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose, { Schema, model } from 'mongoose';
 
-const AnswerOptionSchema = new Schema({
-
-})
-
-
-class AnswerOptionModel { 
-    
-
-
+export interface AnswerOption {
+    text: string,
+    labels: string[]
 }
 
 
-export default new AnswerOptionModel();
+
+
+export const AnswerOptionSchema = new Schema({
+    text: String,
+    labels: [String]
+})
+
+const AnswerModel = model<AnswerOption>('AnswerOption', AnswerOptionSchema);
+
+export default AnswerModel;

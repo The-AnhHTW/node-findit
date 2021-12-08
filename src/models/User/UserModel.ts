@@ -1,19 +1,21 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose, { Schema, model } from 'mongoose';
 
-const UserSchema = new Schema({
-    isActive: String,
+interface User {
+    isActive: boolean,
+    name: string,
+    email: string,
+    role: string,
+    password: string
+}
+
+
+const UserSchema = new Schema<User>({
+    isActive: Boolean,
     name: String,
     email: String,
     role: String,
     password: String, 
 })
 
+export default model<User>('User', UserSchema);
 
-class UserModel { 
-    
-
-
-}
-
-
-export default new UserModel();

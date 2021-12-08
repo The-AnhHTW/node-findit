@@ -1,15 +1,16 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose, { model, Schema, SchemaTypes } from 'mongoose';
+import { Skill } from '../Skill/SkillModel';
 
-const SkillInfluenceSchema = new Schema({
+interface Skillinfluence { 
+    skill: Skill,
+    pickedScore: number,
+    notPickedScore: number,
+}
 
+const SkillInfluenceSchema = new Schema<Skillinfluence>({
+    skill: {type: SchemaTypes.ObjectId, ref: "Skill"},
 })
 
 
-class SkillInfluenceModel { 
-    
+export default model<Skillinfluence>("SkillInfluence", SkillInfluenceSchema);
 
-
-}
-
-
-export default new SkillInfluenceModel();
