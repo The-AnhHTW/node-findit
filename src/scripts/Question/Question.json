@@ -1,0 +1,738 @@
+[
+
+    {
+        "model": "findIt.question",
+        "pk": 20,
+        "fields": {
+            "question": "In Gruppenarbeiten sage ich häufig und gern meine ehrliche Meinung.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 21,
+        "fields": {
+            "question": "In Gruppen bin ich oft derjenige, der im Namen der Gruppe spricht.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 22,
+        "fields": {
+            "question": "Ich fühle mich nicht sehr wohl dabei, vor einer Gruppe von Mitarbeitern zu sprechen.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 23,
+        "fields": {
+            "question": "Bei der Arbeit suche ich häufig und gerne den Austausch mit anderen Menschen.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 24,
+        "fields": {
+            "question": "Auch mit unbekannten Menschen fällt mir Smalltalk relativ leicht.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 25,
+        "fields": {
+            "question": "Im Kontakt mit anderen Menschen bin ich meist fröhlich und optimistisch.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 26,
+        "fields": {
+            "question": "An den meisten Tagen fühle ich mich energiegeladen und voller Tatendrang.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 27,
+        "fields": {
+            "question": "Im Gegensatz zu meinen Mitmenschen bin ich meist schlechter gelaunt",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 28,
+        "fields": {
+            "question": "Der Besuch einer Kunstausstellung inspiriert mich",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 29,
+        "fields": {
+            "question": "Fast täglich fallen mir auf Websites unschön designte Elemente auf, die man hätte besser gestalten können.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 30,
+        "fields": {
+            "question": "Draußen in der Natur fallen mir oft schöne Dinge auf.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    }
+    ,
+    {
+        "model": "findIt.question",
+        "pk": 31,
+        "fields": {
+            "question": "Abgedrehten Ideen sollte man keine Aufmerksamkeit schenken.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 32,
+        "fields": {
+            "question": "Leute mit ungewöhnlichen Ideen finde ich interessant.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 33,
+        "fields": {
+            "question": "Für philosophische Themen kann ich mich nicht begeistern.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 34,
+        "fields": {
+            "question": "Es fällt mir leicht, von meinem Standpunkt abzurücken, wenn ich weiß, dass ich Recht habe.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 35,
+        "fields": {
+            "question": "Bei Meinungsverschiedenheiten mit meinen Mitmenschen, bin ich gewöhnlich bereit dazu, mich von der Gegenmeinung überzeugen zu lassen.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+
+
+    {
+        "model": "findIt.question",
+        "pk": 36,
+        "fields": {
+            "question": "Worauf fokussierst du dich eher bei der Arbeit? Das große Ganze vs. Details.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 37,
+        "fields": {
+            "question": "Auch wenn es Zeit kostet, versuche ich bei der Arbeit immer fehlerfrei zu arbeiten.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 38,
+        "fields": {
+            "question": "Was hört sich eher nach einem idealen Beruf an? Viele Perspektiven als Generalist einzubeziehen vs. in der eigenen Nische als Spezialist zu arbeiten.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 39,
+        "fields": {
+            "question": "Ich habe ein Talent dafür, mich unterschiedlichen Menschen (z.B. Chef, Kunden, Kollegen) verständlich auszudrücken und spontan die richtigen Worte zu finden.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 40,
+        "fields": {
+            "question": "Auch schwierige Themen erörtere ich gerne im Gespräch mit mehreren Kollegen.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 41,
+        "fields": {
+            "question": "Wenn ein Arbeitskollege Feedback zu seiner Arbeit möchte... Kann das nicht wer anders machen? vs. Das liegt mir, dafür nehme ich mir gerne Zeit",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 42,
+        "fields": {
+            "question": "Kontakte zu Geschäftspartnern und Kunden herzustellen und aufrecht zu erhalten fällt mir schwer." ,
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 43,
+        "fields": {
+            "question": "Im Dialog mit Kunden weiß ich sehr schnell, was gewünscht wird und kann mich entsprechend darauf einstellen und eine gemeinsame Lösung vorschlagen.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 44,
+        "fields": {
+            "question": "Wenn es ginge, würde ich direkten Kundenkontakt bei der Arbeit gerne vermeiden.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 45,
+        "fields": {
+            "question": "Ich habe ein Talent dafür, meine Mitmenschen bei Problemen durch mein Wissen oder meine Einschätzungen zu einer selbstständigen Lösung zu verhelfen." ,
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+      "model": "findIt.question",
+      "pk": 46,
+      "fields": {
+        "question": "Wenn sich Menschen aus meinem näheren Umfeld ein Produkt kaufen möchten, das ich besitze und von dem ich überzeugt bin... ",
+        "answerType": "FC",
+        "questionMeasure": "personality"
+      }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 47,
+        "fields": {
+          "question": "Wenn ich im Alltag rechnen muss, dann lieber ...",
+          "answerType": "FC",
+          "questionMeasure": "personality"
+        }
+      },
+      {
+          "model": "findIt.question",
+          "pk": 48,
+          "fields": {
+              "question": "Wenn ich eine große Anzahl an Zahlen sehe, kann ich relativ schnell Parameter wie den Mittelwert (Durchschnitt) oder die Gesamtzahl richtig einschätzen." ,
+              "answerType": "LS",
+              "questionMeasure": "personality"
+          }
+      },
+      {
+        "model": "findIt.question",
+        "pk": 49,
+        "fields": {
+          "question": "Schnelle wichtige Entscheidungen treffen und dafür die Verantwortung zu übernehmen hört sich an wie ... ",
+          "answerType": "FC",
+          "questionMeasure": "personality"
+        }
+      },
+      {
+        "model": "findIt.question",
+        "pk": 50,
+        "fields": {
+          "question": "Um wirklich wichtige Aufgaben kümmere ich mich... ",
+          "answerType": "FC",
+          "questionMeasure": "personality"
+        }
+      },
+      {
+        "model": "findIt.question",
+        "pk": 51,
+        "fields": {
+          "question": "Ziele für die Teilnehmer eines Projekts zu definieren und diese effizient im Team zu erreichen stelle ich mir ... ",
+          "answerType": "FC",
+          "questionMeasure": "personality"
+        }
+      },
+      {
+        "model": "findIt.question",
+        "pk": 52,
+        "fields": {
+            "question": "Ich habe ein Talent dafür, Gedanken und Absichten anderer Menschen zu verstehen, und auf ihr zukünftiges Verhalten zu schließen.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 53,
+        "fields": {
+            "question": "Oftmals passiert es mir, dass meine Mitmenschen auf meine Worte und Taten ganz anders reagieren, als ich angenommen hätte.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 54,
+        "fields": {
+            "question": "Ich habe ein sicheres Gespür dafür, was ich tun kann, um die Stimmung in einem Team zu verbessern.",
+            "answerType": "LS",
+            "questionMeasure": "personality"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 55,
+        "fields": {
+            "question": "Ich habe Erfahrungen in gängigen Programmiersprachen (Python, React (web),Angular, Machine learning, Docker, Django, CompTIA, Amazon AWS, React Native (mobile), C#, C++, HTML, Java, JavaScript, Perl, PHP",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 56,
+        "fields": {
+            "question": "Ich kenne mich aus mit Entwicklungsumgebungen und kann mit diesen arbeiten ",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 57,
+        "fields": {
+            "question": "Erfahrung in Code Verständnis und der dazugehörigen Fähigkeit diesen zu übernehmen / abzuändern / verbessern",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 58,
+        "fields": {
+            "question": "Ich habe Erfahrung mit einer oder mehreren Programmiersprachen und bin in der Lage Code zu verstehen und einzuschätzen",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 59,
+        "fields": {
+            "question": "Ich kann mit Entwicklertools umgehen und diese zum Verständnis von Code benutzen",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 60,
+        "fields": {
+            "question": "Ich besitze ein gute Verständnis für Netzwerke, Datenbanken und kann mich sehr schnell in solche Strukturen einlesen",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 61,
+        "fields": {
+            "question": "Ich bin in der Lage Hardware-, Software- und/oder Netzwerkprobleme zu beheben",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 62,
+        "fields": {
+            "question": "Ich habe Kenntnisse in gängigen Programmiersprachen z.B. Java, Python, Javascript, etc.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 63,
+        "fields": {
+            "question": "Ich konnte bereits Erfahrungen mit verschiedenen Betriebssystemen und Datenbanken sammeln.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 64,
+        "fields": {
+            "question": "Ich habe bereits Kenntnisse der BWL und den betriebswirtschaftlichen Abläufen in einem Unternehmen um z.B. Vorgaben zu Kosten oder ROI (Return on Investment) bei der Konzeption von IT-Projekten besser berücksichtigen zu können bzw. ein Verständnis dafür aufzubringen ",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 65,
+        "fields": {
+            "question": "Ich habe eine professionelle Zertifizierung (z. B. CompTIA A+) aus den Bereichen Client/Server, Programmierung und Datenbanken.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 66,
+        "fields": {
+            "question": "Ich habe grundlegende Datenbankkenntnisse und auch bereits Erfahrung mit RDMSs (relationale Datenbankmanagementsysteme).",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 67,
+        "fields": {
+            "question": "Data-Mining- und Modellierungstools wie ERWin, Enterprise Architect und Vision sind mir ein Begriff.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 68,
+        "fields": {
+            "question": "Ich habe Grundkenntnisse in Programmiersprachen wie Python und Java, aber auch C/C++ und/oder Perl.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 69,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Betriebssystemen wie UNIX, Linux, Solaris und MS Windows.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 70,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Anwendungsserver-Applikation wie Oracle.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 71,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Sicherungs-/Archivierungssoftware.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 72,
+        "fields": {
+            "question": "Ich kenne mich mit Scrum aus.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 73,
+        "fields": {
+            "question": "Ich habe Erfahrung mit agilen Entwicklungsprozessen.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 74,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 75,
+        "fields": {
+            "question": "Ich habe Erfahrung mit Dokumentationstools, wie Jira",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 76,
+        "fields": {
+            "question": "DevOps und Agile Methoden sind mir bekannt.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 77,
+        "fields": {
+            "question": "Ich habe Erfahrung in der Automatisierung von Testprozessen.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 78,
+        "fields": {
+            "question": "Ich verstehe die Grundlagen von aktuellen Web und Mobile Technologien.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 79,
+        "fields": {
+            "question": "Ich kenne Software Lifecycle Management Skills und deren Ablauf (z.B. Waterfall, Kanban, Scrum).",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 80,
+        "fields": {
+            "question": "Ich beherrsche verschiedenste Testing-Tools und -Techniken.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 81,
+        "fields": {
+            "question": "Ich kenne Programmier-Grundlagen und-Aufbau",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 82,
+        "fields": {
+            "question": "Ich bin in der Lage Software Schwachstellen zu erkennen, neue Updates für jene Software einzuspielen und gegebenenfalls die Software zu entfernen.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 83,
+        "fields": {
+            "question": "Ich bin in der Lage SSO (Single Sign On und sofern unterstützt) für jegliche Dienste einzurichten.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 84,
+        "fields": {
+            "question": "Ich beherrsche den Umgang mit verschiedenen Betriebssystemen, insbesondere aber LINUX, um user und/oder gruppen-basierte Rollen Befugnisse für Dateien oder Ordner einzurichten.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 85,
+        "fields": {
+            "question": "Ich bin in der Lage Scripting Sprachen wie z.B Perl oder Powershell zu benutzen um Prozesse zu automatisieren",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 86,
+        "fields": {
+            "question": "Softwarelösungen zum Monitoring wie SCCM, Nagios oder Splunk sind mir kein Fremdbegriff",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 87,
+        "fields": {
+            "question": "Wirefrming und prototyping sind mir keinen Fremden Begriffe.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+
+
+    {
+        "model": "findIt.question",
+        "pk": 88,
+        "fields": {
+            "question": "Ich bin vertraut mit User Research und Analysetechnik.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 89,
+        "fields": {
+            "question": "Ich kenne  mir mit User und Usabilty testing  gut aus",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 90,
+        "fields": {
+            "question": "Ich habe Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 91,
+        "fields": {
+            "question": "Ich bin vertraut mit Frontend-Entwicklung , ich kann JavaScript, CSS und HTML gut beherrschen. ",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 92,
+        "fields": {
+            "question": "Ich kann meine Ändernungen am Code mit Versionkotrolle (Git) verfolgen und kontrollieren.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 93,
+        "fields": {
+            "question": "Responsive Design ist einer meiner starken Punkte",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 94,
+        "fields": {
+            "question": "Ich habe viel Erfahrung im Graphic Design",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 100,
+        "fields": {
+            "question": "Wähle 3 Aufgabenbereiche aus, die du am spannendsten findest",
+            "answerType": "MC",
+            "questionMeasure": "tasks"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 200,
+        "fields": {
+            "question": "Wähle erneut 3 Aufgabenbereiche aus, die du am spannendsten findest",
+            "answerType": "MC",
+            "questionMeasure": "tasks"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 300,
+        "fields": {
+            "question": "Wähle die beiden Aufgabenbereiche aus, die du am wenigsten spannend findest",
+            "answerType": "MC",
+            "questionMeasure": "tasks"
+        }
+    },
+
+    {
+        "model": "findIt.question",
+        "pk": 400,
+        "fields": {
+            "question": "Wie spannend findest du folgende Aufgaben? Bringe sie per Drag and Drop in eine Rangreihenfolge (ganz oben = spannendste)",
+            "answerType": "RO",
+            "questionMeasure": "tasks"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 500,
+        "fields": {
+            "question": "Welche Aufgabe findest du spannender?",
+            "answerType": "FC",
+            "questionMeasure": "tasks"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 600,
+        "fields": {
+            "question": "Wie spannend findest du folgende Aufgaben?",
+            "answerType": "LS",
+            "questionMeasure": "tasks"
+        }
+    }
+]

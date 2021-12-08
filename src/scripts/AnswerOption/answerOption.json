@@ -1,0 +1,1421 @@
+[
+    {
+        "model": "findIt.answerOption",
+        "pk": 76,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 55
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 77,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 56
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 78,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 57
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 79,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 58
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 80,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 59
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 81,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 60
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 82,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 61
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 83,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 62
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 84,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 63
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 85,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 64
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 86,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 65
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 87,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 66
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 88,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 67
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 89,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 68
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 90,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 69
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 91,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 70
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 92,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 71
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 93,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 72
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 94,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 73
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 95,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 74
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 96,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 75
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 97,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 76
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 98,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 77
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 99,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 78
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 100,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 79
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 101,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 80
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 102,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 81
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 103,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 82
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 104,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 83
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 105,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 84
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 106,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 85
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 107,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 86
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 108,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 87
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 109,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 88
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 110,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 89
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 111,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 90
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 112,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 91
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 113,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 92
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 114,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 93
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 115,
+        "fields": {
+            "labels": [
+                "\"Sehr gut!\"",
+                "\"Gut!\"",
+                "\"Es geht\"",
+                "\"Eher schlecht!\"",
+                "\"Schlecht!\""
+            ],
+            "question": 94
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 37,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 20
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 38,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 21
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 39,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 22
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 40,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 23
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 41,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 24
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 42,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 25
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 43,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 26
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 44,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 27
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 45,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 28
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 46,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 29
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 47,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 30
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 48,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 31
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 49,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 32
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 50,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 33
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 51,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 34
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 52,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 35
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 53,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 36
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 54,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 37
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 55,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 38
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 56,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 39
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 57,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 40
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 58,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 41
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 59,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 42
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 60,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 43
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 61,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 44
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 62,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 45
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 63,
+        "fields": {
+            "text": "Freue ich mich, zeige ihnen die Vorteile des Produktes auf und überrede sie zum Kauf ",
+            "question": 46
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 64,
+        "fields": {
+            "text": "Freue ich mich, mische mich jedoch nicht in den Kaufprozess ein, denn Geschmäcker sind verschieden ",
+            "question": 46
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 65,
+        "fields": {
+            "text": "Zeige ich ihnen Vor- und Nachteile auf, lasse sie aber selbst entscheiden",
+            "question": 46
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 109,
+        "fields": {
+            "text": "per Taschenrechner ",
+            "question": 47
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 110,
+        "fields": {
+            "text": "im Kopf.",
+            "question": 47
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 66,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 48
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 67,
+        "fields": {
+            "text": "Ein Albtraum ",
+            "question": 49
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 68,
+        "fields": {
+            "text": "eine Herausforderung, die ich mir gut zutraue",
+            "question": 49
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 69,
+        "fields": {
+            "text": "am liebsten selbst",
+            "question": 50
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 70,
+        "fields": {
+            "text": " indem ich sie den besten im Team überlasse",
+            "question": 50
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 71,
+        "fields": {
+            "text": "total anstrengend vor",
+            "question": 51
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 72,
+        "fields": {
+            "text": "total spannend vor.",
+            "question": 51
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 73,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 52
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 74,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 53
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 75,
+        "fields": {
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 54
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 1000,
+        "fields": {
+            "text": " IT-Projekte planen und organisieren",
+            "question": 100
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 1010,
+        "fields": {
+            "text": "Fehler in Software-Code finden",
+            "question": 100
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 1020,
+        "fields": {
+            "text": "Soft- und Hardware konfigurieren",
+            "question": 100
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 1030,
+        "fields": {
+            "text": "Website gestalten",
+            "question": 100
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 1040,
+        "fields": {
+            "text": "Konzept zur Datenverwaltung erstellen",
+            "question": 100
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 1050,
+        "fields": {
+            "text": "User zu Software beraten",
+            "question": 100
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 2000,
+        "fields": {
+            "text": "User Bedürfnisse herausfinden",
+            "question": 200
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 2010,
+        "fields": {
+            "text": "Software programmieren",
+            "question": 200
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 2020,
+        "fields": {
+            "text": "IT-Prozesse optimieren",
+            "question": 200
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4000,
+        "fields": {
+            "text": "Bedarf an Soft- und Hardware analysieren, Beschaffungen planen sowie Software, Systeme und Komponenten installieren und konfigurieren",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4010,
+        "fields": {
+            "text": "Organisationsstrukturen analysieren, Schwachstellen identifizieren und Erfordernisse der Fachabteilungen für Entwickler übersetzen, damit erstellte Konzepte & Richtlinien in IT-Lösungen umgesetzt werden",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4020,
+        "fields": {
+            "text": " individuelle Produkte und Dienstleistungen für Kunden zusammenstellen, IT-Lösungen bei Kunden planen und umsetzen und bei IT-Problemen passgenaue Lösungsmöglichkeiten vorschlagen",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4030,
+        "fields": {
+            "text": "ein Projektteam zusammenstellen, Mitglieder anleiten, den Projektablauf überwachen und den Fortschritt dokumentieren",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4040,
+        "fields": {
+            "text": "ein Layout und dynamische Anwendungen für eine Website entwickeln",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4050,
+        "fields": {
+            "text": " Nutzerverhalten von Users mit Analysetools erheben, in User hineinversetzen und Konzepte zur Verbesserung des Usererlebnisses entwickeln",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4060,
+        "fields": {
+            "text": "mit Tests den Software und Hardware-Entwicklungsprozess begleiten und dabei Fehlerlisten, Testberichte und Testprotokolle erstellen",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4070,
+        "fields": {
+            "text": "Daten klassifizieren und organisieren, Datenfluss effizient gestalten und sich an Datenschutzvorschriften und Vorgaben zur Datenqualität halten",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 4080,
+        "fields": {
+            "text": "bedarfsgerechte Entwicklung einer Software-Architektur und Umsetzung mittels verschiedener Programmiersprachen",
+            "question": 400
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5000,
+        "fields": {
+            "text": "Code für neues Feature schreiben",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5010,
+        "fields": {
+            "text": "betriebliche Strukturen optimieren",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5020,
+        "fields": {
+            "text": "immer wieder neue Kunden mit neuen Aufgaben an neuen Orten im Team zu IT-Problemen beraten",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5030,
+        "fields": {
+            "text": "gesamten Datenverkehr steuern, überwachen und optimieren",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5040,
+        "fields": {
+            "text": "als Verantwortlicher IT-Projekte organisieren, dabei Zeit, Kosten und Qualität im Auge behalten",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5050,
+        "fields": {
+            "text": "durch komplexe Software Tests zur Qualität eures Produkts beitragen",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5060,
+        "fields": {
+            "text": "IT-Systeme sowie System- und Anwendungssoftware konfigurieren, überwachen und pflegen, dabei Nutzerkonten, Zugriffsrechte und Verzeichnisdienste verwalten",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5070,
+        "fields": {
+            "text": "User-Analyse: von wo kommen die Nutzer auf eure Webseite, worauf klicken sie und was treibt sie an?",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 5080,
+        "fields": {
+            "text": "Konzeption eines modernen und nutzerfreundlichen User-Interfaces und Responsive Designs für eure Website",
+            "question": 500
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6000,
+        "fields": {
+            "text": " Code programmieren, anpassen und optimieren. Gleichzeitig Schnittstellen, Integration, Sicherheit und Usability im Blick haben",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6010,
+        "fields": {
+            "text": "IT-Prozesse analysieren, Schwachstellen identifizieren, Verbesserungspotenzial feststellen und Konzepte zur Optimierung entwickeln",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6020,
+        "fields": {
+            "text": "Kunden treffen, Problemanalysen durchführen, gemeinsam mit Mitarbeitern Lösungen entwickeln und mit Rat und Tat zur Seite stehen",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6030,
+        "fields": {
+            "text": "Für die Verwaltung der Dateninfrastruktur zuständig sein und sichere Speicherkonzepte entwickeln",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6040,
+        "fields": {
+            "text": "IT-Projekte planen, organisieren und steuern, die die Zusammenarbeit von Spezialisten aus unterschiedlichen Fachgebieten erfordern",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6050,
+        "fields": {
+            "text": "Tests konzipieren, die den Software- und Hardwareentwicklungsprozess begleiten,Fehler protokollieren und Testberichte anfertigen",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6060,
+        "fields": {
+            "text": "Alles rund um Computernetzwerke, Hard- und Software sowie Benutzersupport. Hard- und Software einrichten, Nutzerkonten verwalten und Mitarbeitern Support anbieten",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6070,
+        "fields": {
+            "text": "Bedürfnisse von Usern ermitteln und überlegen, wie die Nutzung einer Software noch angenehmer für sie wäre",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    },
+    {
+        "model": "findIt.answerOption",
+        "pk": 6080,
+        "fields": {
+            "text": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren, mit besonderem Fokus auf die nutzerfreundliche Darstellung",
+            "labels": [
+                "\"Trifft absolut zu!\"",
+                "\"Trifft zu!\"",
+                "\"Okay\"",
+                "\"Trifft nicht zu\"",
+                "\"Trifft gar nicht zu\""
+            ],
+            "question": 600
+        }
+    }
+]

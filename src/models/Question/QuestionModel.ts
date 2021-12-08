@@ -19,13 +19,16 @@ export interface Question {
     _id: string,
     question: string,
     questionType: QuestionType,
+    questionMeasure: QuestionMeasure,
+    stageQuestion: boolean,
 }
 
 
 const QuestionSchema = new Schema<Question>({
     question: String,
     questionType: { type: String, enum: ["Multiple Choice", "Rank Order", "Multiple Options", "Likert Scale"] },
-    
+    questionMeasure: { type: String, enum: ["Tasks", "Perseonality", "Competences"] },
+    stageQuestion: Boolean
 })
 
 export default model<Question>('Question', QuestionSchema)
