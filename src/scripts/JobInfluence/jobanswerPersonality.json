@@ -1,0 +1,701 @@
+[
+    {
+        "model": "findIt.jobanswer",
+        "pk": 37,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 37
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 38,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 37
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 39,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 37
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 40,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 38
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 41,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 38
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 42,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 38 
+        }
+    },{
+        "model": "findIt.jobanswer",
+        "pk": 43,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 39
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 44,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 39
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 45,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 39
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 46,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 40
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 47,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 40
+        }
+    },
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 48,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 41
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 49,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 41
+        }
+    },{
+        "model": "findIt.jobanswer",
+        "pk": 50,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 42
+        }
+    },  
+    {
+        "model": "findIt.jobanswer",
+        "pk": 51,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 43
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 52,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 44
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 53,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 45
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 54,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 45
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 55,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 46
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 56,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 46
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 57,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 47
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 58,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 47
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 59,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 48
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 60,
+        "fields": {
+            "job": "IC",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 48
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 61,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 49
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 62,
+        "fields": {
+            "job": "IC",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 49
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 63,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 50
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 64,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 50
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 65,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 51
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 66,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 51
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 67,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 52
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 68,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 52
+        }
+    },
+
+
+    
+    {
+        "model": "findIt.jobanswer",
+        "pk": 69,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 53
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 70,
+        "fields": {
+            "job": "BA",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 53
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 71,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 53
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 72,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 54
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 73,
+        "fields": {
+            "job": "BA",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 54
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 74,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 54
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 75,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 55
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 76,
+        "fields": {
+            "job": "BA",
+            "picked_factor": -1,
+            "not_picked_factor": 1,
+            "answer_option": 55
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 77,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 55
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 78,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 56
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 79,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 56
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 80,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 56
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 81,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 57
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 82,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 57
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 83,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 57
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 84,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 58
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 85,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 58
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 86,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 58
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 87,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 59
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 88,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 60
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 89,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 61
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 90,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 62
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 91,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 63
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 92,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 64
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 93,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 65
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 94,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 66
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 95,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 67
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 96,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": 1,
+            "answer_option": 66
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 97,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 67
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 98,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 68
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 99,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 69
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 100,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 70
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 101,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 71
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 102,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 72
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 103,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 73
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 104,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 74
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 105,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": -1,
+            "answer_option": 75
+        }
+    }
+]

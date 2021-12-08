@@ -1,0 +1,362 @@
+[
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Programmiersprachen Kenntnisse wie  C#, C++, HTML, Java, JavaScript, Perl, PHP ect.",
+            "job_answer": 106,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrungen in Entwicklungsumgebungen ",
+            "job_answer": 107,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung in Code Verständnis",
+            "job_answer": 108,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Programmiersprachen-Kenntnisse",
+            "job_answer": 109,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Analytisches Denken und Problemlösungsfähigkeit",
+            "job_answer": 110,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Verständnis für Netzwerke, Datenbanken und andere Technologie",
+            "job_answer": 111,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Lösungsorientiertes Denken bei jeglichen Hardware-, Software- und Netzwerkproblemen",
+            "job_answer": 112,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Programmiersprachen Kenntnisse wie Java, Python, Javascript, etc.",
+            "job_answer": 113,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit verschiedenen Betriebssystemen und Datenbanken",
+            "job_answer": 114,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "BWL Kenntnisse",
+            "job_answer": 115,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Zwischenmenschliche Fähigkeiten BSc/BA in Informatik",
+            "job_answer": 116,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Grundlegende Datenbankkenntnisse",
+            "job_answer": 117,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Fähigkeit mit Modelierungstools zu arbeiten und Daten zu minen",
+            "job_answer": 118,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Programmiersprachen Kenntnisse wie Python, Java, C, C++ etc.",
+            "job_answer": 119,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Betriebswirtschafslehre",
+            "job_answer": 120,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Anwendungsserver-Software",
+            "job_answer": 121,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Sicherungs-/Archivierungssoftware",
+            "job_answer": 122,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit Scrum",
+            "job_answer": 123,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit agilen Entwicklungsprozesse",
+            "job_answer": 124,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams",
+            "job_answer": 125,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit Dokumentationstools, wie Jira",
+            "job_answer": 126,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "DevOps Erfahrung und Wissen über agile Methoden",
+            "job_answer": 127,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Fähigkeit zur Automatisierung von Prozessen",
+            "job_answer": 128,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Grundlegende Kenntnisse von aktuellen Web und Mobile Technologien",
+            "job_answer": 129,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Software Lifecycle Management Kentnisse",
+            "job_answer": 130,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Fähigkeit mit Test-Tools umzugehen und Test zu schreiben",
+            "job_answer": 131,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Programmier-Grundlagen",
+            "job_answer": 132,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Geübte Handhabung von Software",
+            "job_answer": 133,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "SSO einrichten",
+            "job_answer": 134,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit verschiedenen Betriebssystemen",
+            "job_answer": 135,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Fähigkeit zur Automatisierung von Prozessen",
+            "job_answer": 136,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Problemlösungsfähigkeit",
+            "job_answer": 137,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit Wireframing und Prototyping",
+            "job_answer": 138,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Vertraut mit User Research und Analysetechnik",
+            "job_answer": 139,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Kenntnisse in Benutzer- und Usability-Tests",
+            "job_answer": 140,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio",
+            "job_answer": 141,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Grundlegende Frontendentwicklerkenntnisse wie HTML,CSS und Javascript",
+            "job_answer": 142,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Ändernungen am Code mit Versionkotrolle verfolgen und kontrollieren.",
+            "job_answer": 143,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung mit CSS-Designframeworks",
+            "job_answer": 144,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    },
+    {
+        "model": "findIt.skillinfluence",
+        "fields": {
+            "skill": "Erfahrung im Graphic Design",
+            "job_answer": 145,
+            "picked_factor": 1,
+            "not_picked_factor": 0
+        }
+    }
+]

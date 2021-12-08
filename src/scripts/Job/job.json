@@ -1,0 +1,65 @@
+[
+    {
+        "model": "findIt.job",
+        "pk": "SD",
+        "fields": {
+            "title": "Software Developer"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "BA",
+        "fields": {
+            "title": "Business Analyst"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "IC",
+        "fields": {
+            "title": "IT-Consultant"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "DA",
+        "fields": {
+            "title": "Software Developer"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "PM",
+        "fields": {
+            "title": "Data Architect"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "ST",
+        "fields": {
+            "title": "Projectmanager"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "SA",
+        "fields": {
+            "title": "Software Developer"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "UX_UI",
+        "fields": {
+            "title": "Software Tester"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "FD",
+        "fields": {
+            "title": "System Administrator"
+        }
+    }
+]

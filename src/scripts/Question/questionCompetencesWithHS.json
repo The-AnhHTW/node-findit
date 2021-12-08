@@ -1,0 +1,364 @@
+[
+    {
+        "model": "findIt.question",
+        "pk": 55,
+        "fields": {
+            "question": "Ich habe Erfahrungen in gängigen Programmiersprachen (Python, React (web),Angular, Machine learning, Docker, Django, CompTIA, Amazon AWS, React Native (mobile), C#, C++, HTML, Java, JavaScript, Perl, PHP",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 56,
+        "fields": {
+            "question": "Ich kenne mich aus mit Entwicklungsumgebungen und kann mit diesen arbeiten ",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 57,
+        "fields": {
+            "question": "Erfahrung in Code Verständnis und der dazugehörigen Fähigkeit diesen zu übernehmen / abzuändern / verbessern",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 58,
+        "fields": {
+            "question": "Ich habe Erfahrung mit einer oder mehreren Programmiersprachen und bin in der Lage Code zu verstehen und einzuschätzen",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 59,
+        "fields": {
+            "question": "Ich kann mit Entwicklertools umgehen und diese zum Verständnis von Code benutzen",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 60,
+        "fields": {
+            "question": "Ich besitze ein gute Verständnis für Netzwerke, Datenbanken und kann mich sehr schnell in solche Strukturen einlesen",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 61,
+        "fields": {
+            "question": "Ich bin in der Lage Hardware-, Software- und/oder Netzwerkprobleme zu beheben",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 62,
+        "fields": {
+            "question": "Ich habe Kenntnisse in gängigen Programmiersprachen z.B. Java, Python, Javascript, etc.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 63,
+        "fields": {
+            "question": "Ich konnte bereits Erfahrungen mit verschiedenen Betriebssystemen und Datenbanken sammeln.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 64,
+        "fields": {
+            "question": "Ich habe bereits Kenntnisse der BWL und den betriebswirtschaftlichen Abläufen in einem Unternehmen um z.B. Vorgaben zu Kosten oder ROI (Return on Investment) bei der Konzeption von IT-Projekten besser berücksichtigen zu können bzw. ein Verständnis dafür aufzubringen ",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 65,
+        "fields": {
+            "question": "Ich habe eine professionelle Zertifizierung (z. B. CompTIA A+) aus den Bereichen Client/Server, Programmierung und Datenbanken.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 66,
+        "fields": {
+            "question": "Ich habe grundlegende Datenbankkenntnisse und auch bereits Erfahrung mit RDMSs (relationale Datenbankmanagementsysteme).",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 67,
+        "fields": {
+            "question": "Data-Mining- und Modellierungstools wie ERWin, Enterprise Architect und Vision sind mir ein Begriff.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 68,
+        "fields": {
+            "question": "Ich habe Grundkenntnisse in Programmiersprachen wie Python und Java, aber auch C/C++ und/oder Perl.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 69,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Betriebssystemen wie UNIX, Linux, Solaris und MS Windows.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 70,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Anwendungsserver-Applikation wie Oracle.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 71,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Sicherungs-/Archivierungssoftware.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 72,
+        "fields": {
+            "question": "Ich kenne mich mit Scrum aus.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 73,
+        "fields": {
+            "question": "Ich habe Erfahrung mit agilen Entwicklungsprozessen.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 74,
+        "fields": {
+            "question": "Ich habe Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 75,
+        "fields": {
+            "question": "Ich habe Erfahrung mit Dokumentationstools, wie Jira",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 76,
+        "fields": {
+            "question": "DevOps und Agile Methoden sind mir bekannt.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 77,
+        "fields": {
+            "question": "Ich habe Erfahrung in der Automatisierung von Testprozessen.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 78,
+        "fields": {
+            "question": "Ich verstehe die Grundlagen von aktuellen Web und Mobile Technologien.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 79,
+        "fields": {
+            "question": "Ich kenne Software Lifecycle Management Skills und deren Ablauf (z.B. Waterfall, Kanban, Scrum).",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 80,
+        "fields": {
+            "question": "Ich beherrsche verschiedenste Testing-Tools und -Techniken.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 81,
+        "fields": {
+            "question": "Ich kenne Programmier-Grundlagen und-Aufbau",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 82,
+        "fields": {
+            "question": "Ich bin in der Lage Software Schwachstellen zu erkennen, neue Updates für jene Software einzuspielen und gegebenenfalls die Software zu entfernen.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 83,
+        "fields": {
+            "question": "Ich bin in der Lage SSO (Single Sign On und sofern unterstützt) für jegliche Dienste einzurichten.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 84,
+        "fields": {
+            "question": "Ich beherrsche den Umgang mit verschiedenen Betriebssystemen, insbesondere aber LINUX, um user und/oder gruppen-basierte Rollen Befugnisse für Dateien oder Ordner einzurichten.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 85,
+        "fields": {
+            "question": "Ich bin in der Lage Scripting Sprachen wie z.B Perl oder Powershell zu benutzen um Prozesse zu automatisieren",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 86,
+        "fields": {
+            "question": "Softwarelösungen zum Monitoring wie SCCM, Nagios oder Splunk sind mir kein Fremdbegriff",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 87,
+        "fields": {
+            "question": "Wirefrming und prototyping sind mir keinen Fremden Begriffe.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+
+
+    {
+        "model": "findIt.question",
+        "pk": 88,
+        "fields": {
+            "question": "Ich bin vertraut mit User Research und Analysetechnik.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 89,
+        "fields": {
+            "question": "Ich kenne  mir mit User und Usabilty testing  gut aus",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 90,
+        "fields": {
+            "question": "Ich habe Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 91,
+        "fields": {
+            "question": "Ich bin vertraut mit Frontend-Entwicklung , ich kann JavaScript, CSS und HTML gut beherrschen. ",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 92,
+        "fields": {
+            "question": "Ich kann meine Ändernungen am Code mit Versionkotrolle (Git) verfolgen und kontrollieren.",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 93,
+        "fields": {
+            "question": "Responsive Design ist einer meiner starken Punkte",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    },
+    {
+        "model": "findIt.question",
+        "pk": 94,
+        "fields": {
+            "question": "Ich habe viel Erfahrung im Graphic Design",
+            "answerType": "LS",
+            "questionMeasure": "competences"
+        }
+    }
+]

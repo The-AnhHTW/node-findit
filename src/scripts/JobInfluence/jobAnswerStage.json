@@ -1,0 +1,377 @@
+[
+    {
+        "model": "findIt.jobanswer",
+        "pk": 1000,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 1000
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 1010,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 1010
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 1020,
+        "fields": {
+            "job": "SA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 1020
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 1030,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 1030
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 1040,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 1040
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 1050,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 1050
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 2000,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 2000
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 2010,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 2010
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 2020,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 2020
+        }
+    },
+
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4000,
+        "fields": {
+            "job": "SA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4000
+        }
+    },
+
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4010,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4010
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4020,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4020
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4030,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4030
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4040,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4040
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4050,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4050
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4060,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4060
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4070,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4070
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 4080,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 4080
+        }
+    },
+
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5000,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5000
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5010,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5010
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5020,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5020
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5030,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5030
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5040,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5040
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5050,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5050
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5060,
+        "fields": {
+            "job": "SA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5060
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5070,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5070
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 5080,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 5080
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+      {
+        "model": "findIt.jobanswer",
+        "pk": 6000,
+        "fields": {
+            "job": "SD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6000
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6010,
+        "fields": {
+            "job": "BA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6010
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6020,
+        "fields": {
+            "job": "IC",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6020
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6030,
+        "fields": {
+            "job": "DA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6030
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6040,
+        "fields": {
+            "job": "PM",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6040
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6050,
+        "fields": {
+            "job": "ST",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6050
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6060,
+        "fields": {
+            "job": "SA",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6060
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6070,
+        "fields": {
+            "job": "UX_UI",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6070
+        }
+    },
+    {
+        "model": "findIt.jobanswer",
+        "pk": 6080,
+        "fields": {
+            "job": "FD",
+            "picked_factor": 1,
+            "not_picked_factor": 0,
+            "answer_option": 6080
+        }
+    }
+
+]

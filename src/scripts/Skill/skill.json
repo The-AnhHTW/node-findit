@@ -1,0 +1,282 @@
+[
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Programmiersprachen Kenntnisse wie  C#, C++, HTML, Java, JavaScript, Perl, PHP ect.",
+            "job": "SD"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrungen in Entwicklungsumgebungen ",
+            "job": "SD"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung in Code Verständnis",
+            "job": "SD"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Programmiersprachen-Kenntnisse",
+            "job": "BA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Analytisches Denken und Problemlösungsfähigkeit",
+            "job": "BA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Verständnis für Netzwerke, Datenbanken und andere Technologie",
+            "job": "BA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Lösungsorientiertes Denken bei jeglichen Hardware-, Software- und Netzwerkproblemen",
+            "job": "IC"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Programmiersprachen Kenntnisse wie Java, Python, Javascript, etc.",
+            "job": "IC"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung mit verschiedenen Betriebssystemen und Datenbanken",
+            "job": "IC"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "BWL Kenntnisse",
+            "job": "IC"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Zwischenmenschliche Fähigkeiten BSc/BA in Informatik",
+            "job": "IC"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Grundlegende Datenbankkenntnisse",
+            "job": "DA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Fähigkeit mit Modelierungstools zu arbeiten und Daten zu minen",
+            "job": "DA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Programmiersprachen Kenntnisse wie Python, Java, C, C++ etc.",
+            "job": "DA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill":  "Betriebswirtschafslehre",
+            "job": "DA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill":"Anwendungsserver-Software",
+            "job": "DA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Sicherungs-/Archivierungssoftware",
+            "job": "DA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung mit Scrum",
+            "job": "PM"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung mit agilen Entwicklungsprozesse",
+            "job": "PM"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams",
+            "job": "PM"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill":"Erfahrung mit Dokumentationstools, wie Jira",
+            "job": "PM"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "DevOps Erfahrung und Wissen über agile Methoden",
+            "job": "ST"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Fähigkeit zur Automatisierung von Prozessen",
+            "job": "ST"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Grundlegende Kenntnisse von aktuellen Web und Mobile Technologien",
+            "job": "ST"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Software Lifecycle Management Kentnisse",
+            "job": "ST"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Fähigkeit mit Test-Tools umzugehen und Test zu schreiben",
+            "job": "ST"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Programmier-Grundlagen",
+            "job": "ST"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Geübte Handhabung von Software",
+            "job": "SA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "SSO einrichten",
+            "job": "SA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung mit verschiedenen Betriebssystemen",
+            "job": "SA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Fähigkeit zur Automatisierung von Prozessen",
+            "job": "SA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Problemlösungsfähigkeit",
+            "job": "SA"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung mit Wireframing und Prototyping",
+            "job": "UX_UI"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Vertraut mit User Research und Analysetechnik",
+            "job": "UX_UI"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Kenntnisse in Benutzer- und Usability-Tests",
+            "job": "UX_UI"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio",
+            "job": "UX_UI"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Grundlegende Frontendentwicklerkenntnisse wie HTML,CSS und Javascript",
+            "job": "FD"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Ändernungen am Code mit Versionkotrolle verfolgen und kontrollieren.",
+            "job": "FD"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung mit CSS-Designframeworks",
+            "job": "FD"
+        }
+    },
+    {
+        "model": "findIt.skill",
+        "fields": {
+            "skill": "Erfahrung im Graphic Design",
+            "job": "FD"
+        }
+    }
+]
