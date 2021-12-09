@@ -14,6 +14,7 @@ const transporter = nodemailer.createTransport(
 class MailSender {
 
     async sendMail(to: string, subject: string, text = "hello world", html: string) {
+        console.log({html})
         return transporter.sendMail({
             from: `FindIt <${email}>`,
             to,

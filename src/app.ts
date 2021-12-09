@@ -1,13 +1,16 @@
 
 import express from 'express';
+import passport from 'passport';
 import apiRouter from './routes/apiRouter';
 import MailSender from './services/MailSender';
+import session from 'express-session';
 require('@models/JobInfluence/JobInfluenceModel');
 require('@models/AnswerOption/AnswerOptionModel');
 require('@models/Questionaire/QuestionaireModel');
 require('@models/Job/JobModel');
 require('@models/SkillInfluence/SkillInfluenceModel');
 require('@models/Skill/SkillModel');
+
 // import JobInfluenceModel from '@models/JobInfluence/JobInfluenceModel';
 // import AnswerOptionModel from '@models/AnswerOption/AnswerOptionModel';
 // import QuestionaireModel from '@models/Questionaire/QuestionaireModel';
@@ -20,8 +23,15 @@ const app: express.Application = express();
 // configuration
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-
+app.use(session({
+    secret: "dunno",
+    saveUninitialized: true,
+    // cookie: { secure: true }
+}))
+app.use(passport.initialize());
+app.use(passport.session());
+require('./services/passport')
+// app.use(passport.session())
 app.use('/api', apiRouter)
 
 

@@ -11,6 +11,8 @@ import SkillModel, { Skill } from '@models/Skill/SkillModel';
 import SkillInfluenceModel, { Skillinfluence } from '@models/SkillInfluence/SkillInfluenceModel';
 import JobModel, { Job } from '@models/Job/JobModel';
 import mongoose from 'mongoose';
+import UserModel, { User } from '@models/User/UserModel';
+import { hashPassword } from 'services/hasher';
 
 const dbJobs = Jobs.map((oldJob) => {
     const jFields = oldJob.fields;
@@ -85,7 +87,7 @@ mongoose.connect(mongo_uri!, {
             SkillInfluenceModel.remove({}),
             JobInfluenceModel.remove({})
         ]
-    ).then(() => {
+    ).then(async () => {
 
         const promises: any[] = [];
         for (const question of newQuestions) {
@@ -113,10 +115,24 @@ mongoose.connect(mongo_uri!, {
             }
             promises.push(dbQuesiton.save());
         }
+        const hashedPW = await hashPassword("12345");
+
+        const adminUser = new UserModel({
+            email: "admin@admin.de",
+            'isActive': true,
+            'role': 'admin',
+            'password': hashedPW,
+            'name': 'admin',
+            "lastName": "adminF"
+        } as User);
+
+
         return Promise.all([
             JobModel.insertMany(dbJobs),
             SkillModel.insertMany(dbSkills),
-            promises])
+            promises,
+            adminUser.save()
+        ])
     }).then(() => {
         console.log("worked like a charm!");
     }).catch((err) => {
@@ -125,3 +141,6 @@ mongoose.connect(mongo_uri!, {
     })
 
 })
+
+
+
