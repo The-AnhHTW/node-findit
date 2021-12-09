@@ -4,12 +4,29 @@ import passport from 'passport';
 import apiRouter from './routes/apiRouter';
 import MailSender from './services/MailSender';
 import session from 'express-session';
+const cors = require('cors');
 require('@models/JobInfluence/JobInfluenceModel');
 require('@models/AnswerOption/AnswerOptionModel');
 require('@models/Questionaire/QuestionaireModel');
 require('@models/Job/JobModel');
 require('@models/SkillInfluence/SkillInfluenceModel');
 require('@models/Skill/SkillModel');
+
+declare module 'express-session' {
+    interface SessionData {
+        inQuizz?: {
+            "currentJobScores": { [key: string]: any },
+            "stage": string,
+            "answeredQuestions": number,
+            "pickedOptions": any[],
+            "reserved": '',
+            "highestJobs": any[],
+            "personality": any[],
+            "competences": any[],
+            "compareBoth": ""
+        }
+    }
+}
 
 // import JobInfluenceModel from '@models/JobInfluence/JobInfluenceModel';
 // import AnswerOptionModel from '@models/AnswerOption/AnswerOptionModel';
@@ -21,6 +38,10 @@ require('@models/Skill/SkillModel');
 const app: express.Application = express();
 
 // configuration
+
+app.use(cors({
+    credentials:true, origin:'http://localhost:3000'
+}))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
@@ -31,6 +52,8 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 require('./services/passport')
+
+
 // app.use(passport.session())
 app.use('/api', apiRouter)
 

@@ -22,7 +22,10 @@ class AuthHandler {
     }
 
     logout: express.Handler = (req, res, next) => {
-        req.logOut();
+        console.log(req.session.id);
+        console.log()
+        res.clearCookie('connect.sid')
+        // req.logOut();
         return res.json({ message: "logged out" });
     }
 
@@ -47,11 +50,8 @@ class AuthHandler {
 
     confirmRegister: express.Handler = async (req, res, next) => {
         return EmailTokenModel.findById(req.params.id).then(async (token) => {
-            console.log({ token })
             if (!token) return next({ status: 404, message: "No token found!" });
-
             return UserModel.findOneAndUpdate({ _id: token.user }, { isActive: true })
-
         }).then(() => {
             return EmailTokenModel.findByIdAndDelete(req.params.id)
         }).then(() => {

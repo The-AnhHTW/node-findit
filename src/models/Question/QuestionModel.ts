@@ -4,9 +4,10 @@ import mongoose, { model, Schema, SchemaTypes } from 'mongoose';
 
 export enum QuestionType {
     MC = "Multiple Choice",
-    RC = "Rank Order",
+    RO = "Rank Order",
     MO = "Multiple Options",
-    LS = "Likert Scale"
+    LS = "Likert Scale",
+    FC = "Forced Choice"
 }
 
 export enum QuestionMeasure {
