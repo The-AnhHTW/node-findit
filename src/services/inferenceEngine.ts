@@ -22,6 +22,7 @@ class InferenceEngine {
             // # not penalizing as hard as by LS.
             value = value * penalizeFactor
         }
+        // console.log({ value })
         return value;
     }
 
@@ -53,8 +54,7 @@ class InferenceEngine {
                 }
             }
         }
-        console.log(current['currentJobScores']);
-
+        // console.log(current['currentJobScores'])
     }
 
     getInitialJobScores = async () => {
@@ -159,9 +159,11 @@ class InferenceEngine {
     getFourHighestJobs(req: express.Request, current: any) {
         const jobs = JSON.parse(JSON.stringify(current['currentJobScores']));
         for (const key in jobs) {
-            if (jobs[key]['score'] !== 1) delete jobs[key];
+            if (jobs[key]['score'] < 1) {
+                // console.log(jobs[key]['score'])
+                delete jobs[key]
+            };
         }
-        console.log({ jobs })
         return Object.keys(jobs);
     }
 
@@ -172,11 +174,15 @@ class InferenceEngine {
 
         current['highestJobs'] = this.getFourHighestJobs(req, current);
         const randomNumber = Math.round(Math.random() * 3);
-        current['reserved'] = current['highestJobs'].splice(randomNumber, 1);
-
+        current['reserved'] = current['highestJobs'].splice(randomNumber, 1)[0];
+        // console.log(current['reserved']);
         const toBeDeletedIndex: any[] = [];
         for (const option of fourthQuestion['options']) {
-            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate('jobInfluences');
+            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
+                path: 'jobInfluences', populate: {
+                    path: "job"
+                }
+            });
             const jobInfluences = dbOption.jobInfluences;
             for (const jobInfluence of jobInfluences) {
                 if (!(current['highestJobs'].includes(jobInfluence.job.abbreviation))) {
@@ -184,7 +190,9 @@ class InferenceEngine {
                 }
             }
         }
-        fourthQuestion['options'] = fourthQuestion['options'].filter((option: any) => !(option.jobId in toBeDeletedIndex))
+        fourthQuestion['options'] = fourthQuestion['options'].filter((option: any) => {
+            return !(toBeDeletedIndex.includes(option.jobId))
+        })
         return fourthQuestion;
     }
 
@@ -195,12 +203,14 @@ class InferenceEngine {
         }
 
         let jobScores = [];
-        for (const job of supportedJobs) {
-            let jobScore = current['currentJobScores'];
-            jobScore['id'] = job;
-            jobScores.push(jobScore)
+        for (const job in current['currentJobScores']) {
+            if (supportedJobs.includes(job)) {
+                let jobScore = current['currentJobScores'][job];
+                jobScore['id'] = job;
+                jobScores.push(jobScore)
+            }
         }
-        return jobScores.sort((firstEl, secondEle) => firstEl['score'] > secondEle['score'] ? -1 : 1)[0]
+        return jobScores.sort((firstEl, secondEle) => firstEl['score'] > secondEle['score'] ? -1 : 1)[0]['id']
     }
 
 
@@ -210,12 +220,18 @@ class InferenceEngine {
             .then((response) => this.transformQuestion(response));
 
         let compareBoth = [];
-        compareBoth.push(this.getLowestJob(req, current, current['currentJobScores']))
+        compareBoth.push(await this.getLowestJob(req, current, current['currentJobScores']))
         compareBoth.push(current['reserved'])
-        current['compareBoth'] = Object.keys(compareBoth).map((key) => ({ key: current['currentJobScores'][key] }));
+        console.log({ compareBoth })
+        current['compareBoth'] = compareBoth.map((key) => ({ [key]: current['currentJobScores'][key] }));
+        console.log(current['compareBoth'])
         const toBeDeleted: any[] = []
         for (const option of fifthQuestion['options']) {
-            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate('jobInfluences');
+            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
+                path: 'jobInfluences', populate: {
+                    path: 'job'
+                }
+            });
             const jobInfluences = dbOption.jobInfluences;
             for (const jobInfluence of jobInfluences) {
                 if (!compareBoth.includes(jobInfluence.job.abbreviation)) {
@@ -224,9 +240,131 @@ class InferenceEngine {
             }
         }
         fifthQuestion['options'] = fifthQuestion['options'].filter((option: any) => !toBeDeleted.includes(option.jobId))
+        return fifthQuestion;
+    }
+
+    getSixthQuestion = async (req: express.Request, current: any) => {
+        let sixthQuestion = await QuestionModel.findOne({ question: "Wie spannend findest du folgende Aufgaben?" })
+            .populate("answerOptions")
+            .then((response) => this.transformQuestion(response))
+        const lowestJob = await this.getLowestJob(req, current, false)
+        if (current['highestJobs'].includes(lowestJob)) {
+            current['highestJobs'] = current['highestJobs'].filter((job: any) => job != lowestJob)
+            current['highestJobs'].push(current['reserved'])
+        }
+        const pickedJob = current['highestJobs'][0];
+        const toBeDeleted: any[] = [];
+        for (const option of sixthQuestion.options) {
+            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
+                path: 'jobInfluences', populate: {
+                    path: 'job'
+                }
+            });
+            for (const jobInfluence of dbOption.jobInfluences) {
+                if (jobInfluence.job.abbreviation != pickedJob) {
+                    toBeDeleted.push(option['jobId'])
+                }
+            }
+        }
+        sixthQuestion['options'] = sixthQuestion['options'].filter((option: any) => !toBeDeleted.includes(option['jobId']))
+        sixthQuestion['question'] = sixthQuestion['question'] + " " + sixthQuestion['options'][0]['text'];
+        return sixthQuestion;
+    }
+
+    getSeventQuestion = async (req: express.Request, current: any) => {
+        let seventhQuestion = await QuestionModel.findOne({ question: "Wie spannend findest du folgende Aufgaben?" })
+            .populate("answerOptions")
+            .then((response) => this.transformQuestion(response))
+        let pickedJob = current['highestJobs'][1]
+        const toBeDeleted: any[] = [];
+        for (const option of seventhQuestion.options) {
+            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
+                path: 'jobInfluences', populate: {
+                    path: 'job'
+                }
+            });
+            for (const jobInfluence of dbOption.jobInfluences) {
+                if (jobInfluence.job.abbreviation != pickedJob) {
+                    toBeDeleted.push(option['jobId'])
+                }
+            }
+        }
+        seventhQuestion['options'] = seventhQuestion['options'].filter((option: any) => !toBeDeleted.includes(option['jobId']))
+        seventhQuestion['question'] = seventhQuestion['question'] + " " + seventhQuestion['options'][0]['text'];
+        return seventhQuestion;
+    }
+
+    getEightQuestion = async (req: express.Request, current: any) => {
+        let eightQuestion = await QuestionModel.findOne({ question: "Wie spannend findest du folgende Aufgaben?" })
+            .populate("answerOptions")
+            .then((response) => this.transformQuestion(response))
+        let pickedJob = current['highestJobs'][2]
+        const toBeDeleted: any[] = [];
+        for (const option of eightQuestion.options) {
+            const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
+                path: 'jobInfluences', populate: {
+                    path: 'job'
+                }
+            });
+            for (const jobInfluence of dbOption.jobInfluences) {
+                if (jobInfluence.job.abbreviation != pickedJob) {
+                    toBeDeleted.push(option['jobId'])
+                }
+            }
+        }
+        eightQuestion['options'] = eightQuestion['options'].filter((option: any) => !toBeDeleted.includes(option['jobId']))
+        eightQuestion['question'] = eightQuestion['question'] + " " + eightQuestion['options'][0]['text'];
+        return eightQuestion;
+    }
+
+    getNinethQuestion = async (req: express.Request, current: any) => {
+        const dbQuestions = await QuestionModel.find({}).populate({
+            path: 'answerOptions',
+            populate: {
+                path: 'jobInfluences',
+                populate: { path: 'job' }
+            }
+        });
+        const allPersonality = dbQuestions.filter((question) => question.questionMeasure === 'Personality');
+        const allCompetences = dbQuestions.filter((question) => question.questionMeasure === 'Competences');
+        let subsetPersonality = [];
+        let subsetCompetences = [];
+        let visitedPersonality = new Set();
+        let visitedCompetences = new Set();
+
+        for (const question of allPersonality) {
+            for (const answerOption of question.answerOptions) {
+                for (const jobInfluence of answerOption.jobInfluences) {
+                    if (current['highestJobs'].includes(jobInfluence.job.abbreviation)
+                        && !visitedPersonality.has(question._id)) {
+                        visitedPersonality.add(question._id);
+                        subsetPersonality.push(question)
+                    }
+                }
+            }
+        }
+
+        for (const question of allCompetences) {
+            for (const answerOption of question.answerOptions) {
+                for (const jobInfluence of answerOption.jobInfluences) {
+                    if (current['highestJobs'].includes(jobInfluence.job.abbreviation)
+                        && !visitedCompetences.has(question._id)) {
+                        visitedCompetences.add(question._id);
+                        subsetCompetences.push(question)
+                    }
+                }
+            }
+        }
+
+        current['personality'] = subsetPersonality;
+        current['competences'] = subsetCompetences;
+        const randomNumber = Math.round(Math.random() * (current['personality'].length));
+        const personalityQuestion = current['personality'].splice(randomNumber, 1)[0];
+        return this.transformQuestion(personalityQuestion);
     }
 
     transformQuestion = (response: any) => {
+        console.log({ response })
         let map: any = {
             "Multiple Choice": "MC",
             "Rank Order": "RO",
@@ -234,13 +372,13 @@ class InferenceEngine {
             "Likert Scale": "LS",
             "Forced Choice": "FC"
         }
-        console.log(response.questionType)
+        // console.log(response.questionType)
 
         return ({
             id: response._id, answerType: map[response?.questionType!],
             question: response.question,
             options:
-                response.answerOptions.map((option: any) => ({ jobId: option._id, labels: option.labels, text: option.text }))
+                response.answerOptions.map((option: any) => ({ jobId: option._id, labels: JSON.stringify(option.labels), text: option.text }))
         })
 
     }

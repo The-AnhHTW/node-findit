@@ -115,23 +115,23 @@ mongoose.connect(mongo_uri!, {
             }
             promises.push(dbQuesiton.save());
         }
-        const hashedPW = await hashPassword("12345");
+        // const hashedPW = await hashPassword("12345");
 
-        const adminUser = new UserModel({
-            email: "admin@admin.de",
-            'isActive': true,
-            'role': 'admin',
-            'password': hashedPW,
-            'name': 'admin',
-            "lastName": "adminF"
-        } as User);
+        // const adminUser = new UserModel({
+        //     email: "admin@admin.de",
+        //     'isActive': true,
+        //     'role': 'admin',
+        //     'password': hashedPW,
+        //     'name': 'admin',
+        //     "lastName": "adminF"
+        // } as User);
 
 
         return Promise.all([
             JobModel.insertMany(dbJobs),
             SkillModel.insertMany(dbSkills),
             promises,
-            adminUser.save()
+            // adminUser.save()
         ])
     }).then(() => {
         console.log("worked like a charm!");

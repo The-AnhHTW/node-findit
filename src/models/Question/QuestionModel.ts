@@ -29,7 +29,7 @@ export interface Question {
 
 const QuestionSchema = new Schema<Question>({
     question: String,
-    questionType: { type: String, enum: ["Multiple Choice", "Rank Order", "Multiple Options", "Likert Scale"] },
+    questionType: { type: String, enum: ["Multiple Choice", "Rank Order", "Multiple Options", "Likert Scale", "Forced Choice"] },
     questionMeasure: { type: String, enum: ["Tasks", "Personality", "Competences"] },
     stageQuestion: Boolean,
     answerOptions: [{type:SchemaTypes.ObjectId, ref: "AnswerOption"}]
