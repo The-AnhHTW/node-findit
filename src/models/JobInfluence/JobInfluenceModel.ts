@@ -1,5 +1,5 @@
+import { Skillinfluence } from '@models/SkillInfluence/SkillInfluenceModel';
 import mongoose, { model, Schema, SchemaTypes } from 'mongoose';
-import { AnswerOption } from '../AnswerOption/AnswerModel';
 import { Job } from '../Job/JobModel';
 
 
@@ -13,14 +13,14 @@ export interface JobInfluence {
     job: Job,
     pickedScore: number,
     notPickedScore: number,
-    answerOption: AnswerOption
+    skillInfluences: Skillinfluence[]
 }
 
 const JobInfluenceSchema = new Schema<JobInfluence>({
-    job: {type: SchemaTypes.ObjectId, ref: 'Job'},
+    job: { type: SchemaTypes.ObjectId, ref: 'Job' },
     pickedScore: Number,
     notPickedScore: Number,
-    answerOption: { type:SchemaTypes.ObjectId, ref:'AnswerOption' }
+    skillInfluences: [{ type: SchemaTypes.ObjectId, ref: 'SkillInfluence' }]
 })
 
 export default model<JobInfluence>('JobInfluence', JobInfluenceSchema);

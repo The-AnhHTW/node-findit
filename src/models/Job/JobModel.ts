@@ -14,13 +14,13 @@ export enum JobEnum {
 }
 
 export interface Job{
-    _id: string,
     title: string
+    abbreviation: string,
 }
 
 
 const JobSchema = new Schema<Job>({
-    _id: String,
+    abbreviation: String,
     title: String
 }) 
 

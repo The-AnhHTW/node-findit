@@ -1,7 +1,7 @@
 import mongoose, { model, Schema, SchemaTypes } from 'mongoose';
 import { Skill } from '../Skill/SkillModel';
 
-interface Skillinfluence { 
+export interface Skillinfluence { 
     skill: Skill,
     pickedScore: number,
     notPickedScore: number,

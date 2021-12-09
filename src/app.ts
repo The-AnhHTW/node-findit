@@ -2,7 +2,19 @@
 import express from 'express';
 import apiRouter from './routes/apiRouter';
 import MailSender from './services/MailSender';
+require('@models/JobInfluence/JobInfluenceModel');
+require('@models/AnswerOption/AnswerOptionModel');
+require('@models/Questionaire/QuestionaireModel');
+require('@models/Job/JobModel');
+require('@models/SkillInfluence/SkillInfluenceModel');
+require('@models/Skill/SkillModel');
+// import JobInfluenceModel from '@models/JobInfluence/JobInfluenceModel';
+// import AnswerOptionModel from '@models/AnswerOption/AnswerOptionModel';
+// import QuestionaireModel from '@models/Questionaire/QuestionaireModel';
 
+// import JobModel from '@models/Job/JobModel';
+// import SkillInfluenceModel from '@models/SkillInfluence/SkillInfluenceModel';
+// import SkillModel from '@models/Skill/SkillModel';
 const app: express.Application = express();
 
 // configuration
@@ -11,6 +23,12 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use('/api', apiRouter)
+
+
+
+app.use(((err, req, res, next) => {
+    return res.status(err.status || 500).json({ message: err.message || err.msg || err });
+}) as express.ErrorRequestHandler)
 
 
 // MailSender.sendMail("the-anh.nguyen@hotmail.de", "Registrierung", "LAK SHU", '<h2>HAHAHAHA</h2>').then((resp) => {

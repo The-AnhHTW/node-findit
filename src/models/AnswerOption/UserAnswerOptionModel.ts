@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-import { AnswerOption } from './AnswerModel';
+import { AnswerOption } from './AnswerOptionModel';
 
 export interface UserAnswerOption {
     answerOption: AnswerOption,
