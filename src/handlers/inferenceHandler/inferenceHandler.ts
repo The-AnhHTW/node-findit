@@ -8,13 +8,11 @@ import inferenceEngine from 'services/inferenceEngine';
 class InferenceHandler {
 
     dynamicInferenceEngine: express.Handler = async (req, res, next) => {
-
         const body = req.body;
         const current = req.session.inQuizz!;
         let response: any;
         if (!body.options) req.session.inQuizz = undefined;
         if (!current) {
-            console.log("NOT CURRRENT");
             req.session.inQuizz = {
                 "currentJobScores": await inferenceEngine.getInitialJobScores(),
                 "stage": "",
@@ -24,7 +22,8 @@ class InferenceHandler {
                 "highestJobs": [],
                 "personality": [],
                 "competences": [],
-                "compareBoth": ""
+                "compareBoth": "",
+                "sessionFinished": false
             };
             response = await inferenceEngine.getFirstQuestion();
             // inferenceEngine.calculateScore(req, current);
@@ -62,24 +61,28 @@ class InferenceHandler {
                 response = await inferenceEngine.getNinethQuestion(req, current);
                 const remainingAmountPersQuestion = current['personality'].length;
                 const remainingAmountCompQuestion = current['competences'].length;
-                response['remainingAmountPersQuestion'] = remainingAmountPersQuestion;
-                response['remainingAmountCompQuestion'] = remainingAmountCompQuestion;
+                console.log(current['personality'].length);
+                console.log(current['competences'].length);
+                response['personalityQuestionsAmount'] = remainingAmountPersQuestion
+                response['competencesQuestionsAmount'] = remainingAmountCompQuestion
             } else {
                 await inferenceEngine.calculateScore(req, current);
                 const remainingAmountPersQuestion = current['personality'].length;
                 const remainingAmountCompQuestion = current['competences'].length;
                 if (remainingAmountPersQuestion > 0) {
                     current['stage'] = "personality";
-                    const randomNumber = Math.round(Math.random() * (current['personality'].length));
+                    const randomNumber = Math.round(Math.random() * (current['personality'].length - 1));
+                    
                     const dbQuestion = current['personality'].splice(randomNumber, 1)[0];
                     response = inferenceEngine.transformQuestion(dbQuestion);
                 } else if (remainingAmountCompQuestion > 0) {
                     current['stage'] = "competences";
-                    const randomNumber = Math.round(Math.random() * (current['competences'].length));
-                    const dbQuestion = current['competences'].splice(randomNumber, 1)[0];
+                    const randomNumber = Math.round(Math.random() * (current['competences'].length) -1);
+                     const dbQuestion = current['competences'].splice(randomNumber, 1)[0];
                     response = inferenceEngine.transformQuestion(dbQuestion);
                 } else {
                     current['stage'] = 'competences';
+                    response = inferenceEngine.getUserFinalJobScores(current);
                     response['sessionFinished'] = true;
                 }
             }

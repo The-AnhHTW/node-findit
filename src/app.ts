@@ -23,7 +23,8 @@ declare module 'express-session' {
             "highestJobs": any[],
             "personality": any[],
             "competences": any[],
-            "compareBoth": ""
+            "compareBoth": "",
+            "sessionFinished": boolean
         }
     }
 }

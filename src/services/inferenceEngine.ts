@@ -35,7 +35,10 @@ class InferenceEngine {
                 populate: [
                     { path: 'job' },
                     {
-                        path: 'skillInfluences'
+                        path: 'skillInfluences',
+                        populate: {
+                            path: "skill"
+                        }
                     }
                 ]
             });
@@ -50,6 +53,7 @@ class InferenceEngine {
                 for (const skillInfluence of jobInfluence.skillInfluences) {
                     let skillValue = option['picked'] ? skillInfluence.pickedScore : skillInfluence.notPickedScore;
                     skillValue = this.calculateValueForQuestionType(skillValue, dbQuestion as Question, dbOption, option, "skill")
+
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['score'] += skillValue;
                 }
             }
@@ -174,6 +178,8 @@ class InferenceEngine {
 
         current['highestJobs'] = this.getFourHighestJobs(req, current);
         const randomNumber = Math.round(Math.random() * 3);
+
+
         current['reserved'] = current['highestJobs'].splice(randomNumber, 1)[0];
         // console.log(current['reserved']);
         const toBeDeletedIndex: any[] = [];
@@ -222,9 +228,7 @@ class InferenceEngine {
         let compareBoth = [];
         compareBoth.push(await this.getLowestJob(req, current, current['currentJobScores']))
         compareBoth.push(current['reserved'])
-        console.log({ compareBoth })
         current['compareBoth'] = compareBoth.map((key) => ({ [key]: current['currentJobScores'][key] }));
-        console.log(current['compareBoth'])
         const toBeDeleted: any[] = []
         for (const option of fifthQuestion['options']) {
             const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
@@ -358,13 +362,14 @@ class InferenceEngine {
 
         current['personality'] = subsetPersonality;
         current['competences'] = subsetCompetences;
-        const randomNumber = Math.round(Math.random() * (current['personality'].length));
+        const randomNumber = Math.round(Math.random() * (current['personality'].length - 1));
+        console.log(randomNumber)
+        console.log(current['personality'].length)
         const personalityQuestion = current['personality'].splice(randomNumber, 1)[0];
         return this.transformQuestion(personalityQuestion);
     }
 
     transformQuestion = (response: any) => {
-        console.log({ response })
         let map: any = {
             "Multiple Choice": "MC",
             "Rank Order": "RO",
@@ -373,7 +378,7 @@ class InferenceEngine {
             "Forced Choice": "FC"
         }
         // console.log(response.questionType)
-
+        console.log({ response })
         return ({
             id: response._id, answerType: map[response?.questionType!],
             question: response.question,
@@ -382,6 +387,43 @@ class InferenceEngine {
         })
 
     }
+
+    getUserFinalJobScores(current: any) {
+        let finalJobScores = { ...current['currentJobScores'] };
+        let toBeDeleted = []
+        for (const key in finalJobScores) {
+            if (!current['highestJobs'].includes(key)) {
+                toBeDeleted.push(key)
+            }
+
+        }
+
+
+        for (const key of toBeDeleted) {
+            delete finalJobScores[key]
+        }
+
+        this.cleanJobResults(finalJobScores)
+        return finalJobScores
+    }
+
+    clamp = (num: number, min: number, max: number) => Math.min(Math.max(num, min), max);
+
+    cleanJobResults(jobResults: any) {
+        for (const key in jobResults) {
+            if (key != 'sessionFinished') {
+                jobResults[key]['score'] = this.clamp(jobResults[key]['score'], 0, jobResults[key]['max_score'])
+            }
+            for (const secondKey in jobResults[key]) {
+                if (secondKey != "max_score" && secondKey != "score" && secondKey != 'skills' && secondKey != "id") {
+                    jobResults[key][secondKey]['score'] = this.clamp(jobResults[key][secondKey]['score'], 0,
+                        jobResults[key][secondKey]['max_score']
+                    )
+                }
+            }
+        }
+    }
+
 
     transFormOption = (option: any) =>
     ({
