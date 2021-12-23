@@ -9,9 +9,10 @@ class InferenceHandler {
 
     dynamicInferenceEngine: express.Handler = async (req, res, next) => {
         const body = req.body;
-        const current = req.session.inQuizz!;
+        if (!body.options) delete req.session.inQuizz
+        let current = req.session.inQuizz!;
         let response: any;
-        if (!body.options) req.session.inQuizz = undefined;
+
         if (!current) {
             req.session.inQuizz = {
                 "currentJobScores": await inferenceEngine.getInitialJobScores(),
@@ -29,7 +30,6 @@ class InferenceHandler {
             // inferenceEngine.calculateScore(req, current);
             return res.json({ ...response, stage: "tasks" })
         } else {
-
             current.answeredQuestions += 1;
             current.stage = "tasks";
             if (current.answeredQuestions === 1) {
@@ -72,13 +72,13 @@ class InferenceHandler {
                 if (remainingAmountPersQuestion > 0) {
                     current['stage'] = "personality";
                     const randomNumber = Math.round(Math.random() * (current['personality'].length - 1));
-                    
+
                     const dbQuestion = current['personality'].splice(randomNumber, 1)[0];
                     response = inferenceEngine.transformQuestion(dbQuestion);
                 } else if (remainingAmountCompQuestion > 0) {
                     current['stage'] = "competences";
-                    const randomNumber = Math.round(Math.random() * (current['competences'].length) -1);
-                     const dbQuestion = current['competences'].splice(randomNumber, 1)[0];
+                    const randomNumber = Math.round(Math.random() * (current['competences'].length) - 1);
+                    const dbQuestion = current['competences'].splice(randomNumber, 1)[0];
                     response = inferenceEngine.transformQuestion(dbQuestion);
                 } else {
                     current['stage'] = 'competences';

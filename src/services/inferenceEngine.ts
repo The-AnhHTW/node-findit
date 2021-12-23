@@ -181,7 +181,6 @@ class InferenceEngine {
 
 
         current['reserved'] = current['highestJobs'].splice(randomNumber, 1)[0];
-        // console.log(current['reserved']);
         const toBeDeletedIndex: any[] = [];
         for (const option of fourthQuestion['options']) {
             const dbOption = await AnswerOptionModel.findOne({ _id: option.jobId }).populate({
@@ -363,8 +362,6 @@ class InferenceEngine {
         current['personality'] = subsetPersonality;
         current['competences'] = subsetCompetences;
         const randomNumber = Math.round(Math.random() * (current['personality'].length - 1));
-        console.log(randomNumber)
-        console.log(current['personality'].length)
         const personalityQuestion = current['personality'].splice(randomNumber, 1)[0];
         return this.transformQuestion(personalityQuestion);
     }
@@ -377,8 +374,6 @@ class InferenceEngine {
             "Likert Scale": "LS",
             "Forced Choice": "FC"
         }
-        // console.log(response.questionType)
-        console.log({ response })
         return ({
             id: response._id, answerType: map[response?.questionType!],
             question: response.question,
