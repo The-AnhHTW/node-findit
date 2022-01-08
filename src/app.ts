@@ -6,6 +6,7 @@ import MailSender from './services/MailSender';
 import session from 'express-session';
 const cors = require('cors');
 
+require('@models/Survey/SurveyModel');
 require('@models/Questionaire/QuestionaireModel');
 require('@models/JobInfluence/JobInfluenceModel');
 require('@models/AnswerOption/AnswerOptionModel');

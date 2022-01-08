@@ -6,6 +6,7 @@ const questionaireRouter = express.Router();
 
 questionaireRouter.post('/', questionaireHandler.saveQuestionaire);
 questionaireRouter.get('/', questionaireHandler.getQuestionaireFromLoggedInUser);
+questionaireRouter.post('/survey', questionaireHandler.saveSurvey);
 
 // questionaireRouter.get('/');
 
