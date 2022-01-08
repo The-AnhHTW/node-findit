@@ -115,16 +115,17 @@ mongoose.connect(mongo_uri!, {
             }
             promises.push(dbQuesiton.save());
         }
-        // const hashedPW = await hashPassword("12345");
+        //     const hashedPW = await hashPassword("12345");
+        //    const adminUser = new UserModel({
+        //         email: "admin@admin.de",
+        //         'isActive': true,
+        //         'role': 'admin',
+        //         'password': hashedPW,
+        //         'name': 'admin',
+        //         "lastName": "admin",
+        //         questionaires: []
+        //     } as User);
 
-        // const adminUser = new UserModel({
-        //     email: "admin@admin.de",
-        //     'isActive': true,
-        //     'role': 'admin',
-        //     'password': hashedPW,
-        //     'name': 'admin',
-        //     "lastName": "adminF"
-        // } as User);
 
 
         return Promise.all([

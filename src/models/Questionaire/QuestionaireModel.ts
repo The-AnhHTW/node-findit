@@ -26,8 +26,7 @@ type Result = {
 
 interface Questionaire {
     result: Result,
-    questionHistory: Question[],
-    answerHistory: [UserAnswerOption[]]
+    answerHistory: any[]
 }
 
 
@@ -36,12 +35,9 @@ interface Questionaire {
 
 
 export const QuestionaireSchema = new Schema<Questionaire>({
-    // result: SchemaTypes.Mixed,
-    questionHistory: [{ ref: 'Question', type: SchemaTypes.ObjectId }],
-    answerHistory: [[{
-        ref: 'UserAnswerOption',
-        type: SchemaTypes.ObjectId
-    }]]
+    answerHistory: [{ type: Object }],
+    //@ts-ignore
+    result: { type: Object }
 },
     {
         timestamps: {

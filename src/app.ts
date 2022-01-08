@@ -5,12 +5,14 @@ import apiRouter from './routes/apiRouter';
 import MailSender from './services/MailSender';
 import session from 'express-session';
 const cors = require('cors');
+
+require('@models/Questionaire/QuestionaireModel');
 require('@models/JobInfluence/JobInfluenceModel');
 require('@models/AnswerOption/AnswerOptionModel');
-require('@models/Questionaire/QuestionaireModel');
 require('@models/Job/JobModel');
 require('@models/SkillInfluence/SkillInfluenceModel');
 require('@models/Skill/SkillModel');
+require('@models/User/UserModel');
 
 declare module 'express-session' {
     interface SessionData {
@@ -24,24 +26,18 @@ declare module 'express-session' {
             "personality": any[],
             "competences": any[],
             "compareBoth": "",
-            "sessionFinished": boolean
+            "sessionFinished": boolean,
+            "answerHistory": any[]
         }
     }
 }
 
-// import JobInfluenceModel from '@models/JobInfluence/JobInfluenceModel';
-// import AnswerOptionModel from '@models/AnswerOption/AnswerOptionModel';
-// import QuestionaireModel from '@models/Questionaire/QuestionaireModel';
-
-// import JobModel from '@models/Job/JobModel';
-// import SkillInfluenceModel from '@models/SkillInfluence/SkillInfluenceModel';
-// import SkillModel from '@models/Skill/SkillModel';
 const app: express.Application = express();
 
 // configuration
 
 app.use(cors({
-    credentials:true, origin:'http://localhost:3000'
+    credentials: true, origin: 'http://localhost:3000'
 }))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

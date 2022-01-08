@@ -24,7 +24,8 @@ class InferenceHandler {
                 "personality": [],
                 "competences": [],
                 "compareBoth": "",
-                "sessionFinished": false
+                "sessionFinished": false,
+                "answerHistory": []
             };
             response = await inferenceEngine.getFirstQuestion();
             // inferenceEngine.calculateScore(req, current);
@@ -84,6 +85,7 @@ class InferenceHandler {
                     current['stage'] = 'competences';
                     response = inferenceEngine.getUserFinalJobScores(current);
                     response['sessionFinished'] = true;
+                    response['answerHistory'] = current['answerHistory']
                 }
             }
 

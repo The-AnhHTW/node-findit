@@ -29,6 +29,15 @@ class InferenceEngine {
 
     calculateScore = async (req: express.Request, current: any, reverse = false) => {
         const dbQuestion = await QuestionModel.findById(req.body['id']);
+
+        let toHistory: {
+            _id: string,
+            question: string, answerOptions: any[]
+        } = {
+            _id: dbQuestion?.id!,
+            question: dbQuestion!.question, answerOptions: []
+        };
+
         for (const option of req.body['options']) {
             const dbOption = await AnswerOptionModel.findById(option['jobId']).populate({
                 path: 'jobInfluences',
@@ -42,6 +51,7 @@ class InferenceEngine {
                     }
                 ]
             });
+            toHistory.answerOptions.push({ _id: dbOption.id!, text: dbOption.text!, labels: dbOption.labels!, picked: option['picked']!, pickedRank: option['rank'] || null })
             for (const jobInfluence of dbOption.jobInfluences) {
                 let value = option['picked'] ? jobInfluence.pickedScore : jobInfluence.notPickedScore;
                 value = this.calculateValueForQuestionType(value, dbQuestion as Question, dbOption, option)
@@ -53,12 +63,11 @@ class InferenceEngine {
                 for (const skillInfluence of jobInfluence.skillInfluences) {
                     let skillValue = option['picked'] ? skillInfluence.pickedScore : skillInfluence.notPickedScore;
                     skillValue = this.calculateValueForQuestionType(skillValue, dbQuestion as Question, dbOption, option, "skill")
-
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['score'] += skillValue;
                 }
             }
         }
-        // console.log(current['currentJobScores'])
+        current['answerHistory'].push(toHistory);
     }
 
     getInitialJobScores = async () => {
