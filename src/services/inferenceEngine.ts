@@ -51,7 +51,9 @@ class InferenceEngine {
                     }
                 ]
             });
-            toHistory.answerOptions.push({ _id: dbOption.id!, text: dbOption.text!, labels: dbOption.labels!, picked: option['picked']!, pickedRank: option['rank'] || null })
+
+
+            toHistory.answerOptions.push({ _id: dbOption.id!, text: dbOption.text!, labels: dbOption.labels!, picked: option['picked']!, pickedRank: option['rank'] })
             for (const jobInfluence of dbOption.jobInfluences) {
                 let value = option['picked'] ? jobInfluence.pickedScore : jobInfluence.notPickedScore;
                 value = this.calculateValueForQuestionType(value, dbQuestion as Question, dbOption, option)
