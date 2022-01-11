@@ -2,6 +2,7 @@ import { JobInfluence } from '@models/JobInfluence/JobInfluenceModel';
 import mongoose, { Schema, model, SchemaTypes } from 'mongoose';
 
 export interface AnswerOption {
+    _id: string,
     text: string,
     labels: string[],
     jobInfluences: JobInfluence[]

@@ -1,0 +1,162 @@
+[
+    {
+        "skill": "Programmiersprachen Kenntnisse wie  C#, C++, HTML, Java, JavaScript, Perl, PHP ect.",
+        "job": "SD"
+    },
+    {
+        "skill": "Erfahrungen in Entwicklungsumgebungen ",
+        "job": "SD"
+    },
+    {
+        "skill": "Erfahrung in Code Verständnis",
+        "job": "SD"
+    },
+    {
+        "skill": "Programmiersprachen-Kenntnisse",
+        "job": "BA"
+    },
+    {
+        "skill": "Analytisches Denken und Problemlösungsfähigkeit",
+        "job": "BA"
+    },
+    {
+        "skill": "Verständnis für Netzwerke, Datenbanken und andere Technologie",
+        "job": "BA"
+    },
+    {
+        "skill": "Lösungsorientiertes Denken bei jeglichen Hardware-, Software- und Netzwerkproblemen",
+        "job": "IC"
+    },
+    {
+        "skill": "Programmiersprachen Kenntnisse wie Java, Python, Javascript, etc.",
+        "job": "IC"
+    },
+    {
+        "skill": "Erfahrung mit verschiedenen Betriebssystemen und Datenbanken",
+        "job": "IC"
+    },
+    {
+        "skill": "BWL Kenntnisse",
+        "job": "IC"
+    },
+    {
+        "skill": "Zwischenmenschliche Fähigkeiten BSc/BA in Informatik",
+        "job": "IC"
+    },
+    {
+        "skill": "Grundlegende Datenbankkenntnisse",
+        "job": "DA"
+    },
+    {
+        "skill": "Fähigkeit mit Modelierungstools zu arbeiten und Daten zu minen",
+        "job": "DA"
+    },
+    {
+        "skill": "Programmiersprachen Kenntnisse wie Python, Java, C, C++ etc.",
+        "job": "DA"
+    },
+    {
+        "skill": "Betriebswirtschafslehre",
+        "job": "DA"
+    },
+    {
+        "skill": "Anwendungsserver-Software",
+        "job": "DA"
+    },
+    {
+        "skill": "Sicherungs-/Archivierungssoftware",
+        "job": "DA"
+    },
+    {
+        "skill": "Erfahrung mit Scrum",
+        "job": "PM"
+    },
+    {
+        "skill": "Erfahrung mit agilen Entwicklungsprozesse",
+        "job": "PM"
+    },
+    {
+        "skill": "Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams",
+        "job": "PM"
+    },
+    {
+        "skill": "Erfahrung mit Dokumentationstools, wie Jira",
+        "job": "PM"
+    },
+    {
+        "skill": "DevOps Erfahrung und Wissen über agile Methoden",
+        "job": "ST"
+    },
+    {
+        "skill": "Fähigkeit zur Automatisierung von Prozessen",
+        "job": "ST"
+    },
+    {
+        "skill": "Grundlegende Kenntnisse von aktuellen Web und Mobile Technologien",
+        "job": "ST"
+    },
+    {
+        "skill": "Software Lifecycle Management Kentnisse",
+        "job": "ST"
+    },
+    {
+        "skill": "Fähigkeit mit Test-Tools umzugehen und Test zu schreiben",
+        "job": "ST"
+    },
+    {
+        "skill": "Programmier-Grundlagen",
+        "job": "ST"
+    },
+    {
+        "skill": "Geübte Handhabung von Software",
+        "job": "SA"
+    },
+    {
+        "skill": "SSO einrichten",
+        "job": "SA"
+    },
+    {
+        "skill": "Erfahrung mit verschiedenen Betriebssystemen",
+        "job": "SA"
+    },
+    {
+        "skill": "Fähigkeit zur Automatisierung von Prozessen",
+        "job": "SA"
+    },
+    {
+        "skill": "Problemlösungsfähigkeit",
+        "job": "SA"
+    },
+    {
+        "skill": "Erfahrung mit Wireframing und Prototyping",
+        "job": "UX_UI"
+    },
+    {
+        "skill": "Vertraut mit User Research und Analysetechnik",
+        "job": "UX_UI"
+    },
+    {
+        "skill": "Kenntnisse in Benutzer- und Usability-Tests",
+        "job": "UX_UI"
+    },
+    {
+        "skill": "Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio",
+        "job": "UX_UI"
+    },
+    {
+        "skill": "Grundlegende Frontendentwicklerkenntnisse wie HTML,CSS und Javascript",
+        "job": "FD"
+    },
+    {
+        "skill": "Ändernungen am Code mit Versionkotrolle verfolgen und kontrollieren.",
+        "job": "FD"
+    },
+    {
+        "skill": "Erfahrung mit CSS-Designframeworks",
+        "job": "FD"
+    },
+    {
+        "skill": "Erfahrung im Graphic Design",
+        "job": "FD"
+    }
+]

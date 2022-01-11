@@ -22,44 +22,51 @@
     },
     {
         "model": "findIt.job",
-        "pk": "DA",
+        "pk": "FD",
         "fields": {
-            "title": "Software Developer"
+            "title": "Frontend Developer"
         }
     },
     {
         "model": "findIt.job",
-        "pk": "PM",
+        "pk": "DA",
         "fields": {
             "title": "Data Architect"
         }
     },
     {
         "model": "findIt.job",
-        "pk": "ST",
+        "pk": "PM",
         "fields": {
             "title": "Projectmanager"
         }
     },
     {
         "model": "findIt.job",
-        "pk": "SA",
-        "fields": {
-            "title": "Software Developer"
-        }
-    },
-    {
-        "model": "findIt.job",
-        "pk": "UX_UI",
+        "pk": "ST",
         "fields": {
             "title": "Software Tester"
         }
     },
     {
         "model": "findIt.job",
-        "pk": "FD",
+        "pk": "SA",
         "fields": {
             "title": "System Administrator"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "ITC",
+        "fields": {
+            "title": "IT-Security Specialist"
+        }
+    },
+    {
+        "model": "findIt.job",
+        "pk": "UX_UI",
+        "fields": {
+            "title": "UX_UI Designer"
         }
     }
 ]

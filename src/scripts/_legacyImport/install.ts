@@ -1,7 +1,7 @@
 import Questions from './Question/Question.json';
 import AnswerOptions from './AnswerOption/AnswerOption.json';
 import JobInfluences from './JobInfluence/JobInfluence.json';
-import Skills from './Skill/Skill.json';
+import Skills from './Skills/Skill.json';
 import SkillInfluences from './SkillInfluence/SkillInfluence.json';
 import Jobs from './Job/Job.json';
 import QuestionModel, { Question, QuestionMeasure, QuestionType } from '@models/Question/QuestionModel';
@@ -20,7 +20,7 @@ const dbJobs = Jobs.map((oldJob) => {
 })
 
 // map old Questions to new
-const dbSkills = Skills.map((oldSkill) => {
+const dbSkills = Skills.map((oldSkill:any) => {
     const sFields = oldSkill.fields;
     return new SkillModel({
         "description": "", "job": dbJobs.find((job) => job.abbreviation === sFields.job)?._id,
@@ -29,7 +29,7 @@ const dbSkills = Skills.map((oldSkill) => {
 })
 
 
-const newQuestions = Questions.map((oldQuestion) => {
+const newQuestions = Questions.map((oldQuestion:any) => {
     const { fields } = oldQuestion;
     return ({
         question: fields.question,
@@ -60,7 +60,7 @@ const newQuestions = Questions.map((oldQuestion) => {
                                         return ({
                                             "notPickedScore": oldSkillInfluence.fields.not_picked_factor,
                                             "pickedScore": oldSkillInfluence.fields.picked_factor,
-                                            "skill": dbSkills.find((skill) => skill.skill === oldSkillInfluence.fields.skill)
+                                            "skill": dbSkills.find((skill:any) => skill.skill === oldSkillInfluence.fields.skill)
                                         } as Skillinfluence)
                                     }),
 
@@ -102,7 +102,7 @@ mongoose.connect(mongo_uri!, {
                     for (const skillInfluence of jobInfluence.skillInfluences) {
                         const dbSkillInfluence = new SkillInfluenceModel({
                             ...skillInfluence, skill:
-                                dbSkills.find((skill) => skill.skill === skillInfluence.skill.skill)?._id
+                                dbSkills.find((skill: any) => skill.skill === skillInfluence.skill.skill)?._id
                         });
                         promises.push(dbSkillInfluence.save());
                         dbJobInfluence.skillInfluences.push(dbSkillInfluence._id);

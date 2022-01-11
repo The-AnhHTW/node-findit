@@ -1,0 +1,535 @@
+[
+    {
+        "questionType": "Multiple Choice",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Wähle 3 Aufgabenbereiche aus, die du am spannendsten findest",
+        "answerOptions": [
+            {
+                "labels": [],
+                "text": " IT-Projekte planen und organisieren",
+                "jobInfluences": [
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Fehler in Software-Code finden",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Soft- und Hardware konfigurieren",
+                "jobInfluences": [
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Website gestalten",
+                "jobInfluences": [
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Konzept zur Datenverwaltung erstellen",
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "User zu Software beraten",
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Wie spannend findest du folgende Aufgaben?",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": " Code programmieren, anpassen und optimieren. Gleichzeitig Schnittstellen, Integration, Sicherheit und Usability im Blick haben",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "IT-Prozesse analysieren, Schwachstellen identifizieren, Verbesserungspotenzial feststellen und Konzepte zur Optimierung entwickeln",
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "Kunden treffen, Problemanalysen durchführen, gemeinsam mit Mitarbeitern Lösungen entwickeln und mit Rat und Tat zur Seite stehen",
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "Für die Verwaltung der Dateninfrastruktur zuständig sein und sichere Speicherkonzepte entwickeln",
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "IT-Projekte planen, organisieren und steuern, die die Zusammenarbeit von Spezialisten aus unterschiedlichen Fachgebieten erfordern",
+                "jobInfluences": [
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "Tests konzipieren, die den Software- und Hardwareentwicklungsprozess begleiten,Fehler protokollieren und Testberichte anfertigen",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "Alles rund um Computernetzwerke, Hard- und Software sowie Benutzersupport. Hard- und Software einrichten, Nutzerkonten verwalten und Mitarbeitern Support anbieten",
+                "jobInfluences": [
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "Bedürfnisse von Usern ermitteln und überlegen, wie die Nutzung einer Software noch angenehmer für sie wäre",
+                "jobInfluences": [
+                    {
+                        "job": "UX_UI",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [
+                    "\"Trifft absolut zu!\"",
+                    "\"Trifft zu!\"",
+                    "\"Okay\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren, mit besonderem Fokus auf die nutzerfreundliche Darstellung",
+                "jobInfluences": [
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Rank Order",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Wie spannend findest du folgende Aufgaben? Bringe sie per Drag and Drop in eine Rangreihenfolge (ganz oben = spannendste)",
+        "answerOptions": [
+            {
+                "labels": [],
+                "text": "Bedarf an Soft- und Hardware analysieren, Beschaffungen planen sowie Software, Systeme und Komponenten installieren und konfigurieren",
+                "jobInfluences": [
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Organisationsstrukturen analysieren, Schwachstellen identifizieren und Erfordernisse der Fachabteilungen für Entwickler übersetzen, damit erstellte Konzepte & Richtlinien in IT-Lösungen umgesetzt werden",
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": " individuelle Produkte und Dienstleistungen für Kunden zusammenstellen, IT-Lösungen bei Kunden planen und umsetzen und bei IT-Problemen passgenaue Lösungsmöglichkeiten vorschlagen",
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "ein Projektteam zusammenstellen, Mitglieder anleiten, den Projektablauf überwachen und den Fortschritt dokumentieren",
+                "jobInfluences": [
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "ein Layout und dynamische Anwendungen für eine Website entwickeln",
+                "jobInfluences": [
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": " Nutzerverhalten von Users mit Analysetools erheben, in User hineinversetzen und Konzepte zur Verbesserung des Usererlebnisses entwickeln",
+                "jobInfluences": [
+                    {
+                        "job": "UX_UI",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "mit Tests den Software und Hardware-Entwicklungsprozess begleiten und dabei Fehlerlisten, Testberichte und Testprotokolle erstellen",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Daten klassifizieren und organisieren, Datenfluss effizient gestalten und sich an Datenschutzvorschriften und Vorgaben zur Datenqualität halten",
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "bedarfsgerechte Entwicklung einer Software-Architektur und Umsetzung mittels verschiedener Programmiersprachen",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Forced Choice",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Welche Aufgabe findest du spannender?",
+        "answerOptions": [
+            {
+                "labels": [],
+                "text": "Code für neues Feature schreiben",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "betriebliche Strukturen optimieren",
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "immer wieder neue Kunden mit neuen Aufgaben an neuen Orten im Team zu IT-Problemen beraten",
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "gesamten Datenverkehr steuern, überwachen und optimieren",
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "als Verantwortlicher IT-Projekte organisieren, dabei Zeit, Kosten und Qualität im Auge behalten",
+                "jobInfluences": [
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "durch komplexe Software Tests zur Qualität eures Produkts beitragen",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "IT-Systeme sowie System- und Anwendungssoftware konfigurieren, überwachen und pflegen, dabei Nutzerkonten, Zugriffsrechte und Verzeichnisdienste verwalten",
+                "jobInfluences": [
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "User-Analyse: von wo kommen die Nutzer auf eure Webseite, worauf klicken sie und was treibt sie an?",
+                "jobInfluences": [
+                    {
+                        "job": "UX_UI",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Konzeption eines modernen und nutzerfreundlichen User-Interfaces und Responsive Designs für eure Website",
+                "jobInfluences": [
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Multiple Choice",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Wähle erneut 3 Aufgabenbereiche aus, die du am spannendsten findest",
+        "answerOptions": [
+            {
+                "labels": [],
+                "text": "User Bedürfnisse herausfinden",
+                "jobInfluences": [
+                    {
+                        "job": "UX_UI",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Software programmieren",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "IT-Prozesse optimieren",
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Multiple Choice",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Wähle die beiden Aufgabenbereiche aus, die du am wenigsten spannend findest",
+        "answerOptions": []
+    }
+]

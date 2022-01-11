@@ -13,7 +13,8 @@ export interface JobInfluence {
     job: Job,
     pickedScore: number,
     notPickedScore: number,
-    skillInfluences: Skillinfluence[]
+    skillInfluences: Skillinfluence[],
+    _id: string
 }
 
 const JobInfluenceSchema = new Schema<JobInfluence>({

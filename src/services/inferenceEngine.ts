@@ -64,6 +64,8 @@ class InferenceEngine {
                     let skillValue = option['picked'] ? skillInfluence.pickedScore : skillInfluence.notPickedScore;
                     skillValue = this.calculateValueForQuestionType(skillValue, dbQuestion as Question, dbOption, option, "skill")
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['score'] += skillValue;
+                    current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['max_score'] +=
+                        Math.max(skillInfluence.pickedScore, skillInfluence.notPickedScore);
                 }
             }
         }
@@ -125,8 +127,8 @@ class InferenceEngine {
                                 score: 0
                             }
                         }
-                        jobScores[jobAbbrev]["skills"][skillInfluence.skill.skill][
-                            'max_score'] += achievableScore;
+                        // jobScores[jobAbbrev]["skills"][skillInfluence.skill.skill][
+                        //     'max_score'] += achievableScore;
                     }
                 }
             }

@@ -1,0 +1,38 @@
+[
+    {
+        "abbreviation": "SD",
+        "title": "Software Developer"
+    },
+    {
+        "abbreviation": "BA",
+        "title": "Business Analyst"
+    },
+    {
+        "abbreviation": "IC",
+        "title": "IT-Consultant"
+    },
+    {
+        "abbreviation": "DA",
+        "title": "Software Developer"
+    },
+    {
+        "abbreviation": "PM",
+        "title": "Data Architect"
+    },
+    {
+        "abbreviation": "ST",
+        "title": "Projectmanager"
+    },
+    {
+        "abbreviation": "SA",
+        "title": "Software Developer"
+    },
+    {
+        "abbreviation": "UX_UI",
+        "title": "Software Tester"
+    },
+    {
+        "abbreviation": "FD",
+        "title": "System Administrator"
+    }
+]
