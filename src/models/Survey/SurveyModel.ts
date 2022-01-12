@@ -8,6 +8,7 @@ interface Survey {
     job_title?: string,
     experience_in_years?: string,
     rating?: number,
+    comment: string,
 }
 
 
@@ -20,7 +21,8 @@ export const SurveySchema = new Schema<Survey>({
     job_title: String,
     experience_in_years: String,
     reason: String,
-    rating: Number
+    rating: Number,
+    comment: String
 },
     {
         timestamps: {
