@@ -13,26 +13,26 @@
     },
     {
         "abbreviation": "DA",
-        "title": "Software Developer"
+        "title": "Data Analyst"
     },
     {
         "abbreviation": "PM",
-        "title": "Data Architect"
+        "title": "Prject Manager"
     },
     {
         "abbreviation": "ST",
-        "title": "Projectmanager"
-    },
-    {
-        "abbreviation": "SA",
-        "title": "Software Developer"
-    },
-    {
-        "abbreviation": "UX_UI",
         "title": "Software Tester"
     },
     {
-        "abbreviation": "FD",
+        "abbreviation": "SA",
         "title": "System Administrator"
+    },
+    {
+        "abbreviation": "IS",
+        "title": "IT-Security Specialist "
+    },
+    {
+        "abbreviation": "FD",
+        "title": "Frontend Developer"
     }
 ]

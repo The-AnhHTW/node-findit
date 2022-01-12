@@ -15,7 +15,10 @@ require('@models/User/UserModel');
 // import Jobs from './Job/Job.json';
 
 import Jobs from './Jobs/jobs.json';
-import Skills from './Skills/skills.json';
+import HardSkills from './Skills/hardSkills.json';
+import SoftSkills from './Skills/softSkills.json';
+import TaskSkills from './Skills/taskSkills.json';
+import PersonalitySkills from './Skills/personalitySkills.json';
 import personalityQuestions from './Questions/personalityQuestions.json';
 import tasksQuestions from './Questions/tasksQuestions.json';
 import competencesQuestions from './Questions/competencesQuestions.json';
@@ -50,7 +53,7 @@ mongoose.connect(mongo_uri!, {
         await JobModel.insertMany(Jobs);
         const dbJobs = await JobModel.find({});
         await SkillModel
-            .insertMany(Skills.map(({ skill, job }) => ({ skill, job: dbJobs.find((dbJob) => dbJob.abbreviation === job) })))
+            .insertMany([...HardSkills, ...SoftSkills, ...PersonalitySkills, ...TaskSkills].map(({ skill, job, skillCategory }) => ({ skill, skillCategory, job: dbJobs.find((dbJob) => dbJob.abbreviation === job) })))
         const dbSkills = await SkillModel.find({});
 
         // insertion of Questions, AnswerOptions, JobInfluences and SkillInfluences

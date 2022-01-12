@@ -142,7 +142,7 @@ class InferenceEngine {
     }
 
     getFirstQuestion = async () => {
-        return QuestionModel.findOne({ question: "Wähle 3 Aufgabenbereiche aus, die du am spannendsten findest" }).populate('answerOptions')
+        return QuestionModel.findOne({ question: "Wähle 3 Aufgabenbereiche aus, die sich für dich am spannendsten anhören, unabhängig davon, ob du es dir bereits zutraust" }).populate('answerOptions')
             .then((response) => this.transformQuestion(response));
     }
 

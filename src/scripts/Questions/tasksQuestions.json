@@ -7,73 +7,115 @@
         "answerOptions": [
             {
                 "labels": [],
-                "text": " IT-Projekte planen und organisieren",
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Fehler in Software-Code finden",
-                "jobInfluences": [
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Soft- und Hardware konfigurieren",
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Website gestalten",
-                "jobInfluences": [
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Konzept zur Datenverwaltung erstellen",
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "User zu Software beraten",
+                "text": "Kunden und User zu den Vor- und Nachteilen bestimmter Soft- und Hardware beraten",
                 "jobInfluences": [
                     {
                         "job": "IC",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Software Beratung für Kunden zu den Vor- und Nachteilen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Große Datenmengen analysieren und Trends identifizieren, damit wichtige Unternehmensentscheidungen getroffen werden können",
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Große Datenmengen analysieren und Trends identifizieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "In IT-Projekten den Überblick behalten und für das jeweilige Projekt wichtige Ressourcen planen und organisieren;",
+                "jobInfluences": [
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "In IT-Projekten den Überblick behalten & Planung der Ressourcen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Fehler und Bugs in Software-Code finden und dokumentieren",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Fehler und Bugs in Software-Code finden und dokumentieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "IT-Systeme überwachen und pflegen, dabei Probleme im System finden und beheben",
+                "jobInfluences": [
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "IT-Systeme überwachen und pflegen, dabei Probleme im System finden und beheben",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Websites und Anwendungen nach Kundenbedürfnissen visuell ansprechend und nutzerfreundlich gestalten",
+                "jobInfluences": [
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Websites und Anwendungen nach Kundenbedürfnissen visuell ansprechend und nutzerfreundlich gestalten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             }
@@ -87,163 +129,235 @@
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": " Code programmieren, anpassen und optimieren. Gleichzeitig Schnittstellen, Integration, Sicherheit und Usability im Blick haben",
+                "text": "Code programmieren, testen, anpassen und optimieren. Gleichzeitig Schnittstellen, Integration, Sicherheit und Usability im Blick haben",
                 "jobInfluences": [
                     {
                         "job": "SD",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Code programmieren,testen, optimieren und Auge für Usability und Sicherheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "IT-Prozesse analysieren, Schwachstellen identifizieren, Verbesserungspotenzial feststellen und Konzepte zur Optimierung entwickeln",
+                "text": "Prozesse im Unternehmen genau unter die Lupe nehmen, Absprache mit Personen, die in wichtige Prozesse involviert sind, Kosten-Nutzen-Analysen und Konzepte zur Optimierung entwickeln",
                 "jobInfluences": [
                     {
                         "job": "BA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Prozees unter die Lupe nehmen & Kosten-Nutzen-Analysen und Konzepte zur Optimierung entwickeln",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "Kunden treffen, Problemanalysen durchführen, gemeinsam mit Mitarbeitern Lösungen entwickeln und mit Rat und Tat zur Seite stehen",
+                "text": "Kundenanforderungen ermitteln und diese verständlich den Softwareentwicklern kommunizieren sowie Feedback der Entwickler zum Kunden zurücktragen und kundengerecht kommunizieren",
                 "jobInfluences": [
                     {
                         "job": "IC",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenanforderungen ermitteln und diese verständlich den Softwareentwicklern kommunizieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "Für die Verwaltung der Dateninfrastruktur zuständig sein und sichere Speicherkonzepte entwickeln",
+                "text": "Queries schreiben und unternehmensrelevante Daten in Dashboards aufbereiten, sodass wichtige Kennzahlen ersichtlich sind",
                 "jobInfluences": [
                     {
                         "job": "DA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Queries schreiben und unternehmensrelevante Daten in Dashboards aufbereiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "IT-Projekte planen, organisieren und steuern, die die Zusammenarbeit von Spezialisten aus unterschiedlichen Fachgebieten erfordern",
+                "text": "IT-projekte planen, organisieren und steuern, die die Zusammenarbeit von Spezialisten aus unterschiedlichen Fachgebieten erfordern",
                 "jobInfluences": [
                     {
                         "job": "PM",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "IT-projekte planen, organisieren und steuern",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "Tests konzipieren, die den Software- und Hardwareentwicklungsprozess begleiten,Fehler protokollieren und Testberichte anfertigen",
+                "text": "SoftwareTests konzipieren, Softwareprobleme von Kunden reproduzieren, gefundene Fehler protokollieren und Testberichte anfertigen",
                 "jobInfluences": [
                     {
                         "job": "ST",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "SoftwareTests konzipieren, Softwareprobleme reproduzieren, Fehler protokollieren und Testberichte anfertigen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "Alles rund um Computernetzwerke, Hard- und Software sowie Benutzersupport. Hard- und Software einrichten, Nutzerkonten verwalten und Mitarbeitern Support anbieten",
+                "text": "Die IT-Infrastruktur einer Organisation am Laufen zu halten mit allem was anfällt (z.B. Hard- und Softwarekonfiguration,Serveradministration und Benutzersupport)",
                 "jobInfluences": [
                     {
                         "job": "SA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Die IT-Infrastruktur einer Organisation am Laufen zu halten mit allem was anfällt",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "Bedürfnisse von Usern ermitteln und überlegen, wie die Nutzung einer Software noch angenehmer für sie wäre",
+                "text": "Aufbereitung gefundener Spuren eines Cyber-Angriffs und Weitergabe der Informationen, sodass die Architektur eines Unternehmens sicherheitstechnisch verbessert werden kann",
                 "jobInfluences": [
                     {
-                        "job": "UX_UI",
+                        "job": "IS",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Aufbereitung gefundener Spuren eines Cyber-Angriffs und Weitergabe der Informationen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Trifft absolut zu\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
-                "text": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren, mit besonderem Fokus auf die nutzerfreundliche Darstellung",
+                "text": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren mit besonderem Fokus auf die nutzerfreundliche, ansprechende Darstellung]",
                 "jobInfluences": [
                     {
                         "job": "FD",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             }
@@ -257,109 +371,172 @@
         "answerOptions": [
             {
                 "labels": [],
-                "text": "Bedarf an Soft- und Hardware analysieren, Beschaffungen planen sowie Software, Systeme und Komponenten installieren und konfigurieren",
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Organisationsstrukturen analysieren, Schwachstellen identifizieren und Erfordernisse der Fachabteilungen für Entwickler übersetzen, damit erstellte Konzepte & Richtlinien in IT-Lösungen umgesetzt werden",
-                "jobInfluences": [
-                    {
-                        "job": "BA",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": " individuelle Produkte und Dienstleistungen für Kunden zusammenstellen, IT-Lösungen bei Kunden planen und umsetzen und bei IT-Problemen passgenaue Lösungsmöglichkeiten vorschlagen",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "ein Projektteam zusammenstellen, Mitglieder anleiten, den Projektablauf überwachen und den Fortschritt dokumentieren",
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "ein Layout und dynamische Anwendungen für eine Website entwickeln",
-                "jobInfluences": [
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": " Nutzerverhalten von Users mit Analysetools erheben, in User hineinversetzen und Konzepte zur Verbesserung des Usererlebnisses entwickeln",
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "mit Tests den Software und Hardware-Entwicklungsprozess begleiten und dabei Fehlerlisten, Testberichte und Testprotokolle erstellen",
-                "jobInfluences": [
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Daten klassifizieren und organisieren, Datenfluss effizient gestalten und sich an Datenschutzvorschriften und Vorgaben zur Datenqualität halten",
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "bedarfsgerechte Entwicklung einer Software-Architektur und Umsetzung mittels verschiedener Programmiersprachen",
+                "text": "Bedarfsgerechte Entwicklung von IT-Systemen und Applikationen sowie Bereitstellung der technischen Doku",
                 "jobInfluences": [
                     {
                         "job": "SD",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Bedarfsgerechte Entwicklung & Bereitstellung technischer Doku",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Professionelle Beziehung zu Mitarbeitern aufbauen, wichtige Unternehmensprozesse modellieren und visualisieren",
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Professionelle Beziehung mit MItarbeitern & Unternehmensprozesse modellieren und visualisieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Individuelle Produkte und Dienstleistungen für Kunden zusammenstellen, IT-Lösungen bei Kunden planen und umsetzen und bei IT-Problemen passgenaue Lösungsmöglichkeiten vorschlagen",
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Individuelle Produkte und Dienstleistungen für Kunden zusammenstellen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Wichtige Unternehmensdaten analysieren, auswerten und in Reports zusammenfassen",
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wichtige Unternehmensdaten analysieren, auswerten und in Reports zusammenfassen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Ein Projektteam zusammenstellen, Workshops moderieren, den Projektverlauf überwachen und den Fortschritt in Projektberichten dokumentieren",
+                "jobInfluences": [
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Projektteam zusamenstellen, Workshops moderien und Proejtkverlauf überwachen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Mit Tests den Software und Hardware-Entwicklungsprozess begleiten und optimieren und dabei Fehlerlisten Testberichte und Testprotokolle erstellen",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Mit Tests den Software und Hardware-Entwicklungsprozess begleiten und optimieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Serveradministration, Verwaltung von Benutzerkonten, Softwarekonfiguration und User bei Problemen betreuen",
+                "jobInfluences": [
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Serveradministration, Verwaltung von Benutzerkonten, Softwarekonfiguration und User Betreuung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Suche nach Spuren eines Angreifers auf ein IT-System und dabei Angreiferverhalten von normalem User-Verhalten unterscheiden",
+                "jobInfluences": [
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Spurensuche eines Angreifers auf IT-Systeme",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Design und dynamische Anwendungen für Websites entwickeln sowie Kundenfeedback einholen und berücksichtigen",
+                "jobInfluences": [
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Design und dynamische Anwendungen für Websites entwickeln sowie Kundenfeedback einholen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             }
@@ -373,109 +550,172 @@
         "answerOptions": [
             {
                 "labels": [],
-                "text": "Code für neues Feature schreiben",
+                "text": "Kundenbedürfnisse ermitteln und daraufhin in engem Austausch mit Projektmitgliedern Code für ein neues Feature schreiben",
                 "jobInfluences": [
                     {
                         "job": "SD",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenbedürfnisse ermitteln und neue Features schreiben",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "betriebliche Strukturen optimieren",
+                "text": "In Workshops mit Mitarbeitern aus unterschiedlichen Abteilungen einer Organisation zusammenarbeiten, um wichtige Geschäftsprozesse zu verstehen",
                 "jobInfluences": [
                     {
                         "job": "BA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenbedürfnisse ermitteln und neue Features schreiben",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "immer wieder neue Kunden mit neuen Aufgaben an neuen Orten im Team zu IT-Problemen beraten",
+                "text": "Geschäftsbeziehungen zu neuen Kunden aufbauen und zu individuellen IT-Problemen und bei Veränderungsprozessen beraten",
                 "jobInfluences": [
                     {
                         "job": "IC",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Geschäftsbeziehungen zu neuen Kunden aufbauen & individuelle IT-Problem Beratung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "gesamten Datenverkehr steuern, überwachen und optimieren",
+                "text": "Daten klassifizieren und organisieren, den Datenfluss im Unternehmen oder in der Organisation möglichst effizient gestalten und Kriterien zur Datenqualität festlegen",
                 "jobInfluences": [
                     {
                         "job": "DA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Daten klassifizieren und organisieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "als Verantwortlicher IT-Projekte organisieren, dabei Zeit, Kosten und Qualität im Auge behalten",
+                "text": "In IT-Projekten als Verantwortlicher die Zeit, Kosten und Qualität im Auge behalten",
                 "jobInfluences": [
                     {
                         "job": "PM",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "In IT-Projekten als Verantwortlicher die Zeit, Kosten und Qualität im Auge behalten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "durch komplexe Software Tests zur Qualität eures Produkts beitragen",
+                "text": "Kunden dabei unterstützen, die Qualität ihres Produktes durch umfangreiche Softwaretests (z.B. Integrations- oder Belastungstests) zu verbessern",
                 "jobInfluences": [
                     {
                         "job": "ST",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Kunden dabei unterstützen, die Qualität ihres Produktes durch Softwaretests zu verbessern",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "IT-Systeme sowie System- und Anwendungssoftware konfigurieren, überwachen und pflegen, dabei Nutzerkonten, Zugriffsrechte und Verzeichnisdienste verwalten",
+                "text": "Bedarf an Soft- und Hardware feststellen, Beschaffungen planen sowie Systeme und Komponenten installieren und konfigurieren",
                 "jobInfluences": [
                     {
                         "job": "SA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Bedarf an Soft- und Hardware feststellen, Beschaffungen planen sowie Systeme und Komponenten installieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "User-Analyse: von wo kommen die Nutzer auf eure Webseite, worauf klicken sie und was treibt sie an?",
+                "text": "Untersuchen, wie weit es ein Angreifer in das IT-System eines Unternehmens geschafft hat und welcher Schaden entstanden ist",
                 "jobInfluences": [
                     {
-                        "job": "UX_UI",
+                        "job": "IS",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Schadensanalyse eines Angreifers auf IT-Systeme",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "Konzeption eines modernen und nutzerfreundlichen User-Interfaces und Responsive Designs für eure Website",
+                "text": "Konzeption eines modernen, nutzerfreundlichen und visuell anspruchsvollen User-Interface und Responsive-Design für eine Website",
                 "jobInfluences": [
                     {
                         "job": "FD",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Usability freundliche Konzeption eines GUI & Responsive-Design",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             }
@@ -489,37 +729,58 @@
         "answerOptions": [
             {
                 "labels": [],
-                "text": "User Bedürfnisse herausfinden",
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Software programmieren",
+                "text": "Software und Softwarebausteine mit Hilfe verschiedener Sprachen programmieren",
                 "jobInfluences": [
                     {
                         "job": "SD",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Software mit Hilfe verschiedener Sprachen programmieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "labels": [],
-                "text": "IT-Prozesse optimieren",
+                "text": "Mit Mitarbeitern im Detail über ihre Arbeit unterhalten, Schwachstellen in Prozessen identifizieren und Erfordernisse für Entwickler übersetzen",
                 "jobInfluences": [
                     {
                         "job": "BA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
-                        "skillInfluences": []
+                        "skillInfluences": [
+                            {
+                                "skill": "Schwachstellen in Prozessen identifizieren",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "labels": [],
+                "text": "Überwachung der IT-Infrastruktur eines Unternehmens und Identifikation von CyberAngriffen",
+                "jobInfluences": [
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Überwachung der IT-Infrastruktur eines Unternehmens und Identifikation von CyberAngriffen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0,
+                                "skillCategory": "tasks"
+                            }
+                        ]
                     }
                 ]
             }
