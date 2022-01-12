@@ -99,6 +99,8 @@ class InferenceEngine {
             jobScores[job.abbreviation] = {
                 "max_score": 0,
                 "score": 0,
+                "max_score_without_hard_skills": 0,
+                "score_without_hard_skills": 0,
                 "tasks": {
                     "max_score": 0,
                     "score": 0
@@ -128,6 +130,7 @@ class InferenceEngine {
                                 max_score: 0,
                                 score: 0
                             }
+                            jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill]['skillCategory'] = skillInfluence.skill.skillCategory;
                         }
                         // jobScores[jobAbbrev]["skills"][skillInfluence.skill.skill][
                         //     'max_score'] += achievableScore;
@@ -381,7 +384,7 @@ class InferenceEngine {
 
     transformQuestion = (response: any) => {
 
-        
+
 
         let map: any = {
             "Multiple Choice": "MC",
@@ -413,7 +416,7 @@ class InferenceEngine {
         for (const key of toBeDeleted) {
             delete finalJobScores[key]
         }
-
+        console.log({ finalJobScores })
         this.cleanJobResults(finalJobScores)
         return finalJobScores
     }
@@ -426,10 +429,24 @@ class InferenceEngine {
                 jobResults[key]['score'] = this.clamp(jobResults[key]['score'], 0, jobResults[key]['max_score'])
             }
             for (const secondKey in jobResults[key]) {
-                if (secondKey != "max_score" && secondKey != "score" && secondKey != 'skills' && secondKey != "id") {
+                if (secondKey != "max_score" && secondKey != "score" && secondKey != 'skills' && secondKey != "id" && secondKey != "max_score_without_hard_skills" && secondKey != "score_without_hard_skills") {
                     jobResults[key][secondKey]['score'] = this.clamp(jobResults[key][secondKey]['score'], 0,
                         jobResults[key][secondKey]['max_score']
                     )
+                } else if (secondKey === 'skills') {
+                    jobResults[key]['max_score_without_hard_skills'] = jobResults[key]['max_score'];
+                    jobResults[key]['score_without_hard_skills'] = jobResults[key]['score'];
+                    for (const skill in jobResults[key][secondKey]) {
+                        const skillCategory = jobResults[key][secondKey][skill].skillCategory;
+                        if (skillCategory === 'hard_skills') {
+                            console.log("DEDUCTING")
+                            jobResults[key]['max_score_without_hard_skills'] -= jobResults[key][secondKey][skill]['max_score'];
+                            jobResults[key]['score_without_hard_skills'] -= jobResults[key][secondKey][skill]['score'];
+                        }
+
+                    }
+
+
                 }
             }
         }

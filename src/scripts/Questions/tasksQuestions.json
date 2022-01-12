@@ -17,8 +17,7 @@
                             {
                                 "skill": "Software Beratung für Kunden zu den Vor- und Nachteilen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -36,8 +35,7 @@
                             {
                                 "skill": "Große Datenmengen analysieren und Trends identifizieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -55,8 +53,7 @@
                             {
                                 "skill": "In IT-Projekten den Überblick behalten & Planung der Ressourcen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -74,8 +71,7 @@
                             {
                                 "skill": "Fehler und Bugs in Software-Code finden und dokumentieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -93,8 +89,7 @@
                             {
                                 "skill": "IT-Systeme überwachen und pflegen, dabei Probleme im System finden und beheben",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -112,8 +107,7 @@
                             {
                                 "skill": "Websites und Anwendungen nach Kundenbedürfnissen visuell ansprechend und nutzerfreundlich gestalten",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -146,8 +140,7 @@
                             {
                                 "skill": "Code programmieren,testen, optimieren und Auge für Usability und Sicherheit",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -172,8 +165,7 @@
                             {
                                 "skill": "Prozees unter die Lupe nehmen & Kosten-Nutzen-Analysen und Konzepte zur Optimierung entwickeln",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -198,8 +190,7 @@
                             {
                                 "skill": "Kundenanforderungen ermitteln und diese verständlich den Softwareentwicklern kommunizieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -224,8 +215,7 @@
                             {
                                 "skill": "Queries schreiben und unternehmensrelevante Daten in Dashboards aufbereiten",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -250,8 +240,7 @@
                             {
                                 "skill": "IT-projekte planen, organisieren und steuern",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -276,8 +265,7 @@
                             {
                                 "skill": "SoftwareTests konzipieren, Softwareprobleme reproduzieren, Fehler protokollieren und Testberichte anfertigen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -302,8 +290,7 @@
                             {
                                 "skill": "Die IT-Infrastruktur einer Organisation am Laufen zu halten mit allem was anfällt",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -328,8 +315,7 @@
                             {
                                 "skill": "Aufbereitung gefundener Spuren eines Cyber-Angriffs und Weitergabe der Informationen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -354,8 +340,7 @@
                             {
                                 "skill": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -381,8 +366,7 @@
                             {
                                 "skill": "Bedarfsgerechte Entwicklung & Bereitstellung technischer Doku",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -400,8 +384,7 @@
                             {
                                 "skill": "Professionelle Beziehung mit MItarbeitern & Unternehmensprozesse modellieren und visualisieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -419,8 +402,7 @@
                             {
                                 "skill": "Individuelle Produkte und Dienstleistungen für Kunden zusammenstellen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -438,8 +420,7 @@
                             {
                                 "skill": "Wichtige Unternehmensdaten analysieren, auswerten und in Reports zusammenfassen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -457,8 +438,7 @@
                             {
                                 "skill": "Projektteam zusamenstellen, Workshops moderien und Proejtkverlauf überwachen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -476,8 +456,7 @@
                             {
                                 "skill": "Mit Tests den Software und Hardware-Entwicklungsprozess begleiten und optimieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -495,8 +474,7 @@
                             {
                                 "skill": "Serveradministration, Verwaltung von Benutzerkonten, Softwarekonfiguration und User Betreuung",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -514,8 +492,7 @@
                             {
                                 "skill": "Spurensuche eines Angreifers auf IT-Systeme",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -533,8 +510,7 @@
                             {
                                 "skill": "Design und dynamische Anwendungen für Websites entwickeln sowie Kundenfeedback einholen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -560,8 +536,7 @@
                             {
                                 "skill": "Kundenbedürfnisse ermitteln und neue Features schreiben",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -579,8 +554,7 @@
                             {
                                 "skill": "In Workshops mit Mitarbeitern aus unterschiedlichen Abteilungen einer Organisation zusammenarbeiten",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -598,8 +572,7 @@
                             {
                                 "skill": "Geschäftsbeziehungen zu neuen Kunden aufbauen & individuelle IT-Problem Beratung",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -617,8 +590,7 @@
                             {
                                 "skill": "Daten klassifizieren und organisieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -636,8 +608,7 @@
                             {
                                 "skill": "In IT-Projekten als Verantwortlicher die Zeit, Kosten und Qualität im Auge behalten",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -655,8 +626,7 @@
                             {
                                 "skill": "Kunden dabei unterstützen, die Qualität ihres Produktes durch Softwaretests zu verbessern",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -674,8 +644,7 @@
                             {
                                 "skill": "Bedarf an Soft- und Hardware feststellen, Beschaffungen planen sowie Systeme und Komponenten installieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -693,8 +662,7 @@
                             {
                                 "skill": "Schadensanalyse eines Angreifers auf IT-Systeme",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -712,8 +680,7 @@
                             {
                                 "skill": "Usability freundliche Konzeption eines GUI & Responsive-Design",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -739,8 +706,7 @@
                             {
                                 "skill": "Software mit Hilfe verschiedener Sprachen programmieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -758,8 +724,7 @@
                             {
                                 "skill": "Schwachstellen in Prozessen identifizieren",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -777,8 +742,7 @@
                             {
                                 "skill": "Überwachung der IT-Infrastruktur eines Unternehmens und Identifikation von CyberAngriffen",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skillCategory": "tasks"
+                                "notPickedScore": 0
                             }
                         ]
                     }
