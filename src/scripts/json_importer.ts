@@ -46,14 +46,16 @@ mongoose.connect(mongo_uri!, {
             QuestionModel.remove({}),
             SkillModel.remove({}),
             SkillInfluenceModel.remove({}),
-            JobInfluenceModel.remove({})
+            JobInfluenceModel.remove({}),
+            AnswerOptionModel.remove({}),
         ]
     ).then(async () => {
+
         // Skills and Jobs insertion into DB
         await JobModel.insertMany(Jobs);
         const dbJobs = await JobModel.find({});
         await SkillModel
-            .insertMany([...HardSkills, ...SoftSkills, ...PersonalitySkills, ...TaskSkills].map(({ skill, skillCategory }) => ({ skill, skillCategory, job: dbJobs.find((dbJob) => dbJob.abbreviation === job) })))
+            .insertMany([...HardSkills, ...SoftSkills, ...PersonalitySkills, ...TaskSkills].map(({ skill, skillCategory }) => ({ skill, skillCategory })))
         const dbSkills = await SkillModel.find({});
 
         // insertion of Questions, AnswerOptions, JobInfluences and SkillInfluences

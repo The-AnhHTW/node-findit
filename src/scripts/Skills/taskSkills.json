@@ -1,132 +1,106 @@
 [
     {
         "skill": "Software Beratung für Kunden zu den Vor- und Nachteilen",
-        "job": "IC",
         "skillCategory": "tasks"
     },
     {
         "skill": "Große Datenmengen analysieren und Trends identifizieren",
-        "job": "DA",
         "skillCategory": "tasks"
     },
     {
         "skill": "In IT-Projekten den Überblick behalten & Planung der Ressourcen",
-        "job": "PM",
         "skillCategory": "tasks"
     },
     {
         "skill": "Fehler und Bugs in Software-Code finden und dokumentieren",
-        "job": "ST",
         "skillCategory": "tasks"
     },
     {
         "skill": "IT-Systeme überwachen und pflegen, dabei Probleme im System finden und beheben",
-        "job": "SA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Websites und Anwendungen nach Kundenbedürfnissen visuell ansprechend und nutzerfreundlich gestalten",
-        "job": "FD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Code programmieren,testen, optimieren und Auge für Usability und Sicherheit",
-        "job": "SD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Prozees unter die Lupe nehmen & Kosten-Nutzen-Analysen und Konzepte zur Optimierung entwickeln",
-        "job": "BA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Kundenanforderungen ermitteln und diese verständlich den Softwareentwicklern kommunizieren",
-        "job": "IC",
         "skillCategory": "tasks"
     },
     {
         "skill": "Queries schreiben und unternehmensrelevante Daten in Dashboards aufbereiten",
-        "job": "DA",
         "skillCategory": "tasks"
     },
     {
         "skill": "IT-projekte planen, organisieren und steuern",
-        "job": "PM",
         "skillCategory": "tasks"
     },
     {
         "skill": "SoftwareTests konzipieren, Softwareprobleme reproduzieren, Fehler protokollieren und Testberichte anfertigen",
-        "job": "ST",
         "skillCategory": "tasks"
     },
     {
         "skill": "Die IT-Infrastruktur einer Organisation am Laufen zu halten mit allem was anfällt",
-        "job": "SA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Aufbereitung gefundener Spuren eines Cyber-Angriffs und Weitergabe der Informationen",
-        "job": "IS",
         "skillCategory": "tasks"
     },
     {
         "skill": "Anwendungsprogramme und Systemsoftware bzw. Softwarebausteine konzipieren",
-        "job": "FD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Bedarfsgerechte Entwicklung & Bereitstellung technischer Doku",
-        "job": "SD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Professionelle Beziehung mit MItarbeitern & Unternehmensprozesse modellieren und visualisieren",
-        "job": "BA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Individuelle Produkte und Dienstleistungen für Kunden zusammenstellen",
-        "job": "IC",
         "skillCategory": "tasks"
     },
     {
         "skill": "Wichtige Unternehmensdaten analysieren, auswerten und in Reports zusammenfassen",
-        "job": "DA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Projektteam zusamenstellen, Workshops moderien und Proejtkverlauf überwachen",
-        "job": "PM",
         "skillCategory": "tasks"
     },
     {
         "skill": "Mit Tests den Software und Hardware-Entwicklungsprozess begleiten und optimieren",
-        "job": "ST",
         "skillCategory": "tasks"
     },
     {
         "skill": "Serveradministration, Verwaltung von Benutzerkonten, Softwarekonfiguration und User Betreuung",
-        "job": "SA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Design und dynamische Anwendungen für Websites entwickeln sowie Kundenfeedback einholen",
-        "job": "FD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Kundenbedürfnisse ermitteln und neue Features schreiben",
-        "job": "SD",
         "skillCategory": "tasks"
     },
     {
         "skill": "In Workshops mit Mitarbeitern aus unterschiedlichen Abteilungen einer Organisation zusammenarbeiten",
-        "job": "BA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Geschäftsbeziehungen zu neuen Kunden aufbauen & individuelle IT-Problem Beratung",
-        "job": "IC",
         "skillCategory": "tasks"
     },
     {
@@ -136,42 +110,38 @@
     },
     {
         "skill": "In IT-Projekten als Verantwortlicher die Zeit, Kosten und Qualität im Auge behalten",
-        "job": "PM",
         "skillCategory": "tasks"
     },
     {
         "skill": "Kunden dabei unterstützen, die Qualität ihres Produktes durch Softwaretests zu verbessern",
-        "job": "ST",
         "skillCategory": "tasks"
     },
     {
         "skill": "Bedarf an Soft- und Hardware feststellen, Beschaffungen planen sowie Systeme und Komponenten installieren",
-        "job": "SA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Schadensanalyse eines Angreifers auf IT-Systeme",
-        "job": "IS",
         "skillCategory": "tasks"
     },
     {
         "skill": "Usability freundliche Konzeption eines GUI & Responsive-Design",
-        "job": "FD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Software mit Hilfe verschiedener Sprachen programmieren",
-        "job": "SD",
         "skillCategory": "tasks"
     },
     {
         "skill": "Schwachstellen in Prozessen identifizieren",
-        "job": "BA",
         "skillCategory": "tasks"
     },
     {
         "skill": "Überwachung der IT-Infrastruktur eines Unternehmens und Identifikation von CyberAngriffen",
-        "job": "IS",
+        "skillCategory": "tasks"
+    },
+    {
+        "skill": "Spurensuche eines Angreifers auf IT-Systeme",
         "skillCategory": "tasks"
     }
 ]

@@ -1,5 +1,6 @@
 [
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "Details, kleine Veränderungen oder kleine Fehler fallen mir meist direkt auf",
@@ -79,6 +80,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "Ich neige dazu, das große Ganze zu betrachten und beschäftige mich selten mit Details.",
@@ -146,6 +148,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "In Gruppenarbeiten sage ich häufig und gern meine ehrliche Meinung.",
@@ -201,6 +204,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "Ich fühle mich nicht sehr wohl dabei, vor einer Gruppe von ca. 10 Mitarbeitern zu sprechen.",
@@ -256,6 +260,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "Bei der Arbeit suche ich häufig und gerne den Austausch mit anderen Menschen.",
@@ -311,6 +316,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "Auch mit unbekannten Menschen fällt es mir relativ leicht, mich zu unterhalten.",
@@ -366,6 +372,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "Im Kontakt mit anderen Menschen bin ich meist fröhlich und optimistisch.",
@@ -397,6 +404,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
         "question": "An den meisten Tagen fühle ich mich energiegeladen und voller Tatendrang.",
