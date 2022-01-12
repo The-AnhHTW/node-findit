@@ -53,7 +53,7 @@ mongoose.connect(mongo_uri!, {
         await JobModel.insertMany(Jobs);
         const dbJobs = await JobModel.find({});
         await SkillModel
-            .insertMany([...HardSkills, ...SoftSkills, ...PersonalitySkills, ...TaskSkills].map(({ skill, job, skillCategory }) => ({ skill, skillCategory, job: dbJobs.find((dbJob) => dbJob.abbreviation === job) })))
+            .insertMany([...HardSkills, ...SoftSkills, ...PersonalitySkills, ...TaskSkills].map(({ skill, skillCategory }) => ({ skill, skillCategory, job: dbJobs.find((dbJob) => dbJob.abbreviation === job) })))
         const dbSkills = await SkillModel.find({});
 
         // insertion of Questions, AnswerOptions, JobInfluences and SkillInfluences

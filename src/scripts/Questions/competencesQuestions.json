@@ -2,430 +2,87 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich bin in der Lage Hardware-, Software- und/oder Netzwerkprobleme zu beheben",
+        "question": "Es fällt mir leicht, auf unbekannte Menschen zuzugehen und mit ihnen wohlwollend und interessiert zu kommunizieren.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Lösungsorientiertes Denken bei jeglichen Hardware-, Software- und Netzwerkproblemen"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kann mit Entwicklertools umgehen und diese zum Verständnis von Code benutzen",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "BA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Analytisches Denken und Problemlösungsfähigkeit"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung im Umgang mit Sicherungs-/Archivierungssoftware.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Sicherungs-/Archivierungssoftware"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kenne mich mit Scrum aus.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit Scrum"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Kenntnisse in gängigen Programmiersprachen z.B. Java, Python, Javascript, etc.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Programmiersprachen Kenntnisse wie Java, Python, Javascript, etc."
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung im Umgang mit Betriebssystemen wie UNIX, Linux, Solaris und MS Windows.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Betriebswirtschafslehre"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe grundlegende Datenbankkenntnisse und auch bereits Erfahrung mit RDMSs (relationale Datenbankmanagementsysteme).",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Grundlegende Datenbankkenntnisse"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung im Umgang mit Anwendungsserver-Applikation wie Oracle.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Anwendungsserver-Software"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Grundkenntnisse in Programmiersprachen wie Python und Java, aber auch C/C++ und/oder Perl.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Programmiersprachen Kenntnisse wie Python, Java, C, C++ etc."
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung im Umgang mit Kommunikationstools, wie Microsoft Teams"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe bereits Kenntnisse der BWL und den betriebswirtschaftlichen Abläufen in einem Unternehmen um z.B. Vorgaben zu Kosten oder ROI (Return on Investment) bei der Konzeption von IT-Projekten besser berücksichtigen zu können bzw. ein Verständnis dafür aufzubringen ",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "BWL Kenntnisse"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung mit agilen Entwicklungsprozessen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit agilen Entwicklungsprozesse"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich verstehe die Grundlagen von aktuellen Web und Mobile Technologien.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Grundlegende Kenntnisse von aktuellen Web und Mobile Technologien"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Erfahrung in Code Verständnis und der dazugehörigen Fähigkeit diesen zu übernehmen / abzuändern / verbessern",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
                         "job": "SD",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Kommunikationsfähigkeit",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung in Code Verständnis"
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -436,27 +93,300 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich besitze ein gute Verständnis für Netzwerke, Datenbanken und kann mich sehr schnell in solche Strukturen einlesen",
+        "question": " Wenn ich mit Dozenten oder Vorgesetzten unterschiedlicher Meinung bin, fällt es mir schwer meinen Standpunkt deutlich zu kommunizieren und mein Gegenüber von meiner Sichtweise zu überzeugen",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kommunikationsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich kann mich gut auf andere Menschen einstellen und ihre Probleme und Bedürfnisse verstehen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich bin gerne im Kontakt mit Menschen und kann gut Beziehungen zu Menschen aufbauen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kundenorientierung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich bin eher ein Generalist als ein Spezialist.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
                         "job": "BA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Ganzheitliches Denken",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Verständnis für Netzwerke, Datenbanken und andere Technologie"
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Ganzheitliches Denken",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Ganzheitliches Denken",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -467,27 +397,254 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Data-Mining- und Modellierungstools wie ERWin, Enterprise Architect und Vision sind mir ein Begriff.",
+        "question": "Ich habe lieber das große Ganze im Blick und weniger die einzelnen Details.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Ganzheitliches Denken",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Ganzheitliches Denken",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Ganzheitliches Denken",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Meinen Mitmenschen kann ich bei Problemen gut durch mein Wissen, meine Einschätzungen oder meine Art zu einer Lösung verhelfen.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Beratungsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Beratungsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Wenn Menschen in meinem Umfeld vor Problemen stehen, mit denen ich mich auskenne, gebe ich ihnen gerne Handlungsimpulse und Anstöße, um ihre Lage zu verbessern.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Beratungsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "SA",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Entscheidungen zu treffen, die das ganze Team betreffen und dafür die Verantwortung zu übernehmen, hört sich nach einer spannenden Herausforderung an.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamführung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamführung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Im Team nehme ich gerne eine führende Rolle ein, anstatt das zu tun, was mir zugeteilt wird.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamführung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamführung",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Rechnen im Alltag mache ich lieber per Taschenrechner als im Kopf.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
                         "job": "DA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Mathematische Kompetenz",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Fähigkeit mit Modelierungstools zu arbeiten und Daten zu minen"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -498,27 +655,27 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kenne Software Lifecycle Management Skills und deren Ablauf (z.B. Waterfall, Kanban, Scrum).",
+        "question": "Ich kann gut mit Zahlen umgehen",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
-                        "job": "ST",
+                        "job": "DA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Mathematische Kompetenz",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Software Lifecycle Management Kentnisse"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -529,27 +686,309 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung mit einer oder mehreren Programmiersprachen und bin in der Lage Code zu verstehen und einzuschätzen",
+        "question": "Aufgaben bei der Arbeit gehe ich lieber planvoll und systematisch an, als intuitiv und flexibel.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Systematisch-methodisches Vorgehen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Systematisch-methodisches Vorgehen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Lieber arbeite ich direkt drauf los, als mir einen detaillierten Lösungsplan zu erstellen.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Systematisch-methodisches Vorgehen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Systematisch-methodisches Vorgehen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Mir fällt es schwer unter Zeitdruck wichtige Entscheidungen zu treffen.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "IS",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Entscheidungsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Wenn ich vor einem Problem stehe, kann ich gut meine Handlungsmöglichkeiten abwägen und schnell eine Entscheidung treffen.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Entscheidungsfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich habe gute Grundkenntnisse in Algorithmen und Datenstrukturen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Algorithmen & Datenstrukturen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Algorithmen & Datenstrukturen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich beherrsche mindestens eine objektbasierte Programmiersprache (z.B. C#, java, Python, etc.) und habe gute Grundkenntnisse ihrer Syntax",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich habe gute Kenntnisse in Prozessmodellierungssoftware",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
                         "job": "BA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Grundkenntnisse Prozessmodellierungssoftware",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Programmiersprachen-Kenntnisse"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -560,27 +999,151 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung mit Dokumentationstools, wie Jira",
+        "question": "Ich habe Erfahrung darin, kurzweilige Workshops zu moderieren",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Erfahrung Workshops",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich habe gute Grundkenntnisse in einer Datenbanksprache (z.B. MySQL)",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundkenntnisse Datenbanksprachen",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich habe gute Grundkenntnisse in einem Datenvisualisierungsprogramm (z.B. Tableau)",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundkenntnisse Datenvisualisierungstools",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich habe gute Grundkenntnisse in einem Tabellenkalkulationsprogramm (z.B. Excel)",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundkenntnisse Tabellenkalkulationsprogramm",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "question": "Ich habe gute Grundkenntnisse im Projektmanagement (z.B. Erstellung eines Projektplans oder einer Anforderungsanalyse/-erhebung)",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
                         "job": "PM",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Projektmanagement Know-How",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit Dokumentationstools, wie Jira"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -591,27 +1154,27 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "DevOps und Agile Methoden sind mir bekannt.",
+        "question": "Ich habe gute Grundkenntnisse in mindestens einem Projektvorgehensmodell (z.B. Scrum oder Wasserfallmodell)",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
-                        "job": "ST",
+                        "job": "PM",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Projektvorgehensmodelle",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "DevOps Erfahrung und Wissen über agile Methoden"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -622,27 +1185,27 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich konnte bereits Erfahrungen mit verschiedenen Betriebssystemen und Datenbanken sammeln.",
+        "question": "Ich habe gute Grundkenntnisse in der Konfiguration gängiger Hardware (z.B. Drucker, Monitore oder Server)",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
-                        "job": "IC",
+                        "job": "SA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Grundlegende Hardware-Kenntnisse",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit verschiedenen Betriebssystemen und Datenbanken"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -653,27 +1216,27 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrung in der Automatisierung von Testprozessen.",
+        "question": "Ich weiß, wie die üblichen Hacking-Techniken funktionieren (z.B. DDos-Angriffe oder Phishing) und habe selbst bereits Angriffe durchgeführt." mit kleinem Info-i und dem Verweis "Selbstverständlich im Rahmen der Legalität",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
-                        "job": "ST",
+                        "job": "IS",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Grundkenntnisse Netzwerke",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Fähigkeit zur Automatisierung von Prozessen"
+                                "notPickedScore": 0
                             }
                         ]
                     }
@@ -684,554 +1247,27 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe eine professionelle Zertifizierung (z. B. CompTIA A+) aus den Bereichen Client/Server, Programmierung und Datenbanken.",
+        "question": "Ich habe gute Grundkenntnisse in HTML und CSS",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Zwischenmenschliche Fähigkeiten BSc/BA in Informatik"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Erfahrungen in gängigen Programmiersprachen (Python, React (web),Angular, Machine learning, Docker, Django, CompTIA, Amazon AWS, React Native (mobile), C#, C++, HTML, Java, JavaScript, Perl, PHP",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Programmiersprachen Kenntnisse wie  C#, C++, HTML, Java, JavaScript, Perl, PHP ect."
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kenne mich aus mit Entwicklungsumgebungen und kann mit diesen arbeiten ",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrungen in Entwicklungsumgebungen "
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich beherrsche verschiedenste Testing-Tools und -Techniken.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Fähigkeit mit Test-Tools umzugehen und Test zu schreiben"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich bin vertraut mit Frontend-Entwicklung , ich kann JavaScript, CSS und HTML gut beherrschen. ",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
                         "job": "FD",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "HTML & CSS",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Grundlegende Frontendentwicklerkenntnisse wie HTML,CSS und Javascript"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich bin in der Lage SSO (Single Sign On und sofern unterstützt) für jegliche Dienste einzurichten.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "SSO einrichten"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kenne  mir mit User und Usabilty testing  gut aus",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Kenntnisse in Benutzer- und Usability-Tests"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich bin in der Lage Scripting Sprachen wie z.B Perl oder Powershell zu benutzen um Prozesse zu automatisieren",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Fähigkeit zur Automatisierung von Prozessen"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe viel Erfahrung im Graphic Design",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung im Graphic Design"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich beherrsche den Umgang mit verschiedenen Betriebssystemen, insbesondere aber LINUX, um user und/oder gruppen-basierte Rollen Befugnisse für Dateien oder Ordner einzurichten.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit verschiedenen Betriebssystemen"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Wirefrming und prototyping sind mir keinen Fremden Begriffe.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit Wireframing und Prototyping"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kann meine Ändernungen am Code mit Versionkotrolle (Git) verfolgen und kontrollieren.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Ändernungen am Code mit Versionkotrolle verfolgen und kontrollieren."
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich kenne Programmier-Grundlagen und-Aufbau",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Programmier-Grundlagen"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich bin in der Lage Software Schwachstellen zu erkennen, neue Updates für jene Software einzuspielen und gegebenenfalls die Software zu entfernen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Geübte Handhabung von Software"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich bin vertraut mit User Research und Analysetechnik.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Vertraut mit User Research und Analysetechnik"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Ich habe Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Kenntnisse im Sketch, Adobe XD, Figma, Marvel und Invision Studio"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Responsive Design ist einer meiner starken Punkte",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Erfahrung mit CSS-Designframeworks"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "stageQuestion": false,
-        "question": "Softwarelösungen zum Monitoring wie SCCM, Nagios oder Splunk sind mir kein Fremdbegriff",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Sehr gut!\"",
-                    "\"Gut!\"",
-                    "\"Es geht\"",
-                    "\"Eher schlecht!\"",
-                    "\"Schlecht!\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Problemlösungsfähigkeit"
+                                "notPickedScore": 0
                             }
                         ]
                     }

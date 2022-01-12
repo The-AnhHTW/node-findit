@@ -1,0 +1,34 @@
+[
+    {
+        "skill": "Kommunikationsfähigkeit",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Kundenorientierung",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Ganzheitliches Denken",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Beratungsfähigkeit",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Teamführung",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Mathematische Kompetenz",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Systematisch-methodisches Vorgehen",
+        "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Entscheidungsfähigkeit",
+        "skillCategory": "soft_skills"
+    }
+]
