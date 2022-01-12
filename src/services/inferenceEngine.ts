@@ -380,6 +380,9 @@ class InferenceEngine {
     }
 
     transformQuestion = (response: any) => {
+
+        
+
         let map: any = {
             "Multiple Choice": "MC",
             "Rank Order": "RO",

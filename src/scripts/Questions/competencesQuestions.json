@@ -1,5 +1,6 @@
 [
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Es fällt mir leicht, auf unbekannte Menschen zuzugehen und mit ihnen wohlwollend und interessiert zu kommunizieren.",
@@ -91,6 +92,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": " Wenn ich mit Dozenten oder Vorgesetzten unterschiedlicher Meinung bin, fällt es mir schwer meinen Standpunkt deutlich zu kommunizieren und mein Gegenüber von meiner Sichtweise zu überzeugen",
@@ -182,6 +184,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich kann mich gut auf andere Menschen einstellen und ihre Probleme und Bedürfnisse verstehen",
@@ -261,6 +264,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich bin gerne im Kontakt mit Menschen und kann gut Beziehungen zu Menschen aufbauen",
@@ -340,6 +344,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich bin eher ein Generalist als ein Spezialist.",
@@ -395,6 +400,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe lieber das große Ganze im Blick und weniger die einzelnen Details.",
@@ -450,6 +456,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Meinen Mitmenschen kann ich bei Problemen gut durch mein Wissen, meine Einschätzungen oder meine Art zu einer Lösung verhelfen.",
@@ -493,6 +500,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Wenn Menschen in meinem Umfeld vor Problemen stehen, mit denen ich mich auskenne, gebe ich ihnen gerne Handlungsimpulse und Anstöße, um ihre Lage zu verbessern.",
@@ -525,7 +533,7 @@
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
-                                "skill": "SA",
+                                "skill": "Beratungsfähigkeit",
                                 "pickedScore": 1,
                                 "notPickedScore": 0
                             }
@@ -536,6 +544,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Entscheidungen zu treffen, die das ganze Team betreffen und dafür die Verantwortung zu übernehmen, hört sich nach einer spannenden Herausforderung an.",
@@ -579,6 +588,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Im Team nehme ich gerne eine führende Rolle ein, anstatt das zu tun, was mir zugeteilt wird.",
@@ -622,6 +632,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Rechnen im Alltag mache ich lieber per Taschenrechner als im Kopf.",
@@ -653,6 +664,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich kann gut mit Zahlen umgehen",
@@ -684,6 +696,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Aufgaben bei der Arbeit gehe ich lieber planvoll und systematisch an, als intuitiv und flexibel.",
@@ -727,6 +740,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Lieber arbeite ich direkt drauf los, als mir einen detaillierten Lösungsplan zu erstellen.",
@@ -770,6 +784,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Mir fällt es schwer unter Zeitdruck wichtige Entscheidungen zu treffen.",
@@ -801,6 +816,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Wenn ich vor einem Problem stehe, kann ich gut meine Handlungsmöglichkeiten abwägen und schnell eine Entscheidung treffen.",
@@ -832,6 +848,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in Algorithmen und Datenstrukturen",
@@ -875,6 +892,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich beherrsche mindestens eine objektbasierte Programmiersprache (z.B. C#, java, Python, etc.) und habe gute Grundkenntnisse ihrer Syntax",
@@ -966,6 +984,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Kenntnisse in Prozessmodellierungssoftware",
@@ -997,6 +1016,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe Erfahrung darin, kurzweilige Workshops zu moderieren",
@@ -1028,6 +1048,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in einer Datenbanksprache (z.B. MySQL)",
@@ -1059,6 +1080,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in einem Datenvisualisierungsprogramm (z.B. Tableau)",
@@ -1090,6 +1112,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in einem Tabellenkalkulationsprogramm (z.B. Excel)",
@@ -1121,6 +1144,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse im Projektmanagement (z.B. Erstellung eines Projektplans oder einer Anforderungsanalyse/-erhebung)",
@@ -1152,6 +1176,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in mindestens einem Projektvorgehensmodell (z.B. Scrum oder Wasserfallmodell)",
@@ -1183,6 +1208,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in der Konfiguration gängiger Hardware (z.B. Drucker, Monitore oder Server)",
@@ -1214,9 +1240,10 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "question": "Ich weiß, wie die üblichen Hacking-Techniken funktionieren (z.B. DDos-Angriffe oder Phishing) und habe selbst bereits Angriffe durchgeführt." mit kleinem Info-i und dem Verweis "Selbstverständlich im Rahmen der Legalität",
+        "question": "Ich weiß, wie die üblichen Hacking-Techniken funktionieren (z.B. DDos-Angriffe oder Phishing) und habe selbst bereits Angriffe durchgeführt.",
         "answerOptions": [
             {
                 "labels": [
@@ -1245,6 +1272,7 @@
         ]
     },
     {
+        "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "question": "Ich habe gute Grundkenntnisse in HTML und CSS",
