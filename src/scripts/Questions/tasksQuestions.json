@@ -129,7 +129,7 @@
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -155,7 +155,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -181,7 +181,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -207,7 +207,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -233,7 +233,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -259,7 +259,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -285,7 +285,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -311,7 +311,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -337,7 +337,7 @@
             },
             {
                 "labels": [
-                    "\"Trifft absolut zu\"",
+                    "\"Voll zutreffend\"",
                     "\"Trifft zu\"",
                     "\"Trifft eher zu\"",
                     "\"Trifft eher nicht zu\"",
@@ -577,7 +577,7 @@
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
-                                "skill": "Kundenbedürfnisse ermitteln und neue Features schreiben",
+                                "skill": "In Workshops mit Mitarbeitern aus unterschiedlichen Abteilungen einer Organisation zusammenarbeiten",
                                 "pickedScore": 1,
                                 "notPickedScore": 0,
                                 "skillCategory": "tasks"

@@ -12,14 +12,14 @@ export enum SkillCategory {
 export interface Skill {
     skill: string,
     skillCategory: SkillCategory,
-    job: Job,
+    // job: Job,
     description: string,
 }
 
 const SkillSchema = new Schema<Skill>({
     skill: String,
     skillCategory: { type: String, default: SkillCategory.hard_skills },
-    job: { type: SchemaTypes.ObjectId, ref: 'Job' },
+    // job: { type: SchemaTypes.ObjectId, ref: 'Job' },
     description: { type: String, default: "" },
 })
 

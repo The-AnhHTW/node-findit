@@ -2,29 +2,77 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Auch mit unbekannten Menschen fällt mir Smalltalk relativ leicht.",
+        "question": "Details, kleine Veränderungen oder kleine Fehler fallen mir meist direkt auf",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
                 "jobInfluences": [
                     {
-                        "job": "PM",
+                        "job": "SD",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     },
                     {
-                        "job": "IC",
+                        "job": "DA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     }
                 ]
             }
@@ -33,14 +81,81 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
-        "stageQuestion": false,
+        "question": "Ich neige dazu, das große Ganze zu betrachten und beschäftige mich selten mit Details.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
         "question": "In Gruppenarbeiten sage ich häufig und gern meine ehrliche Meinung.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
@@ -48,20 +163,38 @@
                     {
                         "job": "BA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Soziale Kühnheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     },
                     {
                         "job": "PM",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Soziale Kühnheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Perfektionismus",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     }
                 ]
             }
@@ -70,45 +203,69 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
-        "stageQuestion": false,
+        "question": "Ich fühle mich nicht sehr wohl dabei, vor einer Gruppe von ca. 10 Mitarbeitern zu sprechen.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Soziale Kühnheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Soziale Kühnheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Soziale Kühnheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
         "question": "Bei der Arbeit suche ich häufig und gerne den Austausch mit anderen Menschen.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Ich fühle mich nicht sehr wohl dabei, vor einer Gruppe von Mitarbeitern zu sprechen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
@@ -116,20 +273,38 @@
                     {
                         "job": "BA",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Geselligkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     },
                     {
                         "job": "PM",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Geselligkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Geselligkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     }
                 ]
             }
@@ -138,14 +313,69 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
-        "stageQuestion": false,
+        "question": "Auch mit unbekannten Menschen fällt es mir relativ leicht, mich zu unterhalten.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "jobInfluences": [
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Geselligkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Geselligkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Geselligkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
         "question": "Im Kontakt mit anderen Menschen bin ich meist fröhlich und optimistisch.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
@@ -153,8 +383,14 @@
                     {
                         "job": "IC",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Lebhaftigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
                     }
                 ]
             }
@@ -163,14 +399,14 @@
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
-        "stageQuestion": false,
         "question": "An den meisten Tagen fühle ich mich energiegeladen und voller Tatendrang.",
         "answerOptions": [
             {
                 "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
                     "\"Trifft nicht zu\"",
                     "\"Trifft gar nicht zu\""
                 ],
@@ -178,936 +414,14 @@
                     {
                         "job": "IC",
                         "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "In Gruppen bin ich oft derjenige, der im Namen der Gruppe spricht.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "BA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Abgedrehten Ideen sollte man keine Aufmerksamkeit schenken.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Draußen in der Natur fallen mir oft schöne Dinge auf.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Im Gegensatz zu meinen Mitmenschen bin ich meist schlechter gelaunt",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Forced Choice",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Wenn sich Menschen aus meinem näheren Umfeld ein Produkt kaufen möchten, das ich besitze und von dem ich überzeugt bin... ",
-        "answerOptions": [
-            {
-                "labels": [],
-                "text": "Freue ich mich, zeige ihnen die Vorteile des Produktes auf und überrede sie zum Kauf ",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Freue ich mich, mische mich jedoch nicht in den Kaufprozess ein, denn Geschmäcker sind verschieden ",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "Zeige ich ihnen Vor- und Nachteile auf, lasse sie aber selbst entscheiden",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Wenn es ginge, würde ich direkten Kundenkontakt bei der Arbeit gerne vermeiden.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Wenn ich eine große Anzahl an Zahlen sehe, kann ich relativ schnell Parameter wie den Mittelwert (Durchschnitt) oder die Gesamtzahl richtig einschätzen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Auch schwierige Themen erörtere ich gerne im Gespräch mit mehreren Kollegen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "BA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Es fällt mir leicht, von meinem Standpunkt abzurücken, wenn ich weiß, dass ich Recht habe.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Kontakte zu Geschäftspartnern und Kunden herzustellen und aufrecht zu erhalten fällt mir schwer.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Wenn ein Arbeitskollege Feedback zu seiner Arbeit möchte... Kann das nicht wer anders machen? vs. Das liegt mir, dafür nehme ich mir gerne Zeit",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "BA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Forced Choice",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Um wirklich wichtige Aufgaben kümmere ich mich... ",
-        "answerOptions": [
-            {
-                "labels": [],
-                "text": "am liebsten selbst",
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": " indem ich sie den besten im Team überlasse",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Bei Meinungsverschiedenheiten mit meinen Mitmenschen, bin ich gewöhnlich bereit dazu, mich von der Gegenmeinung überzeugen zu lassen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Was hört sich eher nach einem idealen Beruf an? Viele Perspektiven als Generalist einzubeziehen vs. in der eigenen Nische als Spezialist zu arbeiten.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "BA",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Worauf fokussierst du dich eher bei der Arbeit? Das große Ganze vs. Details.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "BA",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Auch wenn es Zeit kostet, versuche ich bei der Arbeit immer fehlerfrei zu arbeiten.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "BA",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Für philosophische Themen kann ich mich nicht begeistern.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Forced Choice",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Wenn ich im Alltag rechnen muss, dann lieber ...",
-        "answerOptions": [
-            {
-                "labels": [],
-                "text": "per Taschenrechner ",
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
+                        "notPickedScore": 0,
                         "skillInfluences": [
                             {
+                                "skill": "Lebhaftigkeit",
                                 "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Vertraut mit User Research und Analysetechnik"
+                                "notPickedScore": 0
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "im Kopf.",
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": [
-                            {
-                                "pickedScore": 1,
-                                "notPickedScore": 0,
-                                "skill": "Kenntnisse in Benutzer- und Usability-Tests"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Ich habe ein Talent dafür, meine Mitmenschen bei Problemen durch mein Wissen oder meine Einschätzungen zu einer selbstständigen Lösung zu verhelfen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Forced Choice",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Schnelle wichtige Entscheidungen treffen und dafür die Verantwortung zu übernehmen hört sich an wie ... ",
-        "answerOptions": [
-            {
-                "labels": [],
-                "text": "Ein Albtraum ",
-                "jobInfluences": [
-                    {
-                        "job": "DA",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "eine Herausforderung, die ich mir gut zutraue",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Ich habe ein Talent dafür, Gedanken und Absichten anderer Menschen zu verstehen, und auf ihr zukünftiges Verhalten zu schließen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Forced Choice",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Ziele für die Teilnehmer eines Projekts zu definieren und diese effizient im Team zu erreichen stelle ich mir ... ",
-        "answerOptions": [
-            {
-                "labels": [],
-                "text": "total anstrengend vor",
-                "jobInfluences": [
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            },
-            {
-                "labels": [],
-                "text": "total spannend vor.",
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Im Dialog mit Kunden weiß ich sehr schnell, was gewünscht wird und kann mich entsprechend darauf einstellen und eine gemeinsame Lösung vorschlagen.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Ich habe ein Talent dafür, mich unterschiedlichen Menschen (z.B. Chef, Kunden, Kollegen) verständlich auszudrücken und spontan die richtigen Worte zu finden.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "BA",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Leute mit ungewöhnlichen Ideen finde ich interessant.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "IC",
-                        "pickedScore": -1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Fast täglich fallen mir auf Websites unschön designte Elemente auf, die man hätte besser gestalten können.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Der Besuch einer Kunstausstellung inspiriert mich",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    },
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Oftmals passiert es mir, dass meine Mitmenschen auf meine Worte und Taten ganz anders reagieren, als ich angenommen hätte.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "questionType": "Likert Scale",
-        "questionMeasure": "Personality",
-        "stageQuestion": false,
-        "question": "Ich habe ein sicheres Gespür dafür, was ich tun kann, um die Stimmung in einem Team zu verbessern.",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Trifft absolut zu!\"",
-                    "\"Trifft zu!\"",
-                    "\"Okay\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "UX_UI",
-                        "pickedScore": 1,
-                        "notPickedScore": -1,
-                        "skillInfluences": []
                     }
                 ]
             }
