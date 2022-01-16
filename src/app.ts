@@ -4,6 +4,7 @@ import passport from 'passport';
 import apiRouter from './routes/apiRouter';
 import MailSender from './services/MailSender';
 import session from 'express-session';
+// import mongo_express from 'mongo-express/lib/middleware';
 const cors = require('cors');
 
 require('@models/Survey/SurveyModel');
@@ -36,6 +37,11 @@ declare module 'express-session' {
 const app: express.Application = express();
 
 // configuration
+const mongo_uri = process.env.MONGO_DB_URI;
+
+
+
+
 
 app.use(cors({
     credentials: true, origin: process.env.ORIGIN
