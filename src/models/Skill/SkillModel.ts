@@ -8,16 +8,18 @@ export enum SkillCategory {
     hard_skills = 'hard_skills'
 }
 
-
 export interface Skill {
     skill: string,
     skillCategory: SkillCategory,
-    // job: Job,
+    show: boolean,
+    generic: boolean,
     description: string,
 }
 
 const SkillSchema = new Schema<Skill>({
     skill: String,
+    generic: { type: Boolean, default: false },
+    show: { type: Boolean, default: true },
     skillCategory: { type: String, default: SkillCategory.hard_skills },
     // job: { type: SchemaTypes.ObjectId, ref: 'Job' },
     description: { type: String, default: "" },

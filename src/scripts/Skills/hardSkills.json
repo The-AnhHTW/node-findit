@@ -50,5 +50,11 @@
     {
         "skill": "Grundlegende Hardware-Kenntnisse",
         "skillCategory": "hard_skills"
+    },
+    {
+        "skill": "Grundlegende Programmierkenntnisse",
+        "skillCategory": "hard_skills",
+        "show": false,
+        "genereic": true
     }
 ]

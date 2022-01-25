@@ -9,8 +9,8 @@ export enum JobEnum {
     PM = "Project Manager:in",
     ST = "Software Tester:in",
     SA = "System Administrator:in",
-    UX_UI = "UX/UI Designer:in",
-    FD = "Frontend Developer:in"
+    FD = "Frontend Developer:in",
+    ITC= "IT-Security Specialist:in"
 }
 
 export interface Job{

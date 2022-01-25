@@ -14,5 +14,23 @@
     {
         "skill": "Lebhaftigkeit",
         "skillCategory": "personality"
+    },
+    {
+        "skill": "Organisiertheit",
+        "skillCategory": "personality",
+        "show": false,
+        "genereic": true
+    },
+    {
+        "skill": "Durchbeißen bei Langeweile (Fleiß)",
+        "skillCategory": "personality",
+        "show": false,
+        "genereic": true
+    },
+    {
+        "skill": "Kompromissbereitschaft",
+        "skillCategory": "personality",
+        "show": false,
+        "genereic": true
     }
 ]

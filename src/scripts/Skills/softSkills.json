@@ -30,5 +30,23 @@
     {
         "skill": "Entscheidungsfähigkeit",
         "skillCategory": "soft_skills"
+    },
+    {
+        "skill": "Analytische Fähigkeiten",
+        "skillCategory": "soft_skills",
+        "show": false,
+        "genereic": true
+    },
+    {
+        "skill": "Teamfähigkeit",
+        "skillCategory": "soft_skills",
+        "show": false,
+        "genereic": true
+    },
+    {
+        "skill": "Wissbegierigkeit",
+        "skillCategory": "soft_skills",
+        "show": false,
+        "genereic": true
     }
 ]

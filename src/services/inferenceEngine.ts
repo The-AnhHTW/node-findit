@@ -72,6 +72,16 @@ class InferenceEngine {
             }
         }
         current['answerHistory'].push(toHistory);
+
+        const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
+            .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
+                if (a.score > b.score) { return -1 } else if (a.score < b.score) {
+                    return 1;
+                }
+                return 0;
+            });
+        console.log(jobs)
+
     }
 
     getInitialJobScores = async () => {
@@ -144,6 +154,13 @@ class InferenceEngine {
         return jobScores;
     }
 
+
+    getZerothQuestion = async () => {
+        return QuestionModel.findOne({ question: "Lösen von Problemen, Finden von Fehlern und Verstehen von Zusammenhängen klingt für mich nach spannenden Herausforderungen" }).populate('answerOptions')
+            .then((response) => this.transformQuestion(response));
+    }
+
+
     getFirstQuestion = async () => {
         return QuestionModel.findOne({ question: "Wähle 3 Aufgabenbereiche aus, die sich für dich am spannendsten anhören, unabhängig davon, ob du es dir bereits zutraust" }).populate('answerOptions')
             .then((response) => this.transformQuestion(response));
@@ -178,12 +195,23 @@ class InferenceEngine {
 
     getFourHighestJobs(req: express.Request, current: any) {
         const jobs = JSON.parse(JSON.stringify(current['currentJobScores']));
+
+        let bestJobs = [];
         for (const key in jobs) {
-            if (jobs[key]['score'] < 1) {
-                // console.log(jobs[key]['score'])
-                delete jobs[key]
-            };
+            bestJobs.push({ key, score: jobs[key]['score'] });
         }
+
+        bestJobs.sort((a, b) => {
+            if (a.score > b.score) { return -1 } else if (a.score < b.score) {
+                return 1;
+            }
+            return 0;
+        });
+        let rest = bestJobs.slice(4, bestJobs.length)
+        for (const job of rest) {
+            delete jobs[job.key];
+        }
+
         return Object.keys(jobs);
     }
 
@@ -193,6 +221,7 @@ class InferenceEngine {
             .then((response) => this.transformQuestion(response));
 
         current['highestJobs'] = this.getFourHighestJobs(req, current);
+        console.log(current['highestJobs'])
         const randomNumber = Math.round(Math.random() * 3);
 
 
@@ -290,7 +319,7 @@ class InferenceEngine {
         return sixthQuestion;
     }
 
-    getSeventQuestion = async (req: express.Request, current: any) => {
+    getSeventhQuestion = async (req: express.Request, current: any) => {
         let seventhQuestion = await QuestionModel.findOne({ question: "Wie spannend findest du folgende Aufgaben?" })
             .populate("answerOptions")
             .then((response) => this.transformQuestion(response))
@@ -439,7 +468,6 @@ class InferenceEngine {
                     for (const skill in jobResults[key][secondKey]) {
                         const skillCategory = jobResults[key][secondKey][skill].skillCategory;
                         if (skillCategory === 'hard_skills') {
-                            console.log("DEDUCTING")
                             jobResults[key]['max_score_without_hard_skills'] -= jobResults[key][secondKey][skill]['max_score'];
                             jobResults[key]['score_without_hard_skills'] -= jobResults[key][secondKey][skill]['score'];
                         }

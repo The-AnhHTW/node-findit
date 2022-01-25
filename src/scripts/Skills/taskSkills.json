@@ -143,5 +143,11 @@
     {
         "skill": "Spurensuche eines Angreifers auf IT-Systeme",
         "skillCategory": "tasks"
+    },
+    {
+        "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+        "skillCategory": "tasks",
+        "show": false,
+        "genereic": true
     }
 ]

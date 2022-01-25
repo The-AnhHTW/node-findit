@@ -756,5 +756,134 @@
         "stageQuestion": true,
         "question": "Wähle die beiden Aufgabenbereiche aus, die du am wenigsten spannend findest",
         "answerOptions": []
+    },
+{
+        "questionType": "Likert Scale",
+        "questionMeasure": "Tasks",
+        "stageQuestion": true,
+        "question": "Lösen von Problemen, Finden von Fehlern und Verstehen von Zusammenhängen klingt für mich nach spannenden Herausforderungen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Interesse an theoretisch-abstrakten Tätigkeiten",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
