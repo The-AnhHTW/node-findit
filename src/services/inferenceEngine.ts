@@ -28,14 +28,19 @@ class InferenceEngine {
 
 
     calculateScore = async (req: express.Request, current: any, reverse = false) => {
+        const delta = current['endTime'] - current['startTime'];
+        const responseTime = (delta / 1000.0).toFixed(2);
+
         const dbQuestion = await QuestionModel.findById(req.body['id']);
 
         let toHistory: {
             _id: string,
-            question: string, answerOptions: any[]
+            question: string, answerOptions: any[],
+            responseTime: any
         } = {
             _id: dbQuestion?.id!,
-            question: dbQuestion!.question, answerOptions: []
+            question: dbQuestion!.question, answerOptions: [],
+            responseTime
         };
 
         for (const option of req.body['options']) {
@@ -53,7 +58,10 @@ class InferenceEngine {
             });
 
 
-            toHistory.answerOptions.push({ _id: dbOption.id!, text: dbOption.text!, labels: dbOption.labels!, picked: option['picked']!, pickedRank: option['rank'] })
+            toHistory.answerOptions.push({
+                _id: dbOption.id!, text: dbOption.text!, labels: dbOption.labels!, picked: option['picked']!, pickedRank: option['rank'],
+
+            })
             for (const jobInfluence of dbOption.jobInfluences) {
                 let value = option['picked'] ? jobInfluence.pickedScore : jobInfluence.notPickedScore;
                 value = this.calculateValueForQuestionType(value, dbQuestion as Question, dbOption, option)

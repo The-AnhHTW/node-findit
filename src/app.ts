@@ -29,7 +29,9 @@ declare module 'express-session' {
             "competences": any[],
             "compareBoth": "",
             "sessionFinished": boolean,
-            "answerHistory": any[]
+            "answerHistory": any[],
+            "startTime": any,
+            "endTime": any
         }
     }
 }

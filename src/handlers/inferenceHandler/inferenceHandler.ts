@@ -7,7 +7,19 @@ import inferenceEngine from 'services/inferenceEngine';
 
 class InferenceHandler {
 
-    mapper = ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eight', 'Nineth']
+    mapper = ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eight', 'Nineth'];
+
+
+    timer = () => {
+        let number;
+        let startTime = Date.now();
+        let interval = setInterval(() => {
+            let delta = Date.now() - startTime;
+            number = Math.floor(delta / 1000);
+            if (number >= 300) clearInterval(interval);
+        }, 100)
+        return number;
+    }
 
     dynamicInferenceEngine: express.Handler = async (req, res, next) => {
         const body = req.body;
@@ -26,19 +38,25 @@ class InferenceHandler {
                 "competences": [],
                 "compareBoth": "",
                 "sessionFinished": false,
-                "answerHistory": []
+                "answerHistory": [],
+                "startTime": 0,
+                "endTime": 0,
             };
             response = await inferenceEngine.getZerothQuestion();
-            // inferenceEngine.calculateScore(req, current);
+
+            req.session.inQuizz.startTime = Date.now();
             return res.json({ ...response, stage: "tasks" })
+
+
+
         } else {
+            current.endTime = Date.now();
             current.answeredQuestions += 1;
             current.stage = "tasks";
             const currentNumber = current.answeredQuestions - 1;
             let key = `get${this.mapper[currentNumber]}Question`;
             switch (currentNumber) {
                 case 0: case 1: case 2: {
-                    console.log(currentNumber)
                     //@ts-ignore
                     response = await inferenceEngine[key](req, current);
                     // response = await inferenceEngine.getSecondQuestion(req, current);
@@ -85,6 +103,8 @@ class InferenceHandler {
                     }
                 }
             }
+
+            current.startTime = Date.now();
             return res.json({ ...response, stage: current.stage });
         }
 

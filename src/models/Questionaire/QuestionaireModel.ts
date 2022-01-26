@@ -38,7 +38,7 @@ interface Questionaire {
 
 export const QuestionaireSchema = new Schema<Questionaire>({
     answerHistory: [{ type: Object }],
-    finished: {type:Boolean, },
+    finished: {type:Boolean, default:true},
     //@ts-ignore
     result: { type: Object },
     survey: { type: SchemaTypes.ObjectId, ref: 'Survey' }
