@@ -5,6 +5,7 @@ import questionaireHandler from 'handlers/userHandler/questionaireHandler/questi
 const questionaireRouter = express.Router();
 
 questionaireRouter.post('/', questionaireHandler.saveQuestionaire);
+questionaireRouter.post('/cancel', questionaireHandler.cancelQuestionaire)
 questionaireRouter.get('/', questionaireHandler.getQuestionaireFromLoggedInUser);
 questionaireRouter.post('/survey', questionaireHandler.saveSurvey);
 

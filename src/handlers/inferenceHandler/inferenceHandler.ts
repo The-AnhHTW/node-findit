@@ -78,9 +78,10 @@ class InferenceHandler {
                         response = inferenceEngine.transformQuestion(dbQuestion);
                     } else {
                         current['stage'] = 'competences';
-                        response = inferenceEngine.getUserFinalJobScores(current);
+                        response = { ...inferenceEngine.getUserFinalJobScores(current) };
                         response['sessionFinished'] = true;
                         response['answerHistory'] = current['answerHistory']
+                        delete req.session.inQuizz;
                     }
                 }
             }

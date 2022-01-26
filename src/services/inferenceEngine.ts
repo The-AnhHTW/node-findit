@@ -73,14 +73,14 @@ class InferenceEngine {
         }
         current['answerHistory'].push(toHistory);
 
-        const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
-            .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
-                if (a.score > b.score) { return -1 } else if (a.score < b.score) {
-                    return 1;
-                }
-                return 0;
-            });
-        console.log(jobs)
+        // const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
+        //     .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
+        //         if (a.score > b.score) { return -1 } else if (a.score < b.score) {
+        //             return 1;
+        //         }
+        //         return 0;
+        //     });
+        // console.log(jobs)
 
     }
 

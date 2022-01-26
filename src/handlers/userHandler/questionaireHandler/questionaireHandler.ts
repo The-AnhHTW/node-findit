@@ -63,6 +63,26 @@ class QuestionaireHandler {
         return res.status(204).send();
     }
 
+    cancelQuestionaire: express.Handler = async (req, res, next) => {
+
+        if (req.session.inQuizz) {
+            let copy = { ...req.session.inQuizz };
+            delete req.session.inQuizz;
+            console.log(copy.answeredQuestions)
+            if (copy.answeredQuestions > 0) {
+                console.log("saving canceled questionaire for statistic purposes.")
+                new QuestionaireModel({
+                    answerHistory: copy.answerHistory,
+                    survey: null,
+                    result: null,
+                    finished: false,
+                }).save();
+            }
+
+        }
+        return res.json({ message: "Deleting session for memory management" });
+
+    }
 }
 
 export default new QuestionaireHandler();
