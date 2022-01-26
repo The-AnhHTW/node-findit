@@ -19,18 +19,18 @@
         "skill": "Organisiertheit",
         "skillCategory": "personality",
         "show": false,
-        "genereic": true
+        "generic": true
     },
     {
         "skill": "Durchbeißen bei Langeweile (Fleiß)",
         "skillCategory": "personality",
         "show": false,
-        "genereic": true
+        "generic": true
     },
     {
         "skill": "Kompromissbereitschaft",
         "skillCategory": "personality",
         "show": false,
-        "genereic": true
+        "generic": true
     }
 ]

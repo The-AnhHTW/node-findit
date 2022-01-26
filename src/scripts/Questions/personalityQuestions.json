@@ -434,5 +434,785 @@
                 ]
             }
         ]
+    },
+
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Im Arbeitskontext plane und organisiere ich gerne im Voraus, damit es keine negativen Überraschungen gibt",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Ich arbeite eher strukturiert und mag es, wenn Dinge, Ideen oder Aufgaben ihren festen Platz haben (z.B. in Form von To-Do Listen)",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Organisiertheit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Bei wichtigen Aufgaben halte ich meine Konzentration und Motivation meist über mehrere Stunden aufrecht, selbst wenn es Aufgaben sind, die eintönig und langweilig sind",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Bei sehr schwierigen Aufgaben und Problemen widme mich meist nach kurzer Zeit etwas einfacheren Aufgaben, für die ich mehr Motivation aufbringen kann.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Durchbeißen bei Langeweile (Fleiß)",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "In Diskussionen mit meinen Mitmenschen, bin ich gewöhnlich dazu bereit, mich von der Gegenmeinung überzeugen zu lassen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Im Kontakt mit Kollegen fällt es mir schwer, gemeinsame Lösungen zu finden, wenn sich ihre Ansichten stark von meinen unterscheiden",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kompromissbereitschaft",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
+
+
 ]

@@ -891,98 +891,7 @@
             }
         ]
     },
-    {
-        "stageQuestion": false,
-        "questionType": "Likert Scale",
-        "questionMeasure": "Competences",
-        "question": "Ich beherrsche mindestens eine objektbasierte Programmiersprache (z.B. C#, java, Python, etc.) und habe gute Grundkenntnisse ihrer Syntax",
-        "answerOptions": [
-            {
-                "labels": [
-                    "\"Voll zutreffend\"",
-                    "\"Trifft zu\"",
-                    "\"Trifft eher zu\"",
-                    "\"Trifft eher nicht zu\"",
-                    "\"Trifft nicht zu\"",
-                    "\"Trifft gar nicht zu\""
-                ],
-                "jobInfluences": [
-                    {
-                        "job": "SD",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": [
-                            {
-                                "skill": "Grundlegende Programierkenntnisse",
-                                "pickedScore": 1,
-                                "notPickedScore": 0
-                            }
-                        ]
-                    },
-                    {
-                        "job": "PM",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": [
-                            {
-                                "skill": "Grundlegende Programierkenntnisse",
-                                "pickedScore": 1,
-                                "notPickedScore": 0
-                            }
-                        ]
-                    },
-                    {
-                        "job": "ST",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": [
-                            {
-                                "skill": "Grundlegende Programierkenntnisse",
-                                "pickedScore": 1,
-                                "notPickedScore": 0
-                            }
-                        ]
-                    },
-                    {
-                        "job": "SA",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": [
-                            {
-                                "skill": "Grundlegende Programierkenntnisse",
-                                "pickedScore": 1,
-                                "notPickedScore": 0
-                            }
-                        ]
-                    },
-                    {
-                        "job": "IS",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": [
-                            {
-                                "skill": "Grundlegende Programierkenntnisse",
-                                "pickedScore": 1,
-                                "notPickedScore": 0
-                            }
-                        ]
-                    },
-                    {
-                        "job": "FD",
-                        "pickedScore": 1,
-                        "notPickedScore": 0,
-                        "skillInfluences": [
-                            {
-                                "skill": "Grundlegende Programierkenntnisse",
-                                "pickedScore": 1,
-                                "notPickedScore": 0
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
+ 
     {
         "stageQuestion": false,
         "questionType": "Likert Scale",
@@ -1294,6 +1203,653 @@
                         "skillInfluences": [
                             {
                                 "skill": "HTML & CSS",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "stageQuestion": false,
+        "question": "In Gruppen kann ich mich sehr leicht auf die Regeln und Prozesse innerhalb der Gruppe einlassen und aktiv teilnehmen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "stageQuestion": false,
+        "question": "In Gruppen kann ich mich sehr leicht auf die Regeln und Prozesse innerhalb der Gruppe einlassen und aktiv teilnehmen.",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Teamfähigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "stageQuestion": false,
+        "question": "Ein Buch oder Podcast über wissenschaftliche und technische Themen würde mich langweilen",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": -1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "stageQuestion": false,
+        "question": "Es ist mir wichtig, mein Wissen durch Tutorials oder Wissensmagazine stetig zu erweitern",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Wissbegierigkeit",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Competences",
+        "stageQuestion": false,
+        "question": "Ich beherrsche mindestens eine objektbasierte Programmiersprache (z.B. C#, java, Python, etc.) und habe gute Grundkenntnisse ihrer Syntax",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "SD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "BA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IC",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "DA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "PM",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "SA",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "FD",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
+                                "pickedScore": 1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    },
+                    {
+                        "job": "IS",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Grundlegende Programmierkenntnisse",
                                 "pickedScore": 1,
                                 "notPickedScore": 0
                             }

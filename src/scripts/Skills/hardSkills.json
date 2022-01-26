@@ -4,10 +4,6 @@
         "skillCategory": "hard_skills"
     },
     {
-        "skill": "Grundlegende Programierkenntnisse",
-        "skillCategory": "hard_skills"
-    },
-    {
         "skill": "Grundkenntnisse Prozessmodellierungssoftware",
         "skillCategory": "hard_skills"
     },
@@ -55,6 +51,6 @@
         "skill": "Grundlegende Programmierkenntnisse",
         "skillCategory": "hard_skills",
         "show": false,
-        "genereic": true
+        "generic": true
     }
 ]

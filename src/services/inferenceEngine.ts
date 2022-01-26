@@ -143,11 +143,13 @@ class InferenceEngine {
                     jobScores[jobAbbrev]["max_score"] += achievableScore;
                     jobScores[jobAbbrev][question.questionMeasure.toLowerCase()]["max_score"] += achievableScore;
                     for (const skillInfluence of jobInfluence.skillInfluences) {
+                      
                         if (!(skillInfluence.skill.skill in jobScores[jobAbbrev]['skills'])) {
                             jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill] = {
                                 max_score: 0,
                                 score: 0
                             }
+                            jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill]['show'] = skillInfluence.skill.show;
                             jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill]['skillCategory'] = skillInfluence.skill.skillCategory;
                         }
                         // jobScores[jobAbbrev]["skills"][skillInfluence.skill.skill][

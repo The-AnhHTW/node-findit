@@ -35,18 +35,18 @@
         "skill": "Analytische Fähigkeiten",
         "skillCategory": "soft_skills",
         "show": false,
-        "genereic": true
+        "generic": true
     },
     {
         "skill": "Teamfähigkeit",
         "skillCategory": "soft_skills",
         "show": false,
-        "genereic": true
+        "generic": true
     },
     {
         "skill": "Wissbegierigkeit",
         "skillCategory": "soft_skills",
         "show": false,
-        "genereic": true
+        "generic": true
     }
 ]
