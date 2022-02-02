@@ -97,48 +97,48 @@
                 "jobInfluences": [
                     {
                         "job": "SD",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Perfektionismus",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "DA",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Perfektionismus",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "ST",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Perfektionismus",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "SA",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Perfektionismus",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
@@ -221,36 +221,36 @@
                 "jobInfluences": [
                     {
                         "job": "BA",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Soziale Kühnheit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "IC",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Soziale Kühnheit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "PM",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Soziale Kühnheit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]

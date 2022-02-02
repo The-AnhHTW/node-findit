@@ -95,7 +95,7 @@
         "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "question": " Wenn ich mit Dozenten oder Vorgesetzten unterschiedlicher Meinung bin, fällt es mir schwer meinen Standpunkt deutlich zu kommunizieren und mein Gegenüber von meiner Sichtweise zu überzeugen",
+        "question": "Wenn ich mit Dozenten oder Vorgesetzten unterschiedlicher Meinung bin, fällt es mir schwer, meinen Standpunkt deutlich zu kommunizieren und mein Gegenüber von meiner Sichtweise zu überzeugen",
         "answerOptions": [
             {
                 "labels": [
@@ -109,72 +109,72 @@
                 "jobInfluences": [
                     {
                         "job": "SD",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Kommunikationsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "BA",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Kommunikationsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "IC",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Kommunikationsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "PM",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Kommunikationsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "IS",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Kommunikationsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
                     },
                     {
                         "job": "FD",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Kommunikationsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
@@ -743,7 +743,7 @@
         "stageQuestion": false,
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
-        "question": "Lieber arbeite ich direkt drauf los, als mir einen detaillierten Lösungsplan zu erstellen.",
+        "question": "Lieber arbeite ich direkt drauf los, als mir einen detaillierten Lösungsplan zu erstellen",
         "answerOptions": [
             {
                 "labels": [
@@ -762,7 +762,7 @@
                         "skillInfluences": [
                             {
                                 "skill": "Systematisch-methodisches Vorgehen",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
@@ -774,7 +774,7 @@
                         "skillInfluences": [
                             {
                                 "skill": "Systematisch-methodisches Vorgehen",
-                                "pickedScore": 1,
+                                "pickedScore":  -1,
                                 "notPickedScore": 0
                             }
                         ]
@@ -833,12 +833,12 @@
                 "jobInfluences": [
                     {
                         "job": "IS",
-                        "pickedScore": 1,
+                        "pickedScore": -1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
                                 "skill": "Entscheidungsfähigkeit",
-                                "pickedScore": 1,
+                                "pickedScore": -1,
                                 "notPickedScore": 0
                             }
                         ]
@@ -1347,7 +1347,7 @@
         "questionType": "Likert Scale",
         "questionMeasure": "Competences",
         "stageQuestion": false,
-        "question": "In Gruppen kann ich mich sehr leicht auf die Regeln und Prozesse innerhalb der Gruppe einlassen und aktiv teilnehmen.",
+        "question": "Prinzipiell arbeite ich lieber alleine als in einer Gruppe",
         "answerOptions": [
             {
                 "labels": [
