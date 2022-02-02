@@ -59,12 +59,21 @@ class InferenceHandler {
                 case 0: case 1: case 2: {
                     //@ts-ignore
                     response = await inferenceEngine[key](req, current);
+                    // Filter out only the picked ones, so that so that the max_score does not increase
+                    req.body['options'] = req.body['options'].filter((item: any) => item.picked)
                     // response = await inferenceEngine.getSecondQuestion(req, current);
                     await inferenceEngine.calculateScore(req, current);
                     break;
+                } case 3: {
+                    // Filter out only the picked ones, so that so that the max_score does not increase
+                    req.body['options'] = req.body['options'].filter((item: any) => item.picked)
+                    await inferenceEngine.calculateScore(req, current, true);
+                    //@ts-ignore
+                    response = await inferenceEngine[key](req, current);
+                    break;
                 }
-                case 3: case 4: case 5: case 6: case 7: {
-                    await inferenceEngine.calculateScore(req, current, currentNumber === 3);
+                case 4: case 5: case 6: case 7: {
+                    await inferenceEngine.calculateScore(req, current);
                     //@ts-ignore
                     response = await inferenceEngine[key](req, current);
                     break;

@@ -188,12 +188,12 @@
                         ]
                     },
                     {
-                        "job": "FD",
+                        "job": "IC",
                         "pickedScore": 1,
                         "notPickedScore": 0,
                         "skillInfluences": [
                             {
-                                "skill": "Perfektionismus",
+                                "skill": "Soziale Kühnheit",
                                 "pickedScore": 1,
                                 "notPickedScore": 0
                             }

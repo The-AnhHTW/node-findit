@@ -46,6 +46,7 @@ class InferenceEngine {
             responseTime
         };
 
+
         for (const option of req.body['options']) {
             const dbOption = await AnswerOptionModel.findById(option['jobId']).populate({
                 path: 'jobInfluences',
@@ -65,6 +66,7 @@ class InferenceEngine {
                 _id: dbOption.id!, text: dbOption.text!, labels: dbOption.labels!, picked: option['picked']!, pickedRank: option['rank'],
 
             })
+
             for (const jobInfluence of dbOption.jobInfluences) {
                 let value = option['picked'] ? jobInfluence.pickedScore : jobInfluence.notPickedScore;
                 value = this.calculateValueForQuestionType(value, dbQuestion as Question, dbOption, option)
@@ -80,6 +82,10 @@ class InferenceEngine {
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['score'] += skillValue;
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['max_score'] +=
                         Math.max(skillInfluence.pickedScore, skillInfluence.notPickedScore);
+
+
+
+
                 }
             }
         }
@@ -119,12 +125,12 @@ class InferenceEngine {
 
         for (const job of jobs) {
             jobScores[job.abbreviation] = {
-                "max_score": 0,
+                "max_score": -1, // needs to be initilized to -1 because of forced choice question
                 "score": 0,
                 "max_score_without_hard_skills": 0,
                 "score_without_hard_skills": 0,
                 "tasks": {
-                    "max_score": 0,
+                    "max_score": -1, // task needs to be initilized to -1 because of forced choice question
                     "score": 0
                 },
                 "personality": {
@@ -154,6 +160,7 @@ class InferenceEngine {
                                 score: 0
                             }
                             jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill]['show'] = skillInfluence.skill.show;
+                            jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill]['generic'] = skillInfluence.skill.generic;
                             jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill]['skillCategory'] = skillInfluence.skill.skillCategory;
                         }
                         // jobScores[jobAbbrev]["skills"][skillInfluence.skill.skill][
@@ -489,8 +496,12 @@ class InferenceEngine {
                             jobResults[key]['score_without_hard_skills'] -= jobResults[key][secondKey][skill]['score'];
                         }
 
-                    }
+                        if (jobResults[key][secondKey][skill]['score'] === 0 && jobResults[key][secondKey][skill]['max_score'] === 0) {
+                            console.log("DELETING SKILL!")
+                            delete jobResults[key][secondKey][skill];
+                        }
 
+                    }
 
                 }
             }
