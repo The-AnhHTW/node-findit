@@ -10,17 +10,20 @@ class InferenceEngine {
 
 
     calculateValueForQuestionType(value: number, dbQuestion: Question, dbOption: AnswerOption, option: any, type = "") {
+
+        const sign = value >= 0 ? 1 : -1;
         if (dbQuestion.questionType === 'Likert Scale') {
             const ranks = (dbOption.labels.length - 1);
-            if (type === 'skill') {
-                value = value - (option['rank'] / ranks)
-            } else {
-                value = value - ((option['rank'] / ranks) * value * 1.5)
-            }
+            // if (type === 'skill') {
+            //     value = value - (option['rank'] / ranks)
+            // } else {
+            // }
+            value = value - (((option['rank'] * sign) / ranks))
         } else if (dbQuestion.questionType === "Rank Order") {
-            const penalizeFactor = value - (option['rank'] * (1 / 3) * value)
+            // const penalizeFactor = value - (option['rank'] * (1 / 3) * value)
             // # not penalizing as hard as by LS.
-            value = value * penalizeFactor
+            // value = value * penalizeFactor
+            value = value - (((option['rank'] * sign) / 2))
         }
         // console.log({ value })
         return value;
@@ -70,6 +73,7 @@ class InferenceEngine {
                 }
                 current['currentJobScores'][jobInfluence.job.abbreviation]['score'] += value;
                 current['currentJobScores'][jobInfluence.job.abbreviation][dbQuestion!.questionMeasure.toLowerCase()]['score'] += value;
+
                 for (const skillInfluence of jobInfluence.skillInfluences) {
                     let skillValue = option['picked'] ? skillInfluence.pickedScore : skillInfluence.notPickedScore;
                     skillValue = this.calculateValueForQuestionType(skillValue, dbQuestion as Question, dbOption, option, "skill")
@@ -81,14 +85,14 @@ class InferenceEngine {
         }
         current['answerHistory'].push(toHistory);
 
-        // const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
-        //     .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
-        //         if (a.score > b.score) { return -1 } else if (a.score < b.score) {
-        //             return 1;
-        //         }
-        //         return 0;
-        //     });
-        // console.log(jobs)
+        const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
+            .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
+                if (a.score > b.score) { return -1 } else if (a.score < b.score) {
+                    return 1;
+                }
+                return 0;
+            });
+        console.log(jobs)
 
     }
 
@@ -143,7 +147,7 @@ class InferenceEngine {
                     jobScores[jobAbbrev]["max_score"] += achievableScore;
                     jobScores[jobAbbrev][question.questionMeasure.toLowerCase()]["max_score"] += achievableScore;
                     for (const skillInfluence of jobInfluence.skillInfluences) {
-                      
+
                         if (!(skillInfluence.skill.skill in jobScores[jobAbbrev]['skills'])) {
                             jobScores[jobAbbrev]['skills'][skillInfluence.skill.skill] = {
                                 max_score: 0,
@@ -231,7 +235,6 @@ class InferenceEngine {
             .then((response) => this.transformQuestion(response));
 
         current['highestJobs'] = this.getFourHighestJobs(req, current);
-        console.log(current['highestJobs'])
         const randomNumber = Math.round(Math.random() * 3);
 
 
@@ -270,7 +273,8 @@ class InferenceEngine {
                 jobScores.push(jobScore)
             }
         }
-        return jobScores.sort((firstEl, secondEle) => firstEl['score'] > secondEle['score'] ? -1 : 1)[0]['id']
+        return jobScores.sort((firstEl, secondEle) => firstEl['score'] > secondEle['score'] ? 1 : -1)
+            .splice(0, 2).find((item) => item['id'] !== current['reserved'])['id']
     }
 
 
@@ -280,7 +284,10 @@ class InferenceEngine {
             .then((response) => this.transformQuestion(response));
 
         let compareBoth = [];
-        compareBoth.push(await this.getLowestJob(req, current, current['currentJobScores']))
+
+        let lowestJob = await this.getLowestJob(req, current, current['currentJobScores']);
+        console.log({ lowestJob })
+        compareBoth.push(lowestJob);
         compareBoth.push(current['reserved'])
         current['compareBoth'] = compareBoth.map((key) => ({ [key]: current['currentJobScores'][key] }));
         const toBeDeleted: any[] = []
