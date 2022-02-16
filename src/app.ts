@@ -31,7 +31,8 @@ declare module 'express-session' {
             "sessionFinished": boolean,
             "answerHistory": any[],
             "startTime": any,
-            "endTime": any
+            "endTime": any,
+            "deleteNotNeededSkills": { jobs: string, skills: string[], max_scores: number, scores: number, questionMeasures: string }[]
         }
     }
 }

@@ -41,6 +41,7 @@ class InferenceHandler {
                 "answerHistory": [],
                 "startTime": 0,
                 "endTime": 0,
+                "deleteNotNeededSkills": []
             };
             response = await inferenceEngine.getZerothQuestion();
 
@@ -62,18 +63,18 @@ class InferenceHandler {
                     // Filter out only the picked ones, so that so that the max_score does not increase
                     req.body['options'] = req.body['options'].filter((item: any) => item.picked)
                     // response = await inferenceEngine.getSecondQuestion(req, current);
-                    await inferenceEngine.calculateScore(req, current);
+                    await inferenceEngine.calculateScore(req, current, false, currentNumber);
                     break;
                 } case 3: {
                     // Filter out only the picked ones, so that so that the max_score does not increase
                     req.body['options'] = req.body['options'].filter((item: any) => item.picked)
-                    await inferenceEngine.calculateScore(req, current, true);
+                    await inferenceEngine.calculateScore(req, current, true, currentNumber);
                     //@ts-ignore
                     response = await inferenceEngine[key](req, current);
                     break;
                 }
                 case 4: case 5: case 6: case 7: {
-                    await inferenceEngine.calculateScore(req, current);
+                    await inferenceEngine.calculateScore(req, current, false, currentNumber);
                     //@ts-ignore
                     response = await inferenceEngine[key](req, current);
                     break;

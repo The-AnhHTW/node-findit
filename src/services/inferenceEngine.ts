@@ -8,31 +8,31 @@ import express from 'express';
 
 class InferenceEngine {
 
+    notIncludeQuestionInCalculation = [1, 2, 3, 4, 5];
+
 
     calculateValueForQuestionType(value: number, dbQuestion: Question, dbOption: AnswerOption, option: any, type = "") {
 
         const sign = value >= 0 ? 1 : -1;
+        const multiplyer = sign > 0 ? 1 : 2;
+
         if (dbQuestion.questionType === 'Likert Scale') {
             const ranks = (dbOption.labels.length - 1);
-            // if (type === 'skill') {
-            //     value = value - (option['rank'] / ranks)
-            // } else {
-            // }
-            value = value - (((option['rank'] * sign) / ranks))
+            value = value - ((((option['rank'] * sign) / ranks)) * multiplyer)
         } else if (dbQuestion.questionType === "Rank Order") {
-            // const penalizeFactor = value - (option['rank'] * (1 / 3) * value)
-            // # not penalizing as hard as by LS.
-            // value = value * penalizeFactor
-            value = value - (((option['rank'] * sign) / 2))
+            value = value - ((((option['rank'] * sign) / 2)) * multiplyer)
         }
-        // console.log({ value })
         return value;
     }
 
 
-    calculateScore = async (req: express.Request, current: any, reverse = false) => {
+    calculateScore = async (req: express.Request, current: any, reverse = false, questionIndex?: number) => {
         const delta = current['endTime'] - current['startTime'];
         const responseTime = (delta / 1000.0).toFixed(2);
+
+        let notNeededSkill: { jobs: string[], skills: string[], max_scores: number[], scores: number[], questionMeasures: string[] } =
+            { jobs: [], skills: [], max_scores: [], scores: [], questionMeasures: [] };
+
 
         const dbQuestion = await QuestionModel.findById(req.body['id']);
 
@@ -68,6 +68,7 @@ class InferenceEngine {
             })
 
             for (const jobInfluence of dbOption.jobInfluences) {
+
                 let value = option['picked'] ? jobInfluence.pickedScore : jobInfluence.notPickedScore;
                 value = this.calculateValueForQuestionType(value, dbQuestion as Question, dbOption, option)
                 if (reverse) {
@@ -76,6 +77,15 @@ class InferenceEngine {
                 current['currentJobScores'][jobInfluence.job.abbreviation]['score'] += value;
                 current['currentJobScores'][jobInfluence.job.abbreviation][dbQuestion!.questionMeasure.toLowerCase()]['score'] += value;
 
+
+                if (questionIndex && this.notIncludeQuestionInCalculation.includes(questionIndex)) {
+                    let dbScore = Math.max(jobInfluence.pickedScore, jobInfluence.notPickedScore);
+                    notNeededSkill['questionMeasures'].push(dbQuestion!.questionMeasure.toLowerCase());
+                    notNeededSkill['jobs'].push(jobInfluence.job.abbreviation);
+                    notNeededSkill['scores'].push(value);
+                    notNeededSkill['max_scores'].push(dbScore)
+                }
+
                 for (const skillInfluence of jobInfluence.skillInfluences) {
                     let skillValue = option['picked'] ? skillInfluence.pickedScore : skillInfluence.notPickedScore;
                     skillValue = this.calculateValueForQuestionType(skillValue, dbQuestion as Question, dbOption, option, "skill")
@@ -83,23 +93,29 @@ class InferenceEngine {
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['max_score'] +=
                         Math.max(skillInfluence.pickedScore, skillInfluence.notPickedScore);
 
-
+                    if (questionIndex && this.notIncludeQuestionInCalculation.includes(questionIndex)) {
+                        notNeededSkill['skills'].push(skillInfluence.skill.skill)
+                    }
 
 
                 }
             }
         }
         current['answerHistory'].push(toHistory);
+        if (questionIndex && this.notIncludeQuestionInCalculation.includes(questionIndex)) {
+            console.log({ questionIndex })
+            console.log({ notNeededSkill })
+            current['deleteNotNeededSkills'].push(notNeededSkill)
+        }
 
-        const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
-            .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
-                if (a.score > b.score) { return -1 } else if (a.score < b.score) {
-                    return 1;
-                }
-                return 0;
-            });
-        console.log(jobs)
 
+        // const jobs = Object.entries(JSON.parse(JSON.stringify(current['currentJobScores'])))
+        //     .map(([key, value]: any) => ({ key, score: value?.score })).sort((a, b) => {
+        //         if (a.score > b.score) { return -1 } else if (a.score < b.score) {
+        //             return 1;
+        //         }
+        //         return 0;
+        //     });
     }
 
     getInitialJobScores = async () => {
@@ -129,6 +145,10 @@ class InferenceEngine {
                 "score": 0,
                 "max_score_without_hard_skills": 0,
                 "score_without_hard_skills": 0,
+                "competences_without_hard_skills": {
+                    "max_score": 0,
+                    "score": 0
+                },
                 "tasks": {
                     "max_score": -1, // task needs to be initilized to -1 because of forced choice question
                     "score": 0
@@ -148,7 +168,7 @@ class InferenceEngine {
         for (const question of questions) {
             for (const answerOption of question.answerOptions) {
                 for (const jobInfluence of answerOption.jobInfluences) {
-                    const achievableScore = Math.max(jobInfluence.pickedScore, jobInfluence.notPickedScore);
+                    const achievableScore = Math.max(Math.abs(jobInfluence.pickedScore), Math.abs(jobInfluence.notPickedScore));
                     const jobAbbrev = jobInfluence.job.abbreviation;
                     jobScores[jobAbbrev]["max_score"] += achievableScore;
                     jobScores[jobAbbrev][question.questionMeasure.toLowerCase()]["max_score"] += achievableScore;
@@ -470,13 +490,35 @@ class InferenceEngine {
             delete finalJobScores[key]
         }
         console.log({ finalJobScores })
-        this.cleanJobResults(finalJobScores)
+        this.cleanJobResults(finalJobScores, current['deleteNotNeededSkills'])
         return finalJobScores
     }
 
     clamp = (num: number, min: number, max: number) => Math.min(Math.max(num, min), max);
 
-    cleanJobResults(jobResults: any) {
+    cleanJobResults(jobResults: any, notNeededSkills: any) {
+
+        for (const notNeededSkill of notNeededSkills) {
+            for (const [index, job] of notNeededSkill['jobs'].entries()) {
+                // check only if in top three
+                if (job in jobResults) {
+                    const subtractMaxScore = notNeededSkill['max_scores'][index];
+                    const subtractScore = notNeededSkill['scores'][index];
+                    const skillNameToDelete = notNeededSkill['skills'][index];
+                    jobResults[job]['max_score'] -= subtractMaxScore;
+                    jobResults[job][notNeededSkill['questionMeasures'][index]]['max_score'] -= subtractMaxScore;
+                    jobResults[job]['score'] -= subtractScore;
+                    jobResults[job][notNeededSkill['questionMeasures'][index]]['score'] -= subtractScore;
+                    // delete skill
+                    delete jobResults[job]['skills'][skillNameToDelete]
+                }
+            }
+        }
+
+
+
+
+
         for (const key in jobResults) {
             if (key != 'sessionFinished') {
                 jobResults[key]['score'] = this.clamp(jobResults[key]['score'], 0, jobResults[key]['max_score'])
@@ -489,23 +531,44 @@ class InferenceEngine {
                 } else if (secondKey === 'skills') {
                     jobResults[key]['max_score_without_hard_skills'] = jobResults[key]['max_score'];
                     jobResults[key]['score_without_hard_skills'] = jobResults[key]['score'];
+                    jobResults[key]['competences_without_hard_skills']['max_score'] = jobResults[key]['competences']['max_score']
+                    jobResults[key]['competences_without_hard_skills']['score'] = jobResults[key]['competences']['score']
+
+
+
+
                     for (const skill in jobResults[key][secondKey]) {
                         const skillCategory = jobResults[key][secondKey][skill].skillCategory;
                         if (skillCategory === 'hard_skills') {
                             jobResults[key]['max_score_without_hard_skills'] -= jobResults[key][secondKey][skill]['max_score'];
+                            jobResults[key]['competences_without_hard_skills']['max_score'] -= jobResults[key][secondKey][skill]['max_score']
                             jobResults[key]['score_without_hard_skills'] -= jobResults[key][secondKey][skill]['score'];
+                            jobResults[key]['competences_without_hard_skills']['score'] -= jobResults[key][secondKey][skill]['score'];
                         }
+
+
+                        jobResults[key][secondKey][skill]['score'] = this.clamp(jobResults[key][secondKey][skill]['score'], 0,
+                            jobResults[key][secondKey][skill]['max_score'])
 
                         if (jobResults[key][secondKey][skill]['score'] === 0 && jobResults[key][secondKey][skill]['max_score'] === 0) {
                             console.log("DELETING SKILL!")
                             delete jobResults[key][secondKey][skill];
                         }
 
+
+
+
+
+
+
                     }
 
                 }
             }
         }
+
+
+
     }
 
 
