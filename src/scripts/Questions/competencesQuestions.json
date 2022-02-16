@@ -528,7 +528,7 @@
                         ]
                     },
                     {
-                        "job": "IC",
+                        "job": "SA",
                         "pickedScore": 1,
                         "notPickedScore": 0,
                         "skillInfluences": [
