@@ -9,6 +9,7 @@ interface Survey {
     experience_in_years?: string,
     rating?: number,
     comment: string,
+    degree?: string
 }
 
 
