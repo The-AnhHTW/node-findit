@@ -16,6 +16,13 @@ require('@models/SkillInfluence/SkillInfluenceModel');
 require('@models/Skill/SkillModel');
 require('@models/User/UserModel');
 
+import { createClient } from 'redis'
+let redisClient = createClient({ legacyMode: true })
+redisClient.connect().catch(console.error)
+let RedisStore = require("connect-redis")(session)
+
+
+
 declare module 'express-session' {
     interface SessionData {
         inQuizz?: {
@@ -32,8 +39,10 @@ declare module 'express-session' {
             "answerHistory": any[],
             "startTime": any,
             "endTime": any,
-            "deleteNotNeededSkills": { jobs: string, skills: string[], max_scores: number, scores: number, questionMeasures: string }[]
-        }
+            "deleteNotNeededSkills": { jobs: string, skills: string[], max_scores: number, scores: number, questionMeasures: string }[],
+
+        },
+        history?: any[],
     }
 }
 
@@ -52,6 +61,7 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
+    store: new RedisStore({ client: redisClient }),
     secret: "dunno",
     saveUninitialized: true,
     // cookie: { secure: true }

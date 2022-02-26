@@ -4,22 +4,13 @@ import QuestionModel from '@models/Question/QuestionModel';
 import SkillModel from '@models/Skill/SkillModel';
 import express from 'express';
 import inferenceEngine from 'services/inferenceEngine';
+import { SimpleIntervalJob, Task, ToadScheduler } from 'toad-scheduler';
+
+const scheduler = new ToadScheduler()
 
 class InferenceHandler {
 
     mapper = ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eight', 'Nineth'];
-
-
-    timer = () => {
-        let number;
-        let startTime = Date.now();
-        let interval = setInterval(() => {
-            let delta = Date.now() - startTime;
-            number = Math.floor(delta / 1000);
-            if (number >= 300) clearInterval(interval);
-        }, 100)
-        return number;
-    }
 
     dynamicInferenceEngine: express.Handler = async (req, res, next) => {
         const body = req.body;
@@ -27,6 +18,7 @@ class InferenceHandler {
         let current = req.session.inQuizz!;
         let response: any;
         if (!current) {
+            req.session.history = [];
             req.session.inQuizz = {
                 "currentJobScores": await inferenceEngine.getInitialJobScores(),
                 "stage": "",
@@ -46,10 +38,8 @@ class InferenceHandler {
             response = await inferenceEngine.getZerothQuestion();
 
             req.session.inQuizz.startTime = Date.now();
-            return res.json({ ...response, stage: "tasks" })
-
-
-
+            current = req.session.inQuizz;
+            // return res.json({ ...response, stage: "tasks" })
         } else {
             current.endTime = Date.now();
             current.answeredQuestions += 1;
@@ -95,14 +85,15 @@ class InferenceHandler {
                     const remainingAmountCompQuestion = current['competences'].length;
                     if (remainingAmountPersQuestion > 0) {
                         current['stage'] = "personality";
-                        const randomNumber = Math.round(Math.random() * (current['personality'].length - 1));
-
-                        const dbQuestion = current['personality'].splice(randomNumber, 1)[0];
+                        // const randomNumber = Math.round(Math.random() * (current['personality'].length - 1));
+                        // const dbQuestion = current['personality'].splice(randomNumber, 1)[0];
+                        const dbQuestion = current['personality'].pop();
                         response = inferenceEngine.transformQuestion(dbQuestion);
                     } else if (remainingAmountCompQuestion > 0) {
                         current['stage'] = "competences";
-                        const randomNumber = Math.round(Math.random() * (current['competences'].length) - 1);
-                        const dbQuestion = current['competences'].splice(randomNumber, 1)[0];
+                        // const randomNumber = Math.round(Math.random() * (current['competences'].length) - 1);
+                        // const dbQuestion = current['competences'].splice(randomNumber, 1)[0];
+                        const dbQuestion = current['competences'].pop();
                         response = inferenceEngine.transformQuestion(dbQuestion);
                     } else {
                         current['stage'] = 'competences';
@@ -110,15 +101,77 @@ class InferenceHandler {
                         response['sessionFinished'] = true;
                         response['answerHistory'] = current['answerHistory']
                         delete req.session.inQuizz;
+                        delete req.session.history;
                     }
                 }
             }
 
-            current.startTime = Date.now();
-            return res.json({ ...response, stage: current.stage });
         }
+        if (req.session.inQuizz) req.session.history!.push({ ...req.session.inQuizz })
+        // remove session after 15 min
+        scheduler.removeById(req.sessionID);
+        this.removeSessionJob(req);
+        current.startTime = Date.now();
+        return res.json({ ...response, stage: current.stage });
 
     }
+
+    goBackOneQuestion: express.Handler = async (req, res, next) => {
+        const history = req.session.history!;
+        const index = history.length - 3;
+        const lastState = history[index];
+        console.log({ index, length: history.length });
+        req.session.history = history.filter((_, currIndex) => currIndex <= index);
+
+
+        if (!lastState) {
+            req.session.history = [];
+            req.session.inQuizz = {
+                "currentJobScores": await inferenceEngine.getInitialJobScores(),
+                "stage": "",
+                "answeredQuestions": 0,
+                "pickedOptions": [],
+                "reserved": '',
+                "highestJobs": [],
+                "personality": [],
+                "competences": [],
+                "compareBoth": "",
+                "sessionFinished": false,
+                "answerHistory": [],
+                "startTime": 0,
+                "endTime": 0,
+                "deleteNotNeededSkills": []
+            };
+            let response = await inferenceEngine.getZerothQuestion();
+            req.session.inQuizz.startTime = Date.now();
+            req.session.history!.push({ ...req.session.inQuizz })
+            return res.json({ ...response, stage: "tasks" });
+        } else {
+            req.session.inQuizz = { ...lastState };
+            return res.redirect(307, '/api/dynamicInference')
+        }
+    }
+
+
+
+
+
+
+    removeSessionJob = (req: any, runImmediately = false) => {
+        const sessionId = req.sessionID;
+        const deleteSessionTask = new Task('delete Session task (10 min)', () => {
+            console.log(`delete session with id: ${sessionId}`)
+            req.session.destroy();
+            scheduler.removeById(sessionId)
+        })
+        const job = new SimpleIntervalJob({ seconds: 60 * 15, runImmediately }, deleteSessionTask,
+            sessionId,
+
+        );
+        scheduler.addSimpleIntervalJob(job)
+    }
+
+
 
 
 

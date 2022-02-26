@@ -2,6 +2,7 @@ import QuestionaireModel from '@models/Questionaire/QuestionaireModel';
 import SurveyModel from '@models/Survey/SurveyModel';
 import UserModel from '@models/User/UserModel';
 import express from 'express';
+import inferenceHandler from 'handlers/inferenceHandler/inferenceHandler';
 
 class QuestionaireHandler {
 
@@ -67,8 +68,8 @@ class QuestionaireHandler {
 
         if (req.session.inQuizz) {
             let copy = { ...req.session.inQuizz };
-            delete req.session.inQuizz;
-            console.log(copy.answeredQuestions)
+            // delete req.session.inQuizz;
+            inferenceHandler.removeSessionJob(req, true);
             if (copy.answeredQuestions > 0) {
                 console.log("saving canceled questionaire for statistic purposes.")
                 new QuestionaireModel({

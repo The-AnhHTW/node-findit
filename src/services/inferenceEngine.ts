@@ -103,8 +103,7 @@ class InferenceEngine {
         }
         current['answerHistory'].push(toHistory);
         if (questionIndex && this.notIncludeQuestionInCalculation.includes(questionIndex)) {
-            console.log({ questionIndex })
-            console.log({ notNeededSkill })
+          
             current['deleteNotNeededSkills'].push(notNeededSkill)
         }
 
@@ -313,7 +312,6 @@ class InferenceEngine {
         let compareBoth = [];
 
         let lowestJob = await this.getLowestJob(req, current, current['currentJobScores']);
-        console.log({ lowestJob })
         compareBoth.push(lowestJob);
         compareBoth.push(current['reserved'])
         current['compareBoth'] = compareBoth.map((key) => ({ [key]: current['currentJobScores'][key] }));
@@ -489,7 +487,6 @@ class InferenceEngine {
         for (const key of toBeDeleted) {
             delete finalJobScores[key]
         }
-        console.log({ finalJobScores })
         this.cleanJobResults(finalJobScores, current['deleteNotNeededSkills'])
         return finalJobScores
     }
@@ -551,7 +548,6 @@ class InferenceEngine {
                             jobResults[key][secondKey][skill]['max_score'])
 
                         if (jobResults[key][secondKey][skill]['score'] === 0 && jobResults[key][secondKey][skill]['max_score'] === 0) {
-                            console.log("DELETING SKILL!")
                             delete jobResults[key][secondKey][skill];
                         }
 

@@ -6,7 +6,7 @@ import inferenceHandler from 'handlers/inferenceHandler/inferenceHandler';
 const inferenceRouter = express.Router();
 
 inferenceRouter.post('/dynamicInference', inferenceHandler.dynamicInferenceEngine);
-
+inferenceRouter.post('/previousQuestion', inferenceHandler.goBackOneQuestion);
 // authRouter
 
 // userRouter.get('/', questionHandler.getQuestions);
