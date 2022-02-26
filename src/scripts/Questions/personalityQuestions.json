@@ -435,7 +435,6 @@
             }
         ]
     },
-
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
@@ -565,7 +564,6 @@
             }
         ]
     },
-
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
@@ -695,7 +693,6 @@
             }
         ]
     },
-
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
@@ -954,7 +951,6 @@
             }
         ]
     },
-
     {
         "questionType": "Likert Scale",
         "questionMeasure": "Personality",
@@ -1212,7 +1208,71 @@
                 ]
             }
         ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Ich verfüge über eine sehr lebhafte Fantasie",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kreativität",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "questionType": "Likert Scale",
+        "questionMeasure": "Personality",
+        "stageQuestion": false,
+        "question": "Ich mag es, mir neue, kreative Lösungswege auszudenken",
+        "answerOptions": [
+            {
+                "labels": [
+                    "\"Voll zutreffend\"",
+                    "\"Trifft zu\"",
+                    "\"Trifft eher zu\"",
+                    "\"Trifft eher nicht zu\"",
+                    "\"Trifft nicht zu\"",
+                    "\"Trifft gar nicht zu\""
+                ],
+                "text": "",
+                "jobInfluences": [
+                    {
+                        "job": "ST",
+                        "pickedScore": 1,
+                        "notPickedScore": 0,
+                        "skillInfluences": [
+                            {
+                                "skill": "Kreativität",
+                                "pickedScore": -1,
+                                "notPickedScore": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-
-
 ]
