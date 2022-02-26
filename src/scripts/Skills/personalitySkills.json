@@ -32,5 +32,10 @@
         "skillCategory": "personality",
         "show": false,
         "generic": true
+    },
+    {
+        "skill": "Kreativität",
+        "skillCategory": "personality"
+        
     }
 ]
