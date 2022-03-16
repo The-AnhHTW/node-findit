@@ -98,6 +98,7 @@ function getNewToken(oAuth2Client: { generateAuthUrl: (arg0: { access_type: stri
 
 let doc: GoogleSpreadsheet;
 let sheet: GoogleSpreadsheetWorksheet;
+let cancelSheet: GoogleSpreadsheetWorksheet;
 
 async function listMajors(auth: any) {
     const sheets = google.sheets({ version: 'v4', auth });
@@ -106,14 +107,34 @@ async function listMajors(auth: any) {
     await doc.loadInfo(); // loads document properties and worksheets
     await doc.updateProperties({ title: 'Antwort Formular' });
     sheet = doc.sheetsByIndex[0]; // or use doc.sheetsById[id] or doc.sheetsByTitle[title]
-    sheet.setHeaderRow(['result', 'answerHistory'])
-
-
+    cancelSheet = doc.sheetsByIndex[1];
+    sheet.setHeaderRow(['questionaire_id', 'answerHistory', 'job_1', 'job_2', 'job_3', 'survey', 'finished'])
+    cancelSheet.setHeaderRow(['questionaire_id', 'answerHistory', 'job_1', 'job_2', 'job_3', 'survey', 'finished'])
 }
 
-export async function insertRow(questionaire: any) {
-    await sheet.addRow({ result: JSON.stringify(questionaire.result), answerHistory: JSON.stringify(questionaire.answerHistory) });
+export async function insertValidQuestionaire(row: any) {
+    await sheet.addRow(row);
 }
+
+export async function updateValidRow(questionaire_id: string, body: any) {
+    const rows = await sheet.getRows();
+    let selectedRow = rows.find((row) => row.questionaire_id === questionaire_id)!;
+    // console.log({ selectedRow })
+
+    selectedRow.survey = body['survey']
+    await selectedRow.save();
+}
+
+
+
+export async function insertCancelledQuestionaire(row: any) {
+    await cancelSheet.addRow(row);
+}
+
+
+
+
+
 
 
 

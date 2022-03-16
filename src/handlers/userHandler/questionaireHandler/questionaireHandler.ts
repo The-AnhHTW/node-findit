@@ -3,24 +3,39 @@ import SurveyModel from '@models/Survey/SurveyModel';
 import UserModel from '@models/User/UserModel';
 import express from 'express';
 import inferenceHandler from 'handlers/inferenceHandler/inferenceHandler';
-import { insertRow } from '../../../../server';
+import { insertCancelledQuestionaire, insertValidQuestionaire, updateValidRow } from '../../../../server';
 
 class QuestionaireHandler {
 
     saveQuestionaire: express.Handler = async (req, res, next) => {
+        let results = [];
+
         const questoinaire = ((body) => {
             const notIncluded = ['sessionFinished', 'stage'];
             const result: any = {};
-            const answerHistory = body['answerHistory'];
+            const answerHistory: any[] = body['answerHistory'];
             for (const key in body) {
                 if (notIncluded.includes(key) || key === 'answerHistory') continue;
                 result[key] = body[key];
+                results.push({ job: key, ...body[key] });
             }
             return { result, answerHistory };
         })(req.body)
         const dbQuestionaire = new QuestionaireModel(questoinaire);
         await dbQuestionaire.save();
-        await insertRow(questoinaire);
+
+
+        await insertValidQuestionaire(
+            {
+                questionaire_id: dbQuestionaire._id,
+                answerHistory: JSON.stringify(questoinaire.answerHistory.map(({ question, responseTime }) => ({ question, responseTime })), null, "\t"),
+                job_1: JSON.stringify(results[0], null, "\t"),
+                job_2: JSON.stringify(results[1], null, "\t"),
+                job_3: JSON.stringify(results[2], null, "\t"),
+                survey: null,
+                finished: true
+            }
+        );
 
 
         if (req.user) {
@@ -64,15 +79,16 @@ class QuestionaireHandler {
 
         dbQuestionaire.survey = survey?._id;
         dbQuestionaire.save();
+
+        updateValidRow(questionaire_id, { survey: JSON.stringify(survey, null, "\t") })
+
+
         return res.status(204).send();
     }
 
     cancelQuestionaire: express.Handler = async (req, res, next) => {
-
         if (req.session.inQuizz) {
             let copy = { ...req.session.inQuizz };
-            // delete req.session.inQuizz;
-            inferenceHandler.removeSessionJob(req, true);
             if (copy.answeredQuestions > 0) {
                 console.log("saving canceled questionaire for statistic purposes.")
                 new QuestionaireModel({
@@ -81,11 +97,27 @@ class QuestionaireHandler {
                     result: null,
                     finished: false,
                 }).save();
+
+                await insertCancelledQuestionaire({
+                    questionaire_id: null,
+                    answerHistory: JSON.stringify(copy.answerHistory.map(({ question, responseTime }) => ({ question, responseTime })), null, "\t"),
+                    job_1: null,
+                    job_2: null,
+                    job_3: null,
+                    survey: null,
+                    finished: false
+                });
+
+
+
+
+
             }
 
-        }
-        return res.json({ message: "Deleting session for memory management" });
 
+        }
+        inferenceHandler.removeSessionJob(req, true);
+        return res.json({ message: "Deleting session for memory management" });
     }
 }
 
