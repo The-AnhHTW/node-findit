@@ -1233,7 +1233,7 @@
                         "skillInfluences": [
                             {
                                 "skill": "Kreativität",
-                                "pickedScore": -1,
+                                "pickedScore": 1,
                                 "notPickedScore": 0
                             }
                         ]
@@ -1266,7 +1266,7 @@
                         "skillInfluences": [
                             {
                                 "skill": "Kreativität",
-                                "pickedScore": -1,
+                                "pickedScore": 1,
                                 "notPickedScore": 0
                             }
                         ]
