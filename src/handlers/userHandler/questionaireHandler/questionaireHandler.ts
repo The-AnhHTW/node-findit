@@ -80,7 +80,11 @@ class QuestionaireHandler {
         dbQuestionaire.survey = survey?._id;
         dbQuestionaire.save();
 
-        updateValidRow(questionaire_id, { survey: JSON.stringify(survey, null, "\t") })
+        updateValidRow(questionaire_id, {
+            survey: JSON.stringify(survey, null, "\t"),
+            rating: JSON.stringify(req.body.rating ?? "", null, "\t"),
+            comment: JSON.stringify(req.body.comment ?? "", null, "\t")
+        })
 
 
         return res.status(204).send();

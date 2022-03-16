@@ -119,9 +119,9 @@ export async function insertValidQuestionaire(row: any) {
 export async function updateValidRow(questionaire_id: string, body: any) {
     const rows = await sheet.getRows();
     let selectedRow = rows.find((row) => row.questionaire_id === questionaire_id)!;
-    // console.log({ selectedRow })
-
     selectedRow.survey = body['survey']
+    selectedRow.rating = body['rating'];
+    selectedRow.comment = body['comment'];
     await selectedRow.save();
 }
 
