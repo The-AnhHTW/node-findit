@@ -3,6 +3,7 @@ import SurveyModel from '@models/Survey/SurveyModel';
 import UserModel from '@models/User/UserModel';
 import express from 'express';
 import inferenceHandler from 'handlers/inferenceHandler/inferenceHandler';
+import { insertRow } from '../../../../server';
 
 class QuestionaireHandler {
 
@@ -19,6 +20,8 @@ class QuestionaireHandler {
         })(req.body)
         const dbQuestionaire = new QuestionaireModel(questoinaire);
         await dbQuestionaire.save();
+        await insertRow(questoinaire);
+
 
         if (req.user) {
             const sessUser: any = req.user;
