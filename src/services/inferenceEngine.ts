@@ -12,15 +12,25 @@ class InferenceEngine {
 
 
     calculateValueForQuestionType(value: number, dbQuestion: Question, dbOption: AnswerOption, option: any, type = "") {
+        const absVal = Math.abs(value);
+        if (value > 0) {
+            if (dbQuestion.questionType === 'Likert Scale') {
+                let ranks = dbOption.labels.length - 1;
+                value = absVal - (option['rank'] / ranks);
+            } else if (dbQuestion.questionType === 'Rank Order') {
+                value = absVal - (option['rank'] / 2);
+            }
+        } else {
+            if (dbQuestion.questionType === 'Likert Scale') {
+                let ranks = dbOption.labels.length - 1;
+                let reverseMap: any = {}
+                for (let i = 0; i < ranks + 1; i++) {
+                    reverseMap[i] = ranks - i;
+                }
+                value = absVal - (reverseMap[option['rank']] / ranks);
+            } else if (dbQuestion.questionType === 'Rank Order') {
 
-        const sign = value >= 0 ? 1 : -1;
-        const multiplyer = sign > 0 ? 1 : 2;
-
-        if (dbQuestion.questionType === 'Likert Scale') {
-            const ranks = (dbOption.labels.length - 1);
-            value = value - ((((option['rank'] * sign) / ranks)) * multiplyer)
-        } else if (dbQuestion.questionType === "Rank Order") {
-            value = value - ((((option['rank'] * sign) / 2)) * multiplyer)
+            }
         }
         return value;
     }
@@ -91,7 +101,7 @@ class InferenceEngine {
                     skillValue = this.calculateValueForQuestionType(skillValue, dbQuestion as Question, dbOption, option, "skill")
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['score'] += skillValue;
                     current['currentJobScores'][jobInfluence.job.abbreviation]['skills'][skillInfluence.skill.skill]['max_score'] +=
-                        Math.max(skillInfluence.pickedScore, skillInfluence.notPickedScore);
+                        Math.max(Math.abs(skillInfluence.pickedScore), Math.abs(skillInfluence.notPickedScore));
 
                     if (questionIndex && this.notIncludeQuestionInCalculation.includes(questionIndex)) {
                         notNeededSkill['skills'].push(skillInfluence.skill.skill)
@@ -103,7 +113,7 @@ class InferenceEngine {
         }
         current['answerHistory'].push(toHistory);
         if (questionIndex && this.notIncludeQuestionInCalculation.includes(questionIndex)) {
-          
+
             current['deleteNotNeededSkills'].push(notNeededSkill)
         }
 

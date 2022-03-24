@@ -37,7 +37,9 @@ const TOKEN_PATH = 'token.json';
 fs.readFile('credentials.json', (err: any, content: string) => {
     if (err) return console.log('Error loading client secret file:', err);
     // Authorize a client with credentials, then call the Google Sheets API.
-    authorize(JSON.parse(content), listMajors);
+    authorize(JSON.parse(content),
+        listMajors
+    );
 });
 
 /**
@@ -101,15 +103,20 @@ let sheet: GoogleSpreadsheetWorksheet;
 let cancelSheet: GoogleSpreadsheetWorksheet;
 
 async function listMajors(auth: any) {
-    const sheets = google.sheets({ version: 'v4', auth });
-    doc = new GoogleSpreadsheet('1vB8WltWMn4rsA0YiT9dEKdNpugo5Ee7eKCbkJnZrBPo')
-    doc.useOAuth2Client(auth);
-    await doc.loadInfo(); // loads document properties and worksheets
-    await doc.updateProperties({ title: 'Antwort Formular' });
-    sheet = doc.sheetsByIndex[0]; // or use doc.sheetsById[id] or doc.sheetsByTitle[title]
-    cancelSheet = doc.sheetsByIndex[1];
-    sheet.setHeaderRow(['questionaire_id', 'answerHistory', 'job_1', 'job_2', 'job_3', 'survey', 'finished'])
-    cancelSheet.setHeaderRow(['questionaire_id', 'answerHistory', 'job_1', 'job_2', 'job_3', 'survey', 'finished'])
+    try {
+
+        const sheets = google.sheets({ version: 'v4', auth });
+        doc = new GoogleSpreadsheet('1vB8WltWMn4rsA0YiT9dEKdNpugo5Ee7eKCbkJnZrBPo')
+        doc.useOAuth2Client(auth);
+        await doc.loadInfo(); // loads document properties and worksheets
+        await doc.updateProperties({ title: 'Antwort Formular' });
+        sheet = doc.sheetsByIndex[0]; // or use doc.sheetsById[id] or doc.sheetsByTitle[title]
+        cancelSheet = doc.sheetsByIndex[1];
+        sheet.setHeaderRow(['questionaire_id', 'answerHistory', 'job_1', 'job_2', 'job_3', 'survey', 'finished'])
+        cancelSheet.setHeaderRow(['questionaire_id', 'answerHistory', 'job_1', 'job_2', 'job_3', 'survey', 'finished'])
+    } catch (err:any) {
+        console.log(err)
+    }
 }
 
 export async function insertValidQuestionaire(row: any) {
